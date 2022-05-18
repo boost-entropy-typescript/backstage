@@ -2016,7 +2016,7 @@
     teeny-request "^7.1.3"
     xdg-basedir "^4.0.0"
 
-"@graphiql/toolkit@^0.4.4":
+"@graphiql/toolkit@^0.4.5":
   version "0.4.5"
   resolved "https://registry.npmjs.org/@graphiql/toolkit/-/toolkit-0.4.5.tgz#9fb5020444712562eae9581724695c235f610836"
   integrity sha512-QXuuMSSK/0GfBS7tltrGZdyhIvm6oe9TK4VW9pfa8dALYttpzyJ64Q4Sx9I1Ng++yOMJWziM/ksa043zkNHsjQ==
@@ -8379,11 +8379,6 @@ btoa-lite@^1.0.0:
   resolved "https://registry.npmjs.org/btoa-lite/-/btoa-lite-1.0.0.tgz#337766da15801210fdd956c22e9c6891ab9d0337"
   integrity sha1-M3dm2hWAEhD92VbCLpxokaudAzc=
 
-btoa@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/btoa/-/btoa-1.2.1.tgz#01a9909f8b2c93f6bf680ba26131eb30f7fa3d73"
-  integrity sha512-SB4/MIGlsiVkMcHmT+pSmIPoNDoHg+7cMzmt3Uxt628MTz2487DKSqK/fuhFBrkuqrYv5UCEnACpF4dTFNKc/g==
-
 buffer-crc32@^0.2.1, buffer-crc32@^0.2.13, buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
@@ -9582,7 +9577,7 @@ cookie@0.4.2, cookie@^0.4.1, cookie@^0.4.2, cookie@~0.4.1:
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
-cookie@0.5.0:
+cookie@0.5.0, cookie@~0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
@@ -13208,11 +13203,11 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@^1.5.12, graphiql@^1.8.8:
-  version "1.8.9"
-  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.8.9.tgz#96063ace9379699e873da078bf0f2ae7062f370e"
-  integrity sha512-X+olqol3VfOrFrsAfYzgNbvHoEE0lDUtg52+f3yLeNY4Ens+rAH4RSdH4wVtoRdh3CafmhVsfLQvn04hHkgftQ==
+  version "1.8.10"
+  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.8.10.tgz#a45e80a896b802f9591a89aa9af90fdafe44d5d8"
+  integrity sha512-ZYGsBzJz3OWh30eRr5D07ETHLqUEgfOddKdMLHgivLRmWVG6paRNOPzgwFyXy49JwL6gTzVmZoHabml7yySCnA==
   dependencies:
-    "@graphiql/toolkit" "^0.4.4"
+    "@graphiql/toolkit" "^0.4.5"
     codemirror "^5.65.3"
     codemirror-graphql "^1.3.0"
     copy-to-clipboard "^3.2.0"
@@ -15771,9 +15766,9 @@ jsonpointer@^5.0.0:
   integrity sha512-PNYZIdMjVIvVgDSYKTT63Y+KZ6IZvGRNNWcxwD+GNnUz1MKPfv30J8ueCjdwcN0nDx2SlshgyB7Oy0epAzVRRg==
 
 jsonschema@^1.2.6:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.0.tgz#1afa34c4bc22190d8e42271ec17ac8b3404f87b2"
-  integrity sha512-/YgW6pRMr6M7C+4o8kS+B/2myEpHCrxO4PEWnqJNBFMjn7EWXqlQ4tGwL6xTHeRplwuZmcAncdvfOad1nT2yMw==
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.1.tgz#cc4c3f0077fb4542982973d8a083b6b34f482dab"
+  integrity sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==
 
 jsonwebtoken@^8.5.1:
   version "8.5.1"
@@ -15983,9 +15978,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0, keyv@^4.0.3:
-  version "4.2.7"
-  resolved "https://registry.npmjs.org/keyv/-/keyv-4.2.7.tgz#00b8994d46098e8eb8c933cb29aaaf18be5effea"
-  integrity sha512-HeOstD8SXvtWoQhMMBCelcUuZsiV7T7MwsADtOXT0KuwYP9nCxrSoMDeLXNDTLN3VFSuRp38JzoGbbTboq3QQw==
+  version "4.2.8"
+  resolved "https://registry.npmjs.org/keyv/-/keyv-4.2.8.tgz#6c91189fe6134d8a526cb360566693c095fcfb60"
+  integrity sha512-IZZo6krhHWPhgsP5mBkEdPopVPN/stgCnBVuqi6dda/Nm5mDTOSVTrFMkWqlJsDum+B0YSe887tNxdjDWkO7aQ==
   dependencies:
     compress-brotli "^1.3.8"
     json-buffer "3.0.1"
@@ -16929,9 +16924,9 @@ markdown-table@^3.0.0:
   integrity sha512-CBbaYXKSGnE1uLRpKA1SWgIRb2PQrpkllNWpZtZe6VojOJ4ysqiq7/2glYcmKsOYN09QgH/HEBX5hIshAeiK6A==
 
 marked@^4.0.14:
-  version "4.0.15"
-  resolved "https://registry.npmjs.org/marked/-/marked-4.0.15.tgz#0216b7c9d5fcf6ac5042343c41d81a8b1b5e1b4a"
-  integrity sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==
+  version "4.0.16"
+  resolved "https://registry.npmjs.org/marked/-/marked-4.0.16.tgz#9ec18fc1a723032eb28666100344d9428cf7a264"
+  integrity sha512-wahonIQ5Jnyatt2fn8KqF/nIqZM8mh3oRu2+l5EANGMhu6RFjiSG52QNE2eWzFMI94HqYSgN184NurgNG6CztA==
 
 match-sorter@^6.0.2:
   version "6.3.1"
@@ -19363,9 +19358,9 @@ passport-strategy@1.x.x, passport-strategy@^1.0.0:
   integrity sha1-tVOaqPwiWj0a0XlHbd8ja0QPUuQ=
 
 passport@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/passport/-/passport-0.5.2.tgz#0cb38dd8a71552c8390dfa6a9a6f7f3909954bcf"
-  integrity sha512-w9n/Ot5I7orGD4y+7V3EFJCQEznE5RxHamUxcqLT2QoJY0f2JdN8GyHonYFvN0Vz+L6lUJfVhrk2aZz2LbuREw==
+  version "0.5.3"
+  resolved "https://registry.npmjs.org/passport/-/passport-0.5.3.tgz#e69b46c9bb3290660bc2b3299330d78710b198cc"
+  integrity sha512-gGc+70h4gGdBWNsR3FuV3byLDY6KBTJAIExGFXTpQaYfbbcHCBlRRKx7RBQSpqEqc5Hh2qVzRs7ssvSfOpkUEA==
   dependencies:
     passport-strategy "1.x.x"
     pause "0.0.1"
@@ -23291,14 +23286,13 @@ svgo@^2.5.0, svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
-swagger-client@^3.18.4:
-  version "3.18.4"
-  resolved "https://registry.npmjs.org/swagger-client/-/swagger-client-3.18.4.tgz#71be9df585157a3335a542c407733d2134fa75e9"
-  integrity sha512-Wj26oEctONq/u0uM+eSj18675YM5e2vFnx7Kr4neLeXEHKUsfceVQ/OdtrBXdrT3VbtdBbZfMTfl1JOBpix2MA==
+swagger-client@^3.18.5:
+  version "3.18.5"
+  resolved "https://registry.npmjs.org/swagger-client/-/swagger-client-3.18.5.tgz#8034df561452f4bbd36871a8072394b7ca883106"
+  integrity sha512-c0txGDtfQTJnaIBaEKCwtRNcUaaAfj+RXI4QVV9p3WW+AUCQqp4naCjaDNNsOfMkE4ySyhnblbL+jGqAVC7snw==
   dependencies:
     "@babel/runtime-corejs3" "^7.11.2"
-    btoa "^1.2.1"
-    cookie "~0.4.1"
+    cookie "~0.5.0"
     cross-fetch "^3.1.5"
     deepmerge "~4.2.2"
     fast-json-patch "^3.0.0-1"
@@ -23312,9 +23306,9 @@ swagger-client@^3.18.4:
     url "~0.11.0"
 
 swagger-ui-react@^4.1.3:
-  version "4.11.0"
-  resolved "https://registry.npmjs.org/swagger-ui-react/-/swagger-ui-react-4.11.0.tgz#995597c050c2c63fafdfd1874661fa3b329008e4"
-  integrity sha512-QAQVoT7a9CfhyxTmy9MrXCL9l4Y2B60QMAthdTsZdHAH3mGsZF0KH18a+gFncGTN4sotuyIDiOgoPRP5idiz6g==
+  version "4.11.1"
+  resolved "https://registry.npmjs.org/swagger-ui-react/-/swagger-ui-react-4.11.1.tgz#1de7feea2f99aa292d52cfa3d31edf665eaa6181"
+  integrity sha512-w7WkrEL7uw1EofILX9hNKQXqy5EQhxTU3u+Ob8YcLqeAEUjECewtyTvsQ+79Xypj9yXbqSvgdPkpho1n5Bo2NQ==
   dependencies:
     "@babel/runtime-corejs3" "^7.16.8"
     "@braintree/sanitize-url" "=6.0.0"
@@ -23344,7 +23338,7 @@ swagger-ui-react@^4.1.3:
     reselect "^4.1.5"
     serialize-error "^8.1.0"
     sha.js "^2.4.11"
-    swagger-client "^3.18.4"
+    swagger-client "^3.18.5"
     url-parse "^1.5.8"
     xml "=1.0.1"
     xml-but-prettier "^1.0.1"
