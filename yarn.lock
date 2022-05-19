@@ -1986,9 +1986,9 @@
   integrity sha512-d4VSA86eL/AFTe5xtyZX+ePUjE8dIFu2T8zmdeNBSa5/kNgXPCx/o/wbFNHAGLJdGnk1vddRuMESD9HbOC8irw==
 
 "@google-cloud/storage@^5.6.0", "@google-cloud/storage@^5.8.0":
-  version "5.20.3"
-  resolved "https://registry.npmjs.org/@google-cloud/storage/-/storage-5.20.3.tgz#10e3b75bdfba5dd9b77b26b6bb6d2e2bf545dc2a"
-  integrity sha512-nVrEB4nhJV8ZgTAaJ21pibcMa+kFS/s0JolVZnV/EDveZeGPv7SC09A8C232U1+bsuZI0v/wGwHY+E73vJa8BQ==
+  version "5.20.4"
+  resolved "https://registry.npmjs.org/@google-cloud/storage/-/storage-5.20.4.tgz#9f5eaab85bbbc8656e660cc4fb2056443a71dcc9"
+  integrity sha512-FAquqI1imd6Nq1ifdismGenYzC65DENEzIFAq4uwZMulxh32RvdzWdzx28fKzUDsoAkEfBpXJuptC31hLaHZYg==
   dependencies:
     "@google-cloud/paginator" "^3.0.7"
     "@google-cloud/projectify" "^2.0.0"
@@ -6989,6 +6989,14 @@
   resolved "https://registry.npmjs.org/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
+"@yarnpkg/parsers@^3.0.0-rc.4":
+  version "3.0.0-rc.4"
+  resolved "https://registry.npmjs.org/@yarnpkg/parsers/-/parsers-3.0.0-rc.4.tgz#d7b19fa22ce7ff2423e5cbf008f7be0a85e9f1e3"
+  integrity sha512-ScXXCUwGdx+aEIP20U8VEGtuXmxcMPFdJTb9G9a8MRpQPxIkky/GYXEL5Hf4oqJJXGyCv/DN31zfmxyj31SLKw==
+  dependencies:
+    js-yaml "^3.10.0"
+    tslib "^1.13.0"
+
 JSONStream@^1.0.4:
   version "1.3.5"
   resolved "https://registry.npmjs.org/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
@@ -11332,11 +11340,11 @@ esbuild-linux-s390x@0.14.39:
   integrity sha512-zEfunpqR8sMomqXhNTFEKDs+ik7HC01m3M60MsEjZOqaywHu5e5682fMsqOlZbesEAAaO9aAtRBsU7CHnSZWyA==
 
 esbuild-loader@^2.18.0:
-  version "2.18.0"
-  resolved "https://registry.npmjs.org/esbuild-loader/-/esbuild-loader-2.18.0.tgz#7b9548578ab954574fd94655693d22aa5ec74120"
-  integrity sha512-AKqxM3bI+gvGPV8o6NAhR+cBxVO8+dh+O0OXBHIXXwuSGumckbPWHzZ17subjBGI2YEGyJ1STH7Haj8aCrwL/w==
+  version "2.19.0"
+  resolved "https://registry.npmjs.org/esbuild-loader/-/esbuild-loader-2.19.0.tgz#54f62d1da8262acfc3c5883c24da35af8324f116"
+  integrity sha512-urGNVE6Tl2rqx92ElKi/LiExXjGvcH6HfDBFzJ9Ppwqh4n6Jmx8x7RKAyMzSM78b6CAaJLhDncG5sPrL0ROh5Q==
   dependencies:
-    esbuild "^0.14.6"
+    esbuild "^0.14.39"
     joycon "^3.0.1"
     json5 "^2.2.0"
     loader-utils "^2.0.0"
@@ -11373,7 +11381,7 @@ esbuild-windows-arm64@0.14.39:
   resolved "https://registry.npmjs.org/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.39.tgz#00268517e665b33c89778d61f144e4256b39f631"
   integrity sha512-sBZQz5D+Gd0EQ09tZRnz/PpVdLwvp/ufMtJ1iDFYddDaPpZXKqPyaxfYBLs3ueiaksQ26GGa7sci0OqFzNs7KA==
 
-esbuild@^0.14.1, esbuild@^0.14.10, esbuild@^0.14.6:
+esbuild@^0.14.1, esbuild@^0.14.10, esbuild@^0.14.39:
   version "0.14.39"
   resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.14.39.tgz#c926b2259fe6f6d3a94f528fb42e103c5a6d909a"
   integrity sha512-2kKujuzvRWYtwvNjYDY444LQIA3TyJhJIX3Yo4+qkFlDDtGlSicWgeHVJqMUP/2sSfH10PGwfsj+O2ro1m10xQ==
@@ -15470,7 +15478,7 @@ js-yaml@4.1.0, js-yaml@=4.1.0, js-yaml@^4.0.0, js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
-js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.14.0, js-yaml@^3.6.1, js-yaml@^3.8.3:
+js-yaml@^3.10.0, js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.14.0, js-yaml@^3.6.1, js-yaml@^3.8.3:
   version "3.14.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
@@ -16752,7 +16760,7 @@ lunr@^2.3.9:
   resolved "https://registry.npmjs.org/lunr/-/lunr-2.3.9.tgz#18b123142832337dd6e964df1a5a7707b25d35e1"
   integrity sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==
 
-luxon@^2.0.2, luxon@^2.3.0:
+luxon@^2.0.2, luxon@^2.3.0, luxon@^2.3.1:
   version "2.4.0"
   resolved "https://registry.npmjs.org/luxon/-/luxon-2.4.0.tgz#9435806545bb32d4234dab766ab8a3d54847a765"
   integrity sha512-w+NAwWOUL5hO0SgwOHsMBAmZ15SoknmQXhSO0hIbJCAmPKSsGeK8MlmhYh2w6Iib38IxN2M+/ooXWLbeis7GuA==
@@ -23943,7 +23951,7 @@ tsconfig-paths@^3.14.1:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
+tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
