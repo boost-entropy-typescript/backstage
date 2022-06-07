@@ -2271,10 +2271,10 @@
     uuid "^8.0.0"
     xdg-basedir "^4.0.0"
 
-"@graphiql/react@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/@graphiql/react/-/react-0.3.0.tgz#3e5100b977a15020514350a6cbd9440a3430e73a"
-  integrity sha512-XA+khix70FM5yQ0l0xTHC1y2LZ2v/mYWQAhxKo9+5mGfIiMtuo2hEEdJeQvX03CGfIIDjZHD6KOzQNO4LTLqxA==
+"@graphiql/react@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@graphiql/react/-/react-0.4.0.tgz#55099632c29be0c49f1251904b74cbfd2d31993b"
+  integrity sha512-9OtwzJ3EaDgD5Qi+WtnHA8Wv0XL9l+W4n3jtNR+wFDjC2vvbEd/grPm0eSikryVcq/0q6aR4HyR3SuKj6tKPYg==
   dependencies:
     "@graphiql/toolkit" "^0.6.0"
     codemirror "^5.65.3"
@@ -11223,9 +11223,9 @@ docker-modem@^3.0.0:
     ssh2 "^1.4.0"
 
 dockerode@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/dockerode/-/dockerode-3.3.1.tgz#74f66e239e092e7910e2beae6322d35c44b08cdc"
-  integrity sha512-AS2mr8Lp122aa5n6d99HkuTNdRV1wkkhHwBdcnY6V0+28D3DSYwhxAk85/mM9XwD3RMliTxyr63iuvn5ZblFYQ==
+  version "3.3.2"
+  resolved "https://registry.npmjs.org/dockerode/-/dockerode-3.3.2.tgz#f3545700d2f7f86141b58843a755eeb21e38d5cd"
+  integrity sha512-oXN+1XVH2TeyE0Jj9Ci6Fim8ZIDxyqeJrkx9qhEOaRiA+nhLihKfd3M2L+Aqrj5C2ObPw8RVN2zPWvvk0x2dwg==
   dependencies:
     docker-modem "^3.0.0"
     tar-fs "~2.0.1"
@@ -11966,9 +11966,9 @@ eslint-plugin-import@^2.25.4:
     tsconfig-paths "^3.14.1"
 
 eslint-plugin-jest@^26.1.2:
-  version "26.5.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-26.5.1.tgz#a6b4cbd6884c1b5dcbe6afc0f43dde9afba29229"
-  integrity sha512-IUEw6DCJ7qPGffK2pc6ly3L+1HBXdT673pY5nson8Mu4Vwgc/8d4Hf8NhsZwkuspPdi/QMj83ugXND7OLTu6Bg==
+  version "26.5.3"
+  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-26.5.3.tgz#a3ceeaf4a757878342b8b00eca92379b246e5505"
+  integrity sha512-sICclUqJQnR1bFRZGLN2jnSVsYOsmPYYnroGCIMVSvTS3y8XR3yjzy1EcTQmk6typ5pRgyIWzbjqxK6cZHEZuQ==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -13692,11 +13692,11 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@^1.5.12, graphiql@^1.8.8:
-  version "1.9.5"
-  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.9.5.tgz#586e9ec62a7952726481458dfc7f9164a4d9cc2d"
-  integrity sha512-maX8AQ4ww2hxo0Jrbyi3xtwmm4Th6kx2sEfnusN+r8gm0QsmMc+0VZ/HwMXEAzMj0ckNmv0mMz9tBBJVp4FQ4A==
+  version "1.9.6"
+  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.9.6.tgz#ab1714a0200bdcf358761d7e9625de41fe06a98c"
+  integrity sha512-HxKM2cu6SQUi8x1QqZc/GkLBnyjZerPOKmiBfsZmIWYLtZTJTd4dezeraD2klB80FkYKgPVPbojGLofuLq8w3w==
   dependencies:
-    "@graphiql/react" "^0.3.0"
+    "@graphiql/react" "^0.4.0"
     "@graphiql/toolkit" "^0.6.0"
     entities "^2.0.0"
     graphql-language-service "^5.0.4"
