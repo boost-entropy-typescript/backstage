@@ -2059,9 +2059,9 @@
     xcase "^2.0.1"
 
 "@google-cloud/container@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/@google-cloud/container/-/container-4.0.0.tgz#9bcfe2d404b739844766a91c0dd2b3fc63d014d1"
-  integrity sha512-nndrAVyZ34I9LykL1DIDONskl/hRmXmvtTbWrcm+Jep6Lm1bCJ0LkgMGg8yLS1tqWrdhIl73+xwcVfiY2dm7ig==
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/@google-cloud/container/-/container-4.0.1.tgz#a3206d3030539e09b7beee8f351fad86c77af79d"
+  integrity sha512-JpsOsdKnCQm1b5aVNnO/2Urdg+qbCLi/srEnTupRj73Pu5wXLHXOCe3vy8Z2GvyCqu7qr89fMREQ4kO4QijnHA==
   dependencies:
     google-gax "^3.0.1"
 
@@ -5078,9 +5078,9 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.0.0":
-  version "2.1.4"
-  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.1.4.tgz#2b60230a0a6330c9c7d6a8c08492361b12a1b83a"
-  integrity sha512-H0Nr2MFQ2iiMLve/l3jqe6HMYwKRkeWNPEvPGkAMMtYmtnMTRMrXuYv+5piPzlwXiwss0NedNdwlVcGsY1J/cw==
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.2.0.tgz#6c62c965842819bae185f96e1fbd1c26cf64c564"
+  integrity sha512-UNpfVMEx3WmUqIpIWPvf8uEZzCClff5H2krT/8iS3yaEP1ng9ZfLQPV7JgF8Bvaad37M08mCuvdmurtL6L3xSw==
   dependencies:
     "@backstage/catalog-model" "^1.0.0"
     "@backstage/core-components" "^0.9.0"
@@ -8057,9 +8057,9 @@ aws-sdk-mock@^5.2.1:
     traverse "^0.6.6"
 
 aws-sdk@^2.1122.0, aws-sdk@^2.840.0, aws-sdk@^2.948.0:
-  version "2.1157.0"
-  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1157.0.tgz#d00b5ea932439de38e19435b48a6a2b38aa7c805"
-  integrity sha512-30t+zhCECib8uaggd0Du8ifab4vtJjgVvNKxHWTpiLa3deTnM+0K7x3pwM99zxw0gLDxAUet/oURaoPJHwk/5Q==
+  version "2.1158.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1158.0.tgz#924fb6dda1acecb1dc1c8901095cf64d6acdade4"
+  integrity sha512-uHYzZMGE+b50sWXaLhga4aD1SpB3+DEZclAkg9aYz2pDZlSDTOMh3uJ/ufsMBs7VcDKGS7mQRibCmCbwRGTIlg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -10069,9 +10069,9 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.10:
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
 core-js@^3.4.1, core-js@^3.6.5:
-  version "3.23.1"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-3.23.1.tgz#9f9a9255115f62c512db56d567f636da32ca0b78"
-  integrity sha512-wfMYHWi1WQjpgZNC9kAlN4ut04TM9fUTdi7CqIoTVM7yaiOUQTklOzfb+oWH3r9edQcT3F887swuVmxrV+CC8w==
+  version "3.23.2"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.23.2.tgz#e07a60ca8b14dd129cabdc3d2551baf5a01c76f0"
+  integrity sha512-ELJOWxNrJfOH/WK4VJ3Qd+fOqZuOuDNDJz0xG6Bt4mGg2eO/UT9CljCrbqDGovjLKUrGajEEBcoTOc0w+yBYeQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -10187,9 +10187,9 @@ cron@^2.0.0:
     luxon "^1.23.x"
 
 cronstrue@^2.2.0:
-  version "2.9.0"
-  resolved "https://registry.npmjs.org/cronstrue/-/cronstrue-2.9.0.tgz#f63c376060c8e019d748564d6eb128d6cac76210"
-  integrity sha512-PZSsUZU7O+R0JdsquKMXlm41tm62oO5fVYoXi6QI/eRAYxgbkPJ/OcLrVxUM+JNRy5yv0QEI84YG1mUjEo4RLA==
+  version "2.10.0"
+  resolved "https://registry.npmjs.org/cronstrue/-/cronstrue-2.10.0.tgz#9b57e9acc18eb44ebe9be5dc993753fd7d6d8e56"
+  integrity sha512-WCCaKuuzjZJl/xTaJiK2KB2lhHqAz+cTAHgSiZQc/pNnF2XUSZX0FBfxAG0qa9CogToNoQw7pEBJExc77QnFBQ==
 
 cross-env@^7.0.0:
   version "7.0.3"
@@ -12057,9 +12057,9 @@ eslint-plugin-notice@^0.9.10:
     metric-lcs "^0.1.2"
 
 eslint-plugin-react-hooks@^4.3.0:
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.5.0.tgz#5f762dfedf8b2cf431c689f533c9d3fa5dcf25ad"
-  integrity sha512-8k1gRt7D7h03kd+SAAlzXkQwWK22BnK6GKZG+FJA6BAGy22CFvl8kCIXKpVux0cCxMWDQUPqSok0LKaZ0aOcCw==
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz#4c3e697ad95b77e93f8646aaa1630c1ba607edd3"
+  integrity sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==
 
 eslint-plugin-react@^7.28.0:
   version "7.30.0"
@@ -12126,9 +12126,9 @@ eslint-webpack-plugin@^3.1.1:
     schema-utils "^3.1.1"
 
 eslint@^8.6.0:
-  version "8.17.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-8.17.0.tgz#1cfc4b6b6912f77d24b874ca1506b0fe09328c21"
-  integrity sha512-gq0m0BTJfci60Fz4nczYxNAlED+sMcihltndR8t9t1evnU/azx53x3t2UHXC/uRjcbvRw/XctpaNygSTcQD+Iw==
+  version "8.18.0"
+  resolved "https://registry.npmjs.org/eslint/-/eslint-8.18.0.tgz#78d565d16c993d0b73968c523c0446b13da784fd"
+  integrity sha512-As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==
   dependencies:
     "@eslint/eslintrc" "^1.3.0"
     "@humanwhocodes/config-array" "^0.9.2"
@@ -12485,9 +12485,9 @@ expect@^27.5.1:
     jest-message-util "^27.5.1"
 
 express-prom-bundle@^6.3.6:
-  version "6.4.1"
-  resolved "https://registry.npmjs.org/express-prom-bundle/-/express-prom-bundle-6.4.1.tgz#a688050b9e090f6969825c33143106d3e0e5a70e"
-  integrity sha512-Sg0svLQe/SS5z1tHDTVfZVjNumobiDlXM0jmemt5Dm9K6BX8z9yCwEr93zbko6fNMR4zKav77iPfxUWi6gAjNA==
+  version "6.5.0"
+  resolved "https://registry.npmjs.org/express-prom-bundle/-/express-prom-bundle-6.5.0.tgz#cdf28b29907618cae933ed14d5b727f7404e810b"
+  integrity sha512-paFAm0FK7TV1Ln6Blh9edDt2mJ4Pk6Py/fjhZDMcoMHENYryBjCpnXDXuCu8NE1kkvp58IrPcAAkNeNqdvZnnw==
   dependencies:
     on-finished "^2.3.0"
     url-value-parser "^2.0.0"
@@ -16660,9 +16660,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0, keyv@^4.0.3:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/keyv/-/keyv-4.3.0.tgz#b4352e0e4fe7c94111947d6738a6d3fe7903027c"
-  integrity sha512-C30Un9+63J0CsR7Wka5quXKqYZsT6dcRQ2aOwGcSc3RiQ4HGWpTAHlCA+puNfw2jA/s11EsxA1nCXgZRuRKMQQ==
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/keyv/-/keyv-4.3.1.tgz#7970672f137d987945821b1a07b524ce5a4edd27"
+  integrity sha512-nwP7AQOxFzELXsNq3zCx/oh81zu4DHWwCE6W9RaeHb7OHO0JpmKS8n801ovVQC7PTsZDWtPA5j1QY+/WWtARYg==
   dependencies:
     compress-brotli "^1.3.8"
     json-buffer "3.0.1"
