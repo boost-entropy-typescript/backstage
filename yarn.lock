@@ -2597,7 +2597,7 @@
     "@graphql-tools/utils" "8.6.13"
     tslib "^2.4.0"
 
-"@graphql-tools/schema@8.3.10", "@graphql-tools/schema@^8.0.0", "@graphql-tools/schema@^8.1.1", "@graphql-tools/schema@^8.1.2", "@graphql-tools/schema@^8.3.1":
+"@graphql-tools/schema@8.3.10", "@graphql-tools/schema@^8.0.0", "@graphql-tools/schema@^8.1.2", "@graphql-tools/schema@^8.3.1":
   version "8.3.10"
   resolved "https://registry.npmjs.org/@graphql-tools/schema/-/schema-8.3.10.tgz#c3e373e6ad854f533fc7e55859dd8f9e81de30dd"
   integrity sha512-tfhjSTi3OzheDrVzG7rkPZg2BbQjmZRLM2vvQoM2b1TnUwgUIbpAgcnf+AWDLRsoCOWlezeLgij1BLeAR0Q0jg==
@@ -7008,9 +7008,9 @@
     terser-webpack-plugin "*"
 
 "@types/testing-library__jest-dom@^5.9.1":
-  version "5.14.4"
-  resolved "https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.4.tgz#21567ec845f4efee55923842c79728dc49c1650b"
-  integrity sha512-EUCs9PTBOEyfRtLKkKd31YrRCx/9Wxjy2Uqb6IH/KAOr7/vP0i8iClOyxQqjm/UxMGU5r5s2vOBM7vSPQVmabg==
+  version "5.14.5"
+  resolved "https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.5.tgz#d113709c90b3c75fdb127ec338dad7d5f86c974f"
+  integrity sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==
   dependencies:
     "@types/jest" "*"
 
@@ -7317,9 +7317,9 @@
     eslint-visitor-keys "^3.0.0"
 
 "@uiw/react-codemirror@^4.9.3":
-  version "4.9.3"
-  resolved "https://registry.npmjs.org/@uiw/react-codemirror/-/react-codemirror-4.9.3.tgz#3d7abc434b140f01119332e25e9f49ace7c381bf"
-  integrity sha512-iT/daKF852ZsNJGvqmxRFJ4KTOJSikeoCMl7jhUUJTETdozUf0/DqUQhvazAoduMRzqqHYnN/5isdITCyy2P6g==
+  version "4.9.4"
+  resolved "https://registry.npmjs.org/@uiw/react-codemirror/-/react-codemirror-4.9.4.tgz#4643201f279fed103f2cf15df9431931fe4e9f15"
+  integrity sha512-IsC5xDevpIeLMzHQQwT2W40gFFIdKeT1T0DHjzzai+s5SIrMlGe3QSHWeC1wSO7FtfNxFpFlTYMGJm5JwUviMA==
   dependencies:
     "@babel/runtime" ">=7.11.0"
     "@codemirror/theme-one-dark" "^6.0.0"
@@ -8232,9 +8232,9 @@ aws-sdk-mock@^5.2.1:
     traverse "^0.6.6"
 
 aws-sdk@^2.1122.0, aws-sdk@^2.840.0, aws-sdk@^2.948.0:
-  version "2.1158.0"
-  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1158.0.tgz#924fb6dda1acecb1dc1c8901095cf64d6acdade4"
-  integrity sha512-uHYzZMGE+b50sWXaLhga4aD1SpB3+DEZclAkg9aYz2pDZlSDTOMh3uJ/ufsMBs7VcDKGS7mQRibCmCbwRGTIlg==
+  version "2.1159.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1159.0.tgz#64d585ac608d58e6ff62678be71a4c4ca61ca5dc"
+  integrity sha512-zm3k/ufwZnkWc6M+HDz00CWuILot4L9kJ5VJsuDS9fwsT9To6k91Y1njCtIV4tcgcXvUru0Sbm4D0w5bc2847A==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -10719,9 +10719,9 @@ cypress-plugin-snapshots@^1.4.4:
     unidiff "1.0.2"
 
 cypress@^10.0.0:
-  version "10.1.0"
-  resolved "https://registry.npmjs.org/cypress/-/cypress-10.1.0.tgz#6514a26c721822a02bc194e9a7f72c3142aea174"
-  integrity sha512-aQ4JVZVib4Xd9FZW8IRZfKelUvqF4y5A+oUbNvn8TlsBmEfIg3m5Xd6Mt6PVU/jHiVJ9Psl905B3ZPnrDcmyuQ==
+  version "10.2.0"
+  resolved "https://registry.npmjs.org/cypress/-/cypress-10.2.0.tgz#ca078abfceb13be2a33cbba6e0e80ded770f542a"
+  integrity sha512-+i9lY5ENlfi2mJwsggzR+XASOIgMd7S/Gd3/13NCpv596n3YSplMAueBTIxNLcxDpTcIksp+9pM3UaDrJDpFqA==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -13884,9 +13884,9 @@ google-auth-library@^7.14.0:
     lru-cache "^6.0.0"
 
 google-auth-library@^8.0.0, google-auth-library@^8.0.1, google-auth-library@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-8.0.2.tgz#5fa0f2d3795c3e4019d2bb315ade4454cc9c30b5"
-  integrity sha512-HoG+nWFAThLovKpvcbYzxgn+nBJPTfAwtq0GxPN821nOO+21+8oP7MoEHfd1sbDulUFFGfcjJr2CnJ4YssHcyg==
+  version "8.0.3"
+  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-8.0.3.tgz#1e780430632d03df36dc22a3f5c89dbc251f2105"
+  integrity sha512-1eC6yaCrPfkv3bwtb3e0AOct7E7xR/uikDyXNo/j8Wd6a1ldRgAey5FmaDGNJnHNDPLtDiENQLYsA69eXOF5sA==
   dependencies:
     arrify "^2.0.0"
     base64-js "^1.3.0"
@@ -13894,7 +13894,7 @@ google-auth-library@^8.0.0, google-auth-library@^8.0.1, google-auth-library@^8.0
     fast-text-encoding "^1.0.0"
     gaxios "^5.0.0"
     gcp-metadata "^5.0.0"
-    gtoken "^5.3.2"
+    gtoken "^6.0.0"
     jws "^4.0.0"
     lru-cache "^6.0.0"
 
@@ -13943,10 +13943,10 @@ google-p12-pem@^3.0.3:
   dependencies:
     node-forge "^1.0.0"
 
-google-p12-pem@^3.1.3:
-  version "3.1.4"
-  resolved "https://registry.npmjs.org/google-p12-pem/-/google-p12-pem-3.1.4.tgz#123f7b40da204de4ed1fbf2fd5be12c047fc8b3b"
-  integrity sha512-HHuHmkLgwjdmVRngf5+gSmpkyaRI6QmOg77J8tkNBHhNEI62sGHyw4/+UkgyZEI7h84NbWprXDJ+sa3xOYFvTg==
+google-p12-pem@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/google-p12-pem/-/google-p12-pem-4.0.0.tgz#f46581add1dc6ea0b96160cda6ce37ee35ab8ca3"
+  integrity sha512-lRTMn5ElBdDixv4a86bixejPSRk1boRtUowNepeKEVvYiFlkLuAJUVpEz6PfObDHYEKnZWq/9a2zC98xu62A9w==
   dependencies:
     node-forge "^1.3.1"
 
@@ -14070,14 +14070,14 @@ graphql-language-service@^5.0.6:
     vscode-languageserver-types "^3.15.1"
 
 graphql-modules@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/graphql-modules/-/graphql-modules-2.0.0.tgz#5f710d86eb7295da83769c8cd6d61a049d999800"
-  integrity sha512-CM5CIJp428+ripgcLyrioBmAKB3ucvIEOgJG4WMjnOgScHY/eCZh/8I51cF8oc+pqebOgBCR3HH//IH5v7kv+w==
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/graphql-modules/-/graphql-modules-2.1.0.tgz#d99692034b4b053fba3d0ebe49e4e66772ed2785"
+  integrity sha512-fOUc4i5xNLkRxqx234MIr+kolrxk1tZ2onTeRIcB73mCY4NeKxej7FMLb5St+UcNLzhqM4L6Mf47rN9MPVDmgA==
   dependencies:
-    "@graphql-tools/schema" "^8.1.1"
+    "@graphql-tools/schema" "^8.3.1"
     "@graphql-tools/wrap" "^8.3.1"
     "@graphql-typed-document-node/core" "^3.1.0"
-    ramda "^0.27.1"
+    ramda "^0.28.0"
 
 graphql-request@^4.0.0:
   version "4.2.0"
@@ -14145,13 +14145,13 @@ gtoken@^5.0.4:
     jws "^4.0.0"
     mime "^2.2.0"
 
-gtoken@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.npmjs.org/gtoken/-/gtoken-5.3.2.tgz#deb7dc876abe002178e0515e383382ea9446d58f"
-  integrity sha512-gkvEKREW7dXWF8NV8pVrKfW7WqReAmjjkMBh6lNCCGOM4ucS0r0YyXXl0r/9Yj8wcW/32ISkfc8h5mPTDbtifQ==
+gtoken@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/gtoken/-/gtoken-6.0.1.tgz#1276371d51e93c4eface76e3f30f9e8f1cad3f1a"
+  integrity sha512-J0vebk6u6i4rLTM0lQq25SdusCLMvujYNZeAouyPvSbGlcjw7P8L3W9INIFnlXUx+AUD7TDoM1mgdhzH+XX7DQ==
   dependencies:
     gaxios "^4.0.0"
-    google-p12-pem "^3.1.3"
+    google-p12-pem "^4.0.0"
     jws "^4.0.0"
 
 gzip-size@^6.0.0:
@@ -21412,10 +21412,10 @@ raf@^3.4.0:
   dependencies:
     performance-now "^2.1.0"
 
-ramda@^0.27.1:
-  version "0.27.2"
-  resolved "https://registry.npmjs.org/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
-  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
+ramda@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/ramda/-/ramda-0.28.0.tgz#acd785690100337e8b063cab3470019be427cc97"
+  integrity sha512-9QnLuG/kPVgWvMQ4aODhsBUFKOUmnbUnsSXACv+NCQZcHbeb+v8Lodp8OVxtRULN1/xOyYLLaL6npE6dMq5QTA==
 
 randexp@^0.5.3:
   version "0.5.3"
@@ -24153,9 +24153,9 @@ stylis@^4.0.6:
   integrity sha512-OFFeUXFgwnGOKvEXaSv0D0KQ5ADP0n6g3SVONx6I/85JzNZ3u50FRwB3lVIk1QO2HNdI75tbVzc4Z66Gdp9voA==
 
 sucrase@^3.18.0, sucrase@^3.20.2:
-  version "3.21.0"
-  resolved "https://registry.npmjs.org/sucrase/-/sucrase-3.21.0.tgz#6a5affdbe716b22e4dc99c57d366ad0d216444b9"
-  integrity sha512-FjAhMJjDcifARI7bZej0Bi1yekjWQHoEvWIXhLPwDhC6O4iZ5PtGb86WV56riW87hzpgB13wwBKO9vKAiWu5VQ==
+  version "3.21.1"
+  resolved "https://registry.npmjs.org/sucrase/-/sucrase-3.21.1.tgz#7e29ddaca012764cf843280b00e74a843bdf790f"
+  integrity sha512-kxXnC9yZEav5USAu8gooZID9Ph3xqwdJxZoh+WbOWQZHTB7CHj3ANwENVMZ6mAZ9k7UtJtFxvQD9R03q3yU2YQ==
   dependencies:
     commander "^4.0.0"
     glob "7.1.6"
