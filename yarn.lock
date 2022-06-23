@@ -4286,9 +4286,9 @@
     react-is "^16.8.0 || ^17.0.0"
 
 "@maxim_mazurok/gapi.client.calendar@^3.0.20220408":
-  version "3.0.20220610"
-  resolved "https://registry.npmjs.org/@maxim_mazurok/gapi.client.calendar/-/gapi.client.calendar-3.0.20220610.tgz#46e0092da54fc8eb1342a3d1af04a071a761faac"
-  integrity sha512-pZwIaTw+PizFSXrF5WqP4dj+b1Vlj/hNwBY4ocWpJ2uhBDoBPAVIc8lEUNwNZVDbAgtbWHD2Kl84UsP1wmBS+w==
+  version "3.0.20220617"
+  resolved "https://registry.npmjs.org/@maxim_mazurok/gapi.client.calendar/-/gapi.client.calendar-3.0.20220617.tgz#140bbfd2caa1770fedbdaec4182eb43684f2d876"
+  integrity sha512-Vek5Y655GUi4RmUs3cNLfo/KQeReEuvcViJ0KYHl28KmC2Pqmxb4V2YIUhsH7BGVyq84cTIT59qHSirB919Prw==
   dependencies:
     "@types/gapi.client" "*"
 
@@ -16865,9 +16865,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0, keyv@^4.0.3:
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/keyv/-/keyv-4.3.1.tgz#7970672f137d987945821b1a07b524ce5a4edd27"
-  integrity sha512-nwP7AQOxFzELXsNq3zCx/oh81zu4DHWwCE6W9RaeHb7OHO0JpmKS8n801ovVQC7PTsZDWtPA5j1QY+/WWtARYg==
+  version "4.3.2"
+  resolved "https://registry.npmjs.org/keyv/-/keyv-4.3.2.tgz#e839df676a0c7ee594c8835e7c1c83742558e5c2"
+  integrity sha512-kn8WmodVBe12lmHpA6W8OY7SNh6wVR+Z+wZESF4iF5FCazaVXGWOtnbnvX0tMQ1bO+/TmOD9LziuYMvrIIs0xw==
   dependencies:
     compress-brotli "^1.3.8"
     json-buffer "3.0.1"
@@ -18805,9 +18805,9 @@ msw@^0.39.2:
     yargs "^17.3.1"
 
 msw@^0.42.0:
-  version "0.42.1"
-  resolved "https://registry.npmjs.org/msw/-/msw-0.42.1.tgz#2496d3e191754b68686e2530de459a2e102f85c4"
-  integrity sha512-LZZuz7VddL45gCBgfBWHyXj6a4W7OTJY0mZPoipJ3P/xwbuJwrtwB3IJrWlqBM8aink/eTKlRxwzmtIAwCj5yQ==
+  version "0.42.3"
+  resolved "https://registry.npmjs.org/msw/-/msw-0.42.3.tgz#150c475e2cb6d53c67503bd0e3f6251bfd075328"
+  integrity sha512-zrKBIGCDsNUCZLd3DLSeUtRruZ0riwJgORg9/bSDw3D0PTI8XUGAK3nC0LJA9g0rChGuKaWK/SwObA8wpFrz4g==
   dependencies:
     "@mswjs/cookies" "^0.2.0"
     "@mswjs/interceptors" "^0.16.3"
@@ -22776,9 +22776,9 @@ run-parallel@^1.1.9:
   integrity sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
 
 run-script-webpack-plugin@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/run-script-webpack-plugin/-/run-script-webpack-plugin-0.1.0.tgz#6250a4734511836628259666d56641a27526875d"
-  integrity sha512-PKddVrnTu1BO90ogvN93yP/zg3X8Q4XvSKKyGVZFye9VBVbgVkFllKykNOomi9IfNtnoFFzu6TkLONIuXq5URA==
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/run-script-webpack-plugin/-/run-script-webpack-plugin-0.1.1.tgz#dad3114be32eb864d2160306e4d9c52a2c1cfd59"
+  integrity sha512-PrxBRLv1K9itDKMlootSCyGhdTU+KbKGJ2wF6/k0eyo6M0YGPC58HYbS/J/QsDiwM0t7G99WcuCqto0J7omOXA==
 
 rxjs@7.5.5, rxjs@^7.0.0, rxjs@^7.1.0, rxjs@^7.2.0, rxjs@^7.5.1, rxjs@^7.5.5:
   version "7.5.5"
