@@ -217,6 +217,7 @@ export function createGithubRepoPushAction(options: {
   description?: string | undefined;
   defaultBranch?: string | undefined;
   protectDefaultBranch?: boolean | undefined;
+  protectEnforceAdmins?: boolean | undefined;
   gitCommitMessage?: string | undefined;
   gitAuthorName?: string | undefined;
   gitAuthorEmail?: string | undefined;
@@ -331,6 +332,7 @@ export function createPublishGithubAction(options: {
   access?: string | undefined;
   defaultBranch?: string | undefined;
   protectDefaultBranch?: boolean | undefined;
+  protectEnforceAdmins?: boolean | undefined;
   deleteBranchOnMerge?: boolean | undefined;
   gitCommitMessage?: string | undefined;
   gitAuthorName?: string | undefined;
@@ -406,6 +408,7 @@ export const createPublishGitlabMergeRequestAction: (options: {
   token?: string | undefined;
   projectid?: string | undefined;
   removeSourceBranch?: boolean | undefined;
+  assignee?: string | undefined;
 }>;
 
 // @public
