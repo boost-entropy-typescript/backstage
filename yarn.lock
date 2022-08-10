@@ -4967,9 +4967,9 @@
     react-is "^16.8.0 || ^17.0.0"
 
 "@maxim_mazurok/gapi.client.calendar@^3.0.20220408":
-  version "3.0.20220722"
-  resolved "https://registry.npmjs.org/@maxim_mazurok/gapi.client.calendar/-/gapi.client.calendar-3.0.20220722.tgz#cfcf40676c2bd07175db688cf96c9377f1b55e1b"
-  integrity sha512-/ft7PMhBYW6zEFkV1r5WekxzJrxEXVwqSPBssOneTBzgE/MMV2hkbFPocnQ1z9YRH8TAsskv/DQlpDbmmbK9JA==
+  version "3.0.20220805"
+  resolved "https://registry.npmjs.org/@maxim_mazurok/gapi.client.calendar/-/gapi.client.calendar-3.0.20220805.tgz#ccc3c12f83b361daf5e48e0a2ff7abee5b0a6c5d"
+  integrity sha512-YwUDC4G4amUkM4u55wJpARowbs6AjJoF+PxxLEz3ZoHXvzP/VWPb1L0AhxnbFwDhWKVFcXkZTEGDc59PcuIJjQ==
   dependencies:
     "@types/gapi.client" "*"
 
@@ -9073,9 +9073,9 @@ aws-sdk-mock@^5.2.1:
     traverse "^0.6.6"
 
 aws-sdk@^2.1122.0, aws-sdk@^2.814.0, aws-sdk@^2.840.0, aws-sdk@^2.948.0:
-  version "2.1189.0"
-  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1189.0.tgz#8dd6b48dd7896642af8e2f86e026932a28e380d5"
-  integrity sha512-EqluXSo8XAR086nF9UAtPYwUm82ZIRqg8OmHBRQyftcrD1Z0pqMmiuvacXoEAJ/4UU8KKafbpYarxx8rH/pZjQ==
+  version "2.1191.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1191.0.tgz#2748567252c68ef37a8ce29f48aa063681083918"
+  integrity sha512-G8hWvuc+3rxTfHqsnUwGx/fy8zlnVPtlNesXMHlwU/l4oBx3+Weg0Nhng6HvLGzUJifzlnSKDXrOsWVkHtuZ1w==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
