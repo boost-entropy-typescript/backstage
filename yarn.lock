@@ -5014,9 +5014,9 @@
     typescript "~4.6.3"
 
 "@microsoft/microsoft-graph-types@^2.6.0":
-  version "2.22.0"
-  resolved "https://registry.npmjs.org/@microsoft/microsoft-graph-types/-/microsoft-graph-types-2.22.0.tgz#7ceb222311770ed5b240d627b657d25b3979964e"
-  integrity sha512-iKc5L036hc/wu13DX5kGf//3/WqTAErAPTyYKG6zT3vG070xXaaP7PInODznfyZduhiOvavmrRlQb34ajeDTUA==
+  version "2.23.0"
+  resolved "https://registry.npmjs.org/@microsoft/microsoft-graph-types/-/microsoft-graph-types-2.23.0.tgz#075cd5bbd523a414bb98ab97fb2207bcccbfa532"
+  integrity sha512-4TwjVg/A28K5Df1br17gRmv7Z0iWqYArdUo77xPz+bEtMpDD1hwmKUNj7O7a8r3sN7WIC2nKp6Atb6LXTr1LEA==
 
 "@microsoft/tsdoc-config@~0.16.1":
   version "0.16.1"
@@ -5813,19 +5813,19 @@
   resolved "https://registry.npmjs.org/@octokit/webhooks-methods/-/webhooks-methods-3.0.0.tgz#4f4443605233f46abc5f85a857ba105095aa1181"
   integrity sha512-FAIyAchH9JUKXugKMC17ERAXM/56vVJekwXOON46pmUDYfU7uXB4cFY8yc8nYr5ABqVI7KjRKfFt3mZF7OcyUA==
 
-"@octokit/webhooks-types@6.3.1":
-  version "6.3.1"
-  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.1.tgz#af0c31c81ccc3818de01df1977463b78c7c02b4f"
-  integrity sha512-pHjIWGLDldWKuuax5ZDzQeTSnHN6/9RbDaXYEtHwlbW5SPFwTwy3xhJ552qJH6kHP0M3k5t5JVpa0f6fR9MooQ==
+"@octokit/webhooks-types@6.3.2":
+  version "6.3.2"
+  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.2.tgz#752497434e735874ba985ea0d53d63e2568e838d"
+  integrity sha512-6DSvdzg7AIVgLjIjqf5BDrloMs7zUfpF0EJhLiOjXtuLr38W5pWSC7aHr7V59LCEDueJRfKZ6c9ZyuLLqVgx8g==
 
 "@octokit/webhooks@^10.0.0":
-  version "10.1.1"
-  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.1.tgz#8fdbddd2b0ee9c53ddabb47c346032fcc46fd5ff"
-  integrity sha512-/PhAXTA5M47sM/LxFXfTQ8WUEFsNQog29VfcxYCtsJtRz3NoaDAirH4gT6/Z81BrC8Vw3JA7mF+yFUN7RmxWGw==
+  version "10.1.2"
+  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.2.tgz#78396b6d32c60789f6031d2551a2cd598c157627"
+  integrity sha512-jxISKMLiYebQ/EByLXDEWQMcHASKUVl1T0EuCnpHTYjELsDXg7BEw0FCInlc8RpWmmPp4sMsh3Dd86spXAIp1A==
   dependencies:
     "@octokit/request-error" "^3.0.0"
     "@octokit/webhooks-methods" "^3.0.0"
-    "@octokit/webhooks-types" "6.3.1"
+    "@octokit/webhooks-types" "6.3.2"
     aggregate-error "^3.1.0"
 
 "@open-draft/until@^1.0.3":
@@ -14739,9 +14739,9 @@ graphql-type-json@^0.3.2:
   integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
 
 graphql-ws@^5.4.1, graphql-ws@^5.9.0:
-  version "5.9.1"
-  resolved "https://registry.npmjs.org/graphql-ws/-/graphql-ws-5.9.1.tgz#9c0fa48ceb695d61d574ed3ab21b426729e87f2d"
-  integrity sha512-mL/SWGBwIT9Meq0NlfS55yXXTOeWPMbK7bZBEZhFu46bcGk1coTx2Sdtzxdk+9yHWngD+Fk1PZDWaAutQa9tpw==
+  version "5.10.0"
+  resolved "https://registry.npmjs.org/graphql-ws/-/graphql-ws-5.10.0.tgz#3fb47a4e809e0d2e7c197f1bca754fa9f31b940e"
+  integrity sha512-ewbPzHQdRZgNCPDH9Yr6xccSeZfk3fmpO/AGGGg4KkM5gc6oAOJQ10Oui1EqprhVOyRbOll9bw2qAkOiOwfTag==
 
 graphql@^16.0.0, graphql@^16.3.0:
   version "16.5.0"
@@ -20102,9 +20102,9 @@ octokit-plugin-create-pull-request@^3.10.0:
     "@octokit/types" "^6.8.2"
 
 octokit@^2.0.0, octokit@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/octokit/-/octokit-2.0.4.tgz#cfd3adee6b775d3fa8cd8746590bed36127cc0a0"
-  integrity sha512-9QvgYGzrSTGmr3koSGtbgeMgqYI20QI0Vv8Bk9y6phchk6L2aHFhcrUOIeNUPj1Z+KZnEBd6A/8faNpDFNfVjg==
+  version "2.0.5"
+  resolved "https://registry.npmjs.org/octokit/-/octokit-2.0.5.tgz#4091813187f363eff787b89b66aafc273ba3318d"
+  integrity sha512-Znv9zxhKxl9C11QsAK/RRoIutAsHawVrYplZNf7IqpB+mi3Zu0zBfZ5sFUqMRwemucff+MDHh1RtlpF5946UDA==
   dependencies:
     "@octokit/app" "^13.0.5"
     "@octokit/core" "^4.0.4"
@@ -27141,9 +27141,9 @@ zip-stream@^4.1.0:
     readable-stream "^3.6.0"
 
 zod@^3.11.6, zod@^3.9.5:
-  version "3.17.10"
-  resolved "https://registry.npmjs.org/zod/-/zod-3.17.10.tgz#8716a05e6869df6faaa878a44ffe3c79e615defb"
-  integrity sha512-IHXnQYQuOOOL/XgHhgl8YjNxBHi3xX0mVcHmqsvJgcxKkEczPshoWdxqyFwsARpf41E0v9U95WUROqsHHxt0UQ==
+  version "3.18.0"
+  resolved "https://registry.npmjs.org/zod/-/zod-3.18.0.tgz#2eed58b3cafb8d9a67aa2fee69279702f584f3bc"
+  integrity sha512-gwTm8RfUCe8l9rDwN5r2A17DkAa8Ez4Yl4yXqc5VqeGaXaJahzYYXbTwvhroZi0SNBqTwh/bKm2N0mpCzuw4bA==
 
 zustand@3.6.9:
   version "3.6.9"
