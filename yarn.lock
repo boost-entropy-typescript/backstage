@@ -2768,9 +2768,9 @@
   integrity sha512-91ArYvRgXWb73YvEOBMmOcJc0bDRs5yiVHnqkwoG0f3nm7nZuipllz6e7BvFESBvjkDTBC0zMD8QxedUwNLc1A==
 
 "@google-cloud/storage@^6.0.0":
-  version "6.3.0"
-  resolved "https://registry.npmjs.org/@google-cloud/storage/-/storage-6.3.0.tgz#0a9765416b659f54477da6611d9c12b914c04a61"
-  integrity sha512-Ah4wl9cWUEW+2lAqHsKauaLlPmbtdOdQkvJE6BFwmTSZhywYVtVHLcEpf5F+/GmmNTnirFGNdE7UjgbyOxcnRg==
+  version "6.4.0"
+  resolved "https://registry.npmjs.org/@google-cloud/storage/-/storage-6.4.0.tgz#36413d549859ea325b71328e61dff7a669bc1f2e"
+  integrity sha512-ogNKY8Mv8JmNvSlJv12E6lB2DtcG7pVEI8k9vmH879ja5qqK8WPw0ys5/FG2Dh5AOwxrbDKbnzMVChNQuXtGpg==
   dependencies:
     "@google-cloud/paginator" "^3.0.7"
     "@google-cloud/projectify" "^3.0.0"
@@ -2789,7 +2789,6 @@
     p-limit "^3.0.1"
     pumpify "^2.0.0"
     retry-request "^5.0.0"
-    stream-events "^1.0.4"
     teeny-request "^8.0.0"
     uuid "^8.0.0"
 
@@ -7445,9 +7444,9 @@
     "@types/passport" "*"
 
 "@types/passport@*", "@types/passport@^1.0.3":
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/@types/passport/-/passport-1.0.9.tgz#b32fa8f7485dace77a9b58e82d0c92908f6e8387"
-  integrity sha512-9+ilzUhmZQR4JP49GdC2O4UdDE3POPLwpmaTC/iLkW7l0TZCXOo1zsTnnlXPq6rP1UsUZPfbAV4IUdiwiXyC7g==
+  version "1.0.10"
+  resolved "https://registry.npmjs.org/@types/passport/-/passport-1.0.10.tgz#c518f2bae8b1538b7be71ee7f9220fbd3f569f05"
+  integrity sha512-IZamnXuN7mY+2/v8bAW6nuTcKiay7gXBBcMBZ8n7YHB4u5DwsWoJaNrHdAQ8PZEODRjCv3oHOg76CYJ40j9RqA==
   dependencies:
     "@types/express" "*"
 
@@ -7645,9 +7644,9 @@
   integrity sha512-KQf+QAMWKMrtBMsB8/24w53tEsxllMj6TuA80TT/5igJalLI/zm0L3oXRbIAl4Ohfc85gyHX/jhMwsVkmhLU4A==
 
 "@types/semver@^7.3.8":
-  version "7.3.10"
-  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.10.tgz#5f19ee40cbeff87d916eedc8c2bfe2305d957f73"
-  integrity sha512-zsv3fsC7S84NN6nPK06u79oWgrPVd0NvOyqgghV1haPaFcVxIrP4DLomRwGAXk0ui4HZA7mOcSFL98sMVW9viw==
+  version "7.3.11"
+  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.11.tgz#7a84d3228f34e68d14955fc406f8e66fdbe9e65e"
+  integrity sha512-R9HhjC4aKx3jL0FLwU7x6qMTysTvLh7jesRslXmxgCOXZwyh5dsnmrPQQToMyess8D4U+8G9x9mBFZoC/1o/Tw==
 
 "@types/serve-handler@^6.1.0":
   version "6.1.1"
@@ -24383,7 +24382,7 @@ stream-combiner@~0.0.4:
   dependencies:
     duplexer "~0.1.1"
 
-stream-events@^1.0.4, stream-events@^1.0.5:
+stream-events@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/stream-events/-/stream-events-1.0.5.tgz#bbc898ec4df33a4902d892333d47da9bf1c406d5"
   integrity sha512-E1GUzBSgvct8Jsb3v2X15pjzN1tYebtbLaMg+eBOUOAxgbLoSbT2NS91ckc5lJD1KfLjId+jXJRgo0qnV5Nerg==
@@ -26374,9 +26373,9 @@ webpack-dev-middleware@^5.3.1:
     schema-utils "^4.0.0"
 
 webpack-dev-server@^4.7.3:
-  version "4.9.3"
-  resolved "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.9.3.tgz#2360a5d6d532acb5410a668417ad549ee3b8a3c9"
-  integrity sha512-3qp/eoboZG5/6QgiZ3llN8TUzkSpYg1Ko9khWX1h40MIEUNS2mDoIa8aXsPfskER+GbTvs/IJZ1QTBBhhuetSw==
+  version "4.10.0"
+  resolved "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-4.10.0.tgz#de270d0009eba050546912be90116e7fd740a9ca"
+  integrity sha512-7dezwAs+k6yXVFZ+MaL8VnE+APobiO3zvpp3rBHe/HmWQ+avwh0Q3d0xxacOiBybZZ3syTZw9HXzpa3YNbAZDQ==
   dependencies:
     "@types/bonjour" "^3.5.9"
     "@types/connect-history-api-fallback" "^1.3.5"
