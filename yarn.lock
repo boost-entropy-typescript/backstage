@@ -7678,9 +7678,9 @@
   integrity sha512-KQf+QAMWKMrtBMsB8/24w53tEsxllMj6TuA80TT/5igJalLI/zm0L3oXRbIAl4Ohfc85gyHX/jhMwsVkmhLU4A==
 
 "@types/semver@^7.3.8":
-  version "7.3.11"
-  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.11.tgz#7a84d3228f34e68d14955fc406f8e66fdbe9e65e"
-  integrity sha512-R9HhjC4aKx3jL0FLwU7x6qMTysTvLh7jesRslXmxgCOXZwyh5dsnmrPQQToMyess8D4U+8G9x9mBFZoC/1o/Tw==
+  version "7.3.12"
+  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.12.tgz#920447fdd78d76b19de0438b7f60df3c4a80bf1c"
+  integrity sha512-WwA1MW0++RfXmCr12xeYOOC5baSC9mSb0ZqCquFzKhcoF4TvHu5MKOuXsncgZcpVFhB1pXd5hZmM0ryAoCp12A==
 
 "@types/serve-handler@^6.1.0":
   version "6.1.1"
@@ -9106,9 +9106,9 @@ aws-sdk-mock@^5.2.1:
     traverse "^0.6.6"
 
 aws-sdk@^2.1122.0, aws-sdk@^2.814.0, aws-sdk@^2.840.0, aws-sdk@^2.948.0:
-  version "2.1192.0"
-  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1192.0.tgz#13fe38ec8dae3232f17d52b370e69daa9c7a0e9c"
-  integrity sha512-6uzrlG1Ow3qcOnL0+et+DBTGhYgJzgNydVvos1Eg01vPc/ZhxR7roZ3epZQcPmOR0thQuzzckTq7FBO6wzZA2w==
+  version "2.1193.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1193.0.tgz#34d3ed3ea19a776dafd954183588169c6daa4764"
+  integrity sha512-nSbljBZhxNn+LmENc14md+y1Z+U8BUcS1LLlOxeJvjYAkkGbPf29Bl8FvzbRsZuoxtF6N1Mkel3AI5XIx7mkew==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
