@@ -178,6 +178,7 @@ export function createGithubRepoCreateAction(options: {
 }): TemplateAction<{
   repoUrl: string;
   description?: string | undefined;
+  homepage?: string | undefined;
   access?: string | undefined;
   deleteBranchOnMerge?: boolean | undefined;
   gitAuthorName?: string | undefined;
@@ -303,11 +304,6 @@ export function createPublishBitbucketServerAction(options: {
   token?: string | undefined;
 }>;
 
-// @public @deprecated
-export function createPublishFileAction(): TemplateAction<{
-  path: string;
-}>;
-
 // @public
 export function createPublishGerritAction(options: {
   integrations: ScmIntegrationRegistry;
@@ -343,6 +339,7 @@ export function createPublishGithubAction(options: {
 }): TemplateAction<{
   repoUrl: string;
   description?: string | undefined;
+  homepage?: string | undefined;
   access?: string | undefined;
   defaultBranch?: string | undefined;
   protectDefaultBranch?: boolean | undefined;

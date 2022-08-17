@@ -2661,10 +2661,10 @@
     teeny-request "^8.0.0"
     uuid "^8.0.0"
 
-"@graphiql/react@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.npmjs.org/@graphiql/react/-/react-0.9.0.tgz#8450d3ea6dbf096deb16c9b297ff2ed526e793f4"
-  integrity sha512-JwhHVFS4ZP5lCchaf31NMJ/MVxl//DGrt/WO9XVjtQoL4kkAWMnNOQzZmTAnbEfPwdQUhkMz+xL50Yum3QrIZg==
+"@graphiql/react@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.npmjs.org/@graphiql/react/-/react-0.10.0.tgz#8d888949dc6c9ddebe0817aeba3e2c164bfbb1bb"
+  integrity sha512-8Xo1O6SQps6R+mOozN7Ht85/07RwyXgJcKNeR2dWPkJz/1Lww8wVHIKM/AUpo0Aaoh6Ps3UK9ep8DDRfBT4XrQ==
   dependencies:
     "@graphiql/toolkit" "^0.6.1"
     codemirror "^5.65.3"
@@ -11361,9 +11361,9 @@ cypress-plugin-snapshots@^1.4.4:
     unidiff "1.0.2"
 
 cypress@^10.0.0:
-  version "10.4.0"
-  resolved "https://registry.npmjs.org/cypress/-/cypress-10.4.0.tgz#bb5b3b6588ad49eff172fecf5778cc0da2980e4e"
-  integrity sha512-OM7F8MRE01SHQRVVzunid1ZK1m90XTxYnl+7uZfIrB4CYqUDCrZEeSyCXzIbsS6qcaijVCAhqDL60SxG8N6hew==
+  version "10.6.0"
+  resolved "https://registry.npmjs.org/cypress/-/cypress-10.6.0.tgz#13f46867febf2c3715874ed5dce9c2e946b175fe"
+  integrity sha512-6sOpHjostp8gcLO34p6r/Ci342lBs8S5z9/eb3ZCQ22w2cIhMWGUoGKkosabPBfKcvRS9BE4UxybBtlIs8gTQA==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -14538,11 +14538,11 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@^1.5.12, graphiql@^1.8.8:
-  version "1.11.3"
-  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.11.3.tgz#ed14117c1a9b1d93e66a9e5c23b135ba2bd15a6f"
-  integrity sha512-cvXYU0adFsvCIxbHMTcpi69jR5LZOG6tP00jnoSbgrYvQvGvIDGgRB5Dam+NmubVTqbjiC/SqF8mzh8rZp7AhQ==
+  version "1.11.4"
+  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.11.4.tgz#c84f39dbc7379fef62bc0ff98c9af86bfbce3241"
+  integrity sha512-yPjEPssKp6mo91q2zjSs6WUpiGm37r396OSHnfSVn0bE4jOMBtB2sbjzwe0GVKZeY3MpfZjpK0UFGrS05wb+qw==
   dependencies:
-    "@graphiql/react" "^0.9.0"
+    "@graphiql/react" "^0.10.0"
     "@graphiql/toolkit" "^0.6.1"
     entities "^2.0.0"
     graphql-language-service "^5.0.6"
@@ -16187,9 +16187,9 @@ isomorphic-form-data@^2.0.0:
     form-data "^2.3.2"
 
 isomorphic-git@^1.8.0:
-  version "1.19.1"
-  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.19.1.tgz#99e18db18826b07c40a4c4b32484e917a4c4fd31"
-  integrity sha512-enp69F9dIWtAAB+aEMV83AVDiOoi7zHTMr1kTP2Bzka/PlX0W6C74W2y9b9UToX65oXvipPzhY5An2+F5BXVQw==
+  version "1.19.2"
+  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.19.2.tgz#e8f57443c63a58054f65f42e5cb189a2df31bd0d"
+  integrity sha512-14Tbf3GRFNoXw+fy6ssK7gpDZQxF+NytHmg7p+5L38IAVUafHnfjzJ0ZnEmLz3SAG20wYYyB+HufkRAFRttYxQ==
   dependencies:
     async-lock "^1.1.0"
     clean-git-ref "^2.0.1"
@@ -21700,9 +21700,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 puppeteer@^16.0.0:
-  version "16.1.0"
-  resolved "https://registry.npmjs.org/puppeteer/-/puppeteer-16.1.0.tgz#06a32dc347c94642601017fbf83e1d37379b9651"
-  integrity sha512-lhykJLbH2bbBaP3NfYI2Vj0T4ctrdfVdEVf8glZITPnLfqrJ0nfUzAYuIz5YcA79k5lmFKANIhEXex+jQChU3g==
+  version "16.1.1"
+  resolved "https://registry.npmjs.org/puppeteer/-/puppeteer-16.1.1.tgz#1bb8ec3b86f755c34b913421b81e9cd2cfad3588"
+  integrity sha512-lBneizsNF0zi1/iog9c0ogVnvDHJG4IWpkdIAgE2oiDKhr0MJRV8JeM2xbhUwCwhDJXjjVS2TNCZdLsMp9Ojdg==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.4"
