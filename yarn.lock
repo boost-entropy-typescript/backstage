@@ -5713,19 +5713,19 @@
   resolved "https://registry.npmjs.org/@octokit/webhooks-methods/-/webhooks-methods-3.0.0.tgz#4f4443605233f46abc5f85a857ba105095aa1181"
   integrity sha512-FAIyAchH9JUKXugKMC17ERAXM/56vVJekwXOON46pmUDYfU7uXB4cFY8yc8nYr5ABqVI7KjRKfFt3mZF7OcyUA==
 
-"@octokit/webhooks-types@6.3.4":
-  version "6.3.4"
-  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.4.tgz#b553da7479edfb04218160c85f16dbbc68251533"
-  integrity sha512-9E0HNgHqc5v22+9IzCSEZ9iXnBJ/n+GM9gZye0kp7XmzcOfrnAKZzd4km269n6/vVOkmXwT11DbbQFukWOvbdw==
+"@octokit/webhooks-types@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.5.tgz#e0812abc74d27fd7443f28c0cfc527214bb5ee66"
+  integrity sha512-2QZkDXC3I3TO0mpI/VaqP+aeEvYm//Slkcsve24ezPCNA22HuekBaoEU92HF3WvciFEzWWv0e/E2SMVZcCaBZw==
 
 "@octokit/webhooks@^10.0.0":
-  version "10.1.3"
-  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.3.tgz#415bb4f826167b15da4dede81c14cb7a8978ac9a"
-  integrity sha512-c5uQW0HJbI5mcQpUFcM7LVs1gbdEiHD6OLXZcwxLJeNUmI8Cy9uzfCib6HguARKgnz3tSavYX/teHq7brm05iQ==
+  version "10.1.4"
+  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.4.tgz#c16803312d6102425f464529ff52bccea03ea034"
+  integrity sha512-MVu56s7x9Me4gT/YpR1f2pzWDJNciTMdM3subCA5H8qZcvqInIdnssaxwLp1ep/JbeFhvkYWNHfPeLtwdGg3rQ==
   dependencies:
     "@octokit/request-error" "^3.0.0"
     "@octokit/webhooks-methods" "^3.0.0"
-    "@octokit/webhooks-types" "6.3.4"
+    "@octokit/webhooks-types" "6.3.5"
     aggregate-error "^3.1.0"
 
 "@open-draft/until@^1.0.3":
@@ -7144,9 +7144,9 @@
   integrity sha512-Lx+EZoJxUKw4dp8uei9XiUVNlgkYmax5+ovqt6Xf3LzJOnWhlfJw/jLBmqfGVwOP/pDr4HT8bI1WtxK0IChMLw==
 
 "@types/marked@^4.0.0":
-  version "4.0.4"
-  resolved "https://registry.npmjs.org/@types/marked/-/marked-4.0.4.tgz#70ca970a59b7b29be47198161dee695dc515dbb2"
-  integrity sha512-5Yns/jBU+kxoWtTYsSqO0uWw5DGEVuIW10TdnChjzfbOsb4kjku95WB7oJr+ZbWh7dkrNDObFUfbX4KMlBeCGw==
+  version "4.0.5"
+  resolved "https://registry.npmjs.org/@types/marked/-/marked-4.0.5.tgz#3e900fa331a9b1a98f7a8a50f0f39b4bf2b6469f"
+  integrity sha512-jMN2moJ+lSf1VZXQo3VXeMCjoXuciVONig8+U0YNBop5aBvQw4qkolx1Nzn1i0T8L2l9IZ3jju6bS1pPwlaY1w==
 
 "@types/mdast@^3.0.0", "@types/mdast@^3.0.3":
   version "3.0.10"
@@ -14538,9 +14538,9 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@^1.5.12, graphiql@^1.8.8:
-  version "1.11.4"
-  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.11.4.tgz#c84f39dbc7379fef62bc0ff98c9af86bfbce3241"
-  integrity sha512-yPjEPssKp6mo91q2zjSs6WUpiGm37r396OSHnfSVn0bE4jOMBtB2sbjzwe0GVKZeY3MpfZjpK0UFGrS05wb+qw==
+  version "1.11.5"
+  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.11.5.tgz#daf0de27b704f17c9d87ce56eea0fdcd7a370269"
+  integrity sha512-NI92XdSVwXTsqzJc6ykaAkKVMeC8IRRp3XzkxVQwtqDsZlVKtR2ZnssXNYt05TMGbi1ehoipn9tFywVohOlHjg==
   dependencies:
     "@graphiql/react" "^0.10.0"
     "@graphiql/toolkit" "^0.6.1"
