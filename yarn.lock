@@ -5713,19 +5713,19 @@
   resolved "https://registry.npmjs.org/@octokit/webhooks-methods/-/webhooks-methods-3.0.0.tgz#4f4443605233f46abc5f85a857ba105095aa1181"
   integrity sha512-FAIyAchH9JUKXugKMC17ERAXM/56vVJekwXOON46pmUDYfU7uXB4cFY8yc8nYr5ABqVI7KjRKfFt3mZF7OcyUA==
 
-"@octokit/webhooks-types@6.3.5":
-  version "6.3.5"
-  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.5.tgz#e0812abc74d27fd7443f28c0cfc527214bb5ee66"
-  integrity sha512-2QZkDXC3I3TO0mpI/VaqP+aeEvYm//Slkcsve24ezPCNA22HuekBaoEU92HF3WvciFEzWWv0e/E2SMVZcCaBZw==
+"@octokit/webhooks-types@6.3.6":
+  version "6.3.6"
+  resolved "https://registry.npmjs.org/@octokit/webhooks-types/-/webhooks-types-6.3.6.tgz#b211e42386463175ebc652c86d5c7433675986fc"
+  integrity sha512-x6yBtWobk20OhOiJ4VWsH3iJ/30IG+VoDWSgS4Tiyidi2KOiBS3bL+AJrNuq4OyNuWOM/FbHQTp6KEZs1oPD/g==
 
 "@octokit/webhooks@^10.0.0":
-  version "10.1.4"
-  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.4.tgz#c16803312d6102425f464529ff52bccea03ea034"
-  integrity sha512-MVu56s7x9Me4gT/YpR1f2pzWDJNciTMdM3subCA5H8qZcvqInIdnssaxwLp1ep/JbeFhvkYWNHfPeLtwdGg3rQ==
+  version "10.1.5"
+  resolved "https://registry.npmjs.org/@octokit/webhooks/-/webhooks-10.1.5.tgz#ba79b49ef0047a3cae7885387c5f20d4b341cd41"
+  integrity sha512-sQkxM6l9HdG1vsHFj2T/o8SnCPDDxovcs0rsSd4UR5jJFNPCPIBRmFNVHfM37nncLKuTwIpmMeePphNf1k6Waw==
   dependencies:
     "@octokit/request-error" "^3.0.0"
     "@octokit/webhooks-methods" "^3.0.0"
-    "@octokit/webhooks-types" "6.3.5"
+    "@octokit/webhooks-types" "6.3.6"
     aggregate-error "^3.1.0"
 
 "@open-draft/until@^1.0.3":
@@ -5932,9 +5932,9 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.0.0":
-  version "2.2.4"
-  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.2.4.tgz#7df512d6f55cfccf448cf3abc58364e2544e7fab"
-  integrity sha512-oEJLxZ3L+GnWuVLFmxXNjeRthuJEV7u1EFbLthoW3XfR5vQ5oc81Su/3WF2rO2Atng1QkPpSPa7oXWff2NsJJw==
+  version "2.2.5"
+  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.2.5.tgz#280fb55f6c2378cc8eb32e2acf25a0522a2ef110"
+  integrity sha512-8zK4uw5FhqfOwUF0oOp2cXsh+HQzsmmynN5WsLmir6v5CX6p8LPEZbb9aBDD2Gx2pC/s3776xQO95kCbizeUxg==
   dependencies:
     "@backstage/catalog-model" "^1.0.0"
     "@backstage/core-components" "^0.10.0"
@@ -7119,9 +7119,9 @@
     "@types/node" "*"
 
 "@types/lodash@^4.14.151", "@types/lodash@^4.14.173", "@types/lodash@^4.14.175":
-  version "4.14.183"
-  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.183.tgz#1173e843e858cff5b997c234df2789a4a54c2374"
-  integrity sha512-UXavyuxzXKMqJPEpFPri6Ku5F9af6ZJXUneHhvQJxavrEjuHkFp2YnDWHcxJiG7hk8ZkWqjcyNeW1s/smZv5cw==
+  version "4.14.184"
+  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.184.tgz#23f96cd2a21a28e106dc24d825d4aa966de7a9fe"
+  integrity sha512-RoZphVtHbxPZizt4IcILciSWiC6dcn+eZ8oX9IWEYfDMcocdd42f7NPI6fQj+6zI8y4E0L7gu2pcZKLGTRaV9Q==
 
 "@types/long@^4.0.0", "@types/long@^4.0.1":
   version "4.0.2"
@@ -12254,6 +12254,11 @@ easy-table@1.1.0:
   optionalDependencies:
     wcwidth ">=1.0.1"
 
+ebnf@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/ebnf/-/ebnf-1.9.0.tgz#9c2dd6052f3ed43a69c1f0b07b15bd03cefda764"
+  integrity sha512-LKK899+j758AgPq00ms+y90mo+2P86fMKUWD28sH0zLKUj7aL6iIH2wy4jejAMM9I2BawJ+2kp6C3mMXj+Ii5g==
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -14651,6 +14656,25 @@ grpc-docs@^1.0.6, grpc-docs@^1.1.2:
     rollup-plugin-smart-asset "^2.1.2"
     styled-components "^5.3.3"
 
+gson-conform@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/gson-conform/-/gson-conform-1.0.3.tgz#6f982f98ea84199280bd48b6bfbcd0ae7447f1e2"
+  integrity sha512-gaZQN/5ZbohkLBOs4JKHkg/IdOB9kuuEr5SVLAjHUs+Q+Nl746DRe18GgQy4oxxVXStO//Zga2wg4eWL9Mfshw==
+
+gson-pointer@4.1.1, gson-pointer@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/gson-pointer/-/gson-pointer-4.1.1.tgz#088d6aa38d52753530288d13b5a75b6a43170e9b"
+  integrity sha512-rOS/zCLUI8BT0+/U+p5nzI0RfhIyRmzkpwzyCj8gcLoRl3rHuysk6ci1IQ955AQQZDSNN3mVec26Sx9wRZ0EjA==
+
+gson-query@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/gson-query/-/gson-query-5.1.0.tgz#8f34a062849f8c08be0c35eddaa2ad18a4326a49"
+  integrity sha512-xKb/90XfmLLKGgX8Y7LRF4yKnMR/ckV5WOQ/Ip0pRXuDh7jUhdY1UYjPvQnF7/UMbNsAo0168j2j0yt9+4QdaA==
+  dependencies:
+    ebnf "^1.9.0"
+    gson-conform "^1.0.3"
+    gson-pointer "4.1.1"
+
 gtoken@^6.0.0:
   version "6.0.1"
   resolved "https://registry.npmjs.org/gtoken/-/gtoken-6.0.1.tgz#1276371d51e93c4eface76e3f30f9e8f1cad3f1a"
@@ -16988,6 +17012,17 @@ json-schema-compare@^0.2.2:
   integrity sha512-c4WYmDKyJXhs7WWvAWm3uIYnfyWFoIp+JEoX34rctVvEkMYCPGhXtvmFFXiffBbxfZsvQ0RNnV5H7GvDF5HCqQ==
   dependencies:
     lodash "^4.17.4"
+
+json-schema-library@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.npmjs.org/json-schema-library/-/json-schema-library-6.1.0.tgz#dc811698dcc0364d869dc5dfc509acab8cc63de3"
+  integrity sha512-Ql7sz3sdGyDeyRygbhcPs/iBebarA7PgTa1gLMmx54u64kC1IpCiNar4bgw3c02ReElfZ43d/t5eKX33r1MD2w==
+  dependencies:
+    deepmerge "^4.2.2"
+    fast-deep-equal "^3.1.3"
+    gson-pointer "^4.1.1"
+    gson-query "^5.1.0"
+    valid-url "^1.0.9"
 
 json-schema-merge-allof@^0.6.0:
   version "0.6.0"
@@ -25926,6 +25961,11 @@ v8-to-istanbul@^8.1.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
+valid-url@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz#1c14479b40f1397a75782f115e4086447433a200"
+  integrity sha512-QQDsV8OnSf5Uc30CKSwG9lnhMPe6exHtTXLRYX8uMwKENy640pU+2BgBL0LRbDh/eYRahNCS7aewCx0wf3NYVA==
+
 validate-npm-package-license@^3.0.1, validate-npm-package-license@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -26523,7 +26563,7 @@ write-pkg@^4.0.0:
     type-fest "^0.4.1"
     write-json-file "^3.2.0"
 
-ws@8.8.1, ws@^8.0.0, ws@^8.3.0:
+ws@8.8.1, ws@^8.3.0:
   version "8.8.1"
   resolved "https://registry.npmjs.org/ws/-/ws-8.8.1.tgz#5dbad0feb7ade8ecc99b830c1d77c913d4955ff0"
   integrity sha512-bGy2JzvzkPowEJV++hF07hAD6niYSr0JzBNo/J29WsB57A2r7Wlc1UFcTR9IzrPvuNVO4B8LGqF8qcpsVOhJCA==
