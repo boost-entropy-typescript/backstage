@@ -13144,10 +13144,10 @@ eslint-plugin-import@^2.25.4:
     resolve "^1.22.0"
     tsconfig-paths "^3.14.1"
 
-eslint-plugin-jest@^26.1.2:
-  version "26.9.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-26.9.0.tgz#7931c31000b1c19e57dbfb71bbf71b817d1bf949"
-  integrity sha512-TWJxWGp1J628gxh2KhaH1H1paEdgE2J61BBF1I59c6xWeL5+D1BzMxGDN/nXAfX+aSkR5u80K+XhskK6Gwq9ng==
+eslint-plugin-jest@^27.0.0:
+  version "27.0.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-27.0.1.tgz#3e67ee2051411540988c62075e8788702a1064da"
+  integrity sha512-LosUsrkwVSs/8Z/I8Hqn5vWgTEsHrfIquDEKOsV8/cl+gbFR4tiRCE1AimEotsHjSC0Rx1tYm6vPhw8C3ktmmg==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -13505,8 +13505,8 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
     prop-types "^15.7.2"
     react "^17.0.2"
     react-dom "^17.0.2"
-    react-router "6.0.0-beta.0"
-    react-router-dom "6.0.0-beta.0"
+    react-router "^6.3.0"
+    react-router-dom "^6.3.0"
     react-use "^17.2.4"
     zen-observable "^0.8.15"
 
@@ -16571,9 +16571,9 @@ isomorphic-form-data@^2.0.0:
     form-data "^2.3.2"
 
 isomorphic-git@^1.8.0:
-  version "1.19.2"
-  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.19.2.tgz#e8f57443c63a58054f65f42e5cb189a2df31bd0d"
-  integrity sha512-14Tbf3GRFNoXw+fy6ssK7gpDZQxF+NytHmg7p+5L38IAVUafHnfjzJ0ZnEmLz3SAG20wYYyB+HufkRAFRttYxQ==
+  version "1.19.3"
+  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.19.3.tgz#a59c03bc56e1f7c6dc59ebfe71c465f8e8e4bf17"
+  integrity sha512-s48mkkojyH98CpnXXN78vOV21Gl5s/6xVnwxZhP1TiXRkJsoi1kCqzNxFxyID9gQ0WFAPw0pNHRxqyb4DtJUfg==
   dependencies:
     async-lock "^1.1.0"
     clean-git-ref "^2.0.1"
@@ -22535,7 +22535,14 @@ react-resize-detector@^6.6.3:
     lodash "^4.17.21"
     resize-observer-polyfill "^1.5.1"
 
-react-router-dom@6.0.0-beta.0:
+"react-router-beta@npm:react-router@6.0.0-beta.0", react-router@6.0.0-beta.0:
+  version "6.0.0-beta.0"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.0.0-beta.0.tgz#3e11f39b6ded4412c2fed9e4f989dd4c8156724d"
+  integrity sha512-VgMdfpVcmFQki/LZuLh8E/MNACekDetz4xqft+a6fBZvvJnVqKbLqebF7hyoawGrV1HcO5tVaUang2Og4W2j1Q==
+  dependencies:
+    prop-types "^15.7.2"
+
+"react-router-dom-beta@npm:react-router-dom@6.0.0-beta.0", react-router-dom@6.0.0-beta.0:
   version "6.0.0-beta.0"
   resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.0.0-beta.0.tgz#9dcc8555365f22f7fbd09f26b6b82543f3eb97d6"
   integrity sha512-36yNNGMT8RB9FRPL9nKJi6HKDkgOakU+o/2hHpSzR6e37gN70MpOU6QQlmif4oAWWBwjyGc3ZNOMFCsFuHUY5w==
@@ -22543,17 +22550,18 @@ react-router-dom@6.0.0-beta.0:
     prop-types "^15.7.2"
     react-router "6.0.0-beta.0"
 
-react-router@6.0.0-beta.0:
-  version "6.0.0-beta.0"
-  resolved "https://registry.npmjs.org/react-router/-/react-router-6.0.0-beta.0.tgz#3e11f39b6ded4412c2fed9e4f989dd4c8156724d"
-  integrity sha512-VgMdfpVcmFQki/LZuLh8E/MNACekDetz4xqft+a6fBZvvJnVqKbLqebF7hyoawGrV1HcO5tVaUang2Og4W2j1Q==
+"react-router-dom-stable@npm:react-router-dom@^6.3.0", react-router-dom@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.3.0.tgz#a0216da813454e521905b5fa55e0e5176123f43d"
+  integrity sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==
   dependencies:
-    prop-types "^15.7.2"
+    history "^5.2.0"
+    react-router "6.3.0"
 
-react-router@^6.0.0-beta.0:
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
-  integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+"react-router-stable@npm:react-router@^6.3.0", react-router@6.3.0, react-router@^6.0.0-beta.0, react-router@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.3.0.tgz#3970cc64b4cb4eae0c1ea5203a80334fdd175557"
+  integrity sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==
   dependencies:
     history "^5.2.0"
 
@@ -25198,8 +25206,8 @@ tdigest@^0.1.1:
     history "^5.0.0"
     react "^17.0.2"
     react-dom "^17.0.2"
-    react-router "6.0.0-beta.0"
-    react-router-dom "6.0.0-beta.0"
+    react-router "^6.3.0"
+    react-router-dom "^6.3.0"
     react-use "^17.2.4"
 
 teeny-request@^8.0.0:
