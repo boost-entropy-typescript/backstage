@@ -2846,6 +2846,7 @@ __metadata:
     "@backstage/backend-plugin-api": ^0.1.2-next.0
     "@backstage/backend-tasks": ^0.3.5-next.0
     "@backstage/cli": ^0.19.0-next.1
+    "@backstage/errors": ^1.1.0
     "@backstage/plugin-permission-node": ^0.6.5-next.1
     express: ^4.17.1
     express-promise-router: ^4.1.0
@@ -3055,6 +3056,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/cli-common@workspace:packages/cli-common"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@types/jest": ^26.0.7
     "@types/node": ^16.0.0
   languageName: unknown
@@ -3203,6 +3205,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/codemods@workspace:packages/codemods"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/cli-common": ^0.1.9
     "@types/jscodeshift": ^0.11.0
     "@types/node": ^16.11.26
@@ -3220,6 +3223,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/config-loader@workspace:packages/config-loader"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/cli-common": ^0.1.9
     "@backstage/config": ^1.0.1
     "@backstage/errors": ^1.1.0
@@ -3249,6 +3253,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/config@workspace:packages/config"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/test-utils": ^1.2.0-next.1
     "@backstage/types": ^1.0.0
     "@types/jest": ^26.0.7
@@ -3468,6 +3473,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/create-app@workspace:packages/create-app"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/cli-common": ^0.1.9
     "@types/fs-extra": ^9.0.1
     "@types/inquirer": ^8.1.3
@@ -4806,6 +4812,7 @@ __metadata:
   resolution: "@backstage/plugin-cicd-statistics@workspace:plugins/cicd-statistics"
   dependencies:
     "@backstage/catalog-model": ^1.1.0
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/core-plugin-api": ^1.0.6-next.1
     "@backstage/plugin-catalog-react": ^1.1.4-next.1
     "@date-io/luxon": ^1.3.13
@@ -6375,6 +6382,7 @@ __metadata:
   resolution: "@backstage/plugin-scaffolder-backend-module-yeoman@workspace:plugins/scaffolder-backend-module-yeoman"
   dependencies:
     "@backstage/backend-common": ^0.15.1-next.0
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/config": ^1.0.1
     "@backstage/plugin-scaffolder-backend": ^1.6.0-next.0
     "@backstage/types": ^1.0.0
@@ -6635,6 +6643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-search-react@workspace:plugins/search-react"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/core-app-api": ^1.1.0-next.1
     "@backstage/core-components": ^0.11.1-next.1
     "@backstage/core-plugin-api": ^1.0.6-next.1
@@ -6855,6 +6864,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-stack-overflow-backend@workspace:plugins/stack-overflow-backend"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/config": ^1.0.1
     "@backstage/plugin-search-common": ^1.0.1-next.0
     node-fetch: ^2.6.7
@@ -7208,6 +7218,7 @@ __metadata:
   resolution: "@backstage/plugin-techdocs-react@workspace:plugins/techdocs-react"
   dependencies:
     "@backstage/catalog-model": ^1.1.0
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/config": ^1.0.1
     "@backstage/core-components": ^0.11.1-next.1
     "@backstage/core-plugin-api": ^1.0.6-next.1
@@ -7458,6 +7469,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/release-manifests@workspace:packages/release-manifests"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/test-utils": ^1.2.0-next.1
     "@types/jest": ^26.0.7
     "@types/node": ^16.0.0
@@ -13127,126 +13139,126 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm-eabi@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-android-arm-eabi@npm:1.2.245"
+"@swc/core-android-arm-eabi@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.122
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm64@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-android-arm64@npm:1.2.245"
+"@swc/core-android-arm64@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-android-arm64@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.130
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-darwin-arm64@npm:1.2.245"
+"@swc/core-darwin-arm64@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-darwin-arm64@npm:1.2.246"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-darwin-x64@npm:1.2.245"
+"@swc/core-darwin-x64@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-darwin-x64@npm:1.2.246"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-freebsd-x64@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-freebsd-x64@npm:1.2.245"
+"@swc/core-freebsd-x64@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-freebsd-x64@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.130
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.245"
+"@swc/core-linux-arm-gnueabihf@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.130
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.245"
+"@swc/core-linux-arm64-gnu@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.246"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-linux-arm64-musl@npm:1.2.245"
+"@swc/core-linux-arm64-musl@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.246"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-linux-x64-gnu@npm:1.2.245"
+"@swc/core-linux-x64-gnu@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.246"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-linux-x64-musl@npm:1.2.245"
+"@swc/core-linux-x64-musl@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.246"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.245"
+"@swc/core-win32-arm64-msvc@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.130
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.245"
+"@swc/core-win32-ia32-msvc@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.246"
   dependencies:
     "@swc/wasm": 1.2.130
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.2.245":
-  version: 1.2.245
-  resolution: "@swc/core-win32-x64-msvc@npm:1.2.245"
+"@swc/core-win32-x64-msvc@npm:1.2.246":
+  version: 1.2.246
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.246"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:^1.2.239":
-  version: 1.2.245
-  resolution: "@swc/core@npm:1.2.245"
+  version: 1.2.246
+  resolution: "@swc/core@npm:1.2.246"
   dependencies:
-    "@swc/core-android-arm-eabi": 1.2.245
-    "@swc/core-android-arm64": 1.2.245
-    "@swc/core-darwin-arm64": 1.2.245
-    "@swc/core-darwin-x64": 1.2.245
-    "@swc/core-freebsd-x64": 1.2.245
-    "@swc/core-linux-arm-gnueabihf": 1.2.245
-    "@swc/core-linux-arm64-gnu": 1.2.245
-    "@swc/core-linux-arm64-musl": 1.2.245
-    "@swc/core-linux-x64-gnu": 1.2.245
-    "@swc/core-linux-x64-musl": 1.2.245
-    "@swc/core-win32-arm64-msvc": 1.2.245
-    "@swc/core-win32-ia32-msvc": 1.2.245
-    "@swc/core-win32-x64-msvc": 1.2.245
+    "@swc/core-android-arm-eabi": 1.2.246
+    "@swc/core-android-arm64": 1.2.246
+    "@swc/core-darwin-arm64": 1.2.246
+    "@swc/core-darwin-x64": 1.2.246
+    "@swc/core-freebsd-x64": 1.2.246
+    "@swc/core-linux-arm-gnueabihf": 1.2.246
+    "@swc/core-linux-arm64-gnu": 1.2.246
+    "@swc/core-linux-arm64-musl": 1.2.246
+    "@swc/core-linux-x64-gnu": 1.2.246
+    "@swc/core-linux-x64-musl": 1.2.246
+    "@swc/core-win32-arm64-msvc": 1.2.246
+    "@swc/core-win32-ia32-msvc": 1.2.246
+    "@swc/core-win32-x64-msvc": 1.2.246
   dependenciesMeta:
     "@swc/core-android-arm-eabi":
       optional: true
@@ -13276,7 +13288,7 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 3f538060e9c6ee08617e8858fca86d759b58fea17c1b294d68eecbd96cc144d3d50fc20ebc86ec2079e9cf76b44c9cd2d67d6230bc05b351ce7c16e2c3ab614f
+  checksum: 499379abebaa35624670757113a9a592b88117a5afe922cf24af4aa804bf3f3636753d230b8d5b0b4c9f2cb902b8bc2db0b468db33b7a1a460eae950f702978b
   languageName: node
   linkType: hard
 
@@ -17029,8 +17041,8 @@ __metadata:
   linkType: hard
 
 "aws-sdk@npm:^2.1122.0, aws-sdk@npm:^2.814.0, aws-sdk@npm:^2.840.0, aws-sdk@npm:^2.948.0":
-  version: 2.1206.0
-  resolution: "aws-sdk@npm:2.1206.0"
+  version: 2.1209.0
+  resolution: "aws-sdk@npm:2.1209.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -17042,7 +17054,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.4.19
-  checksum: c565bfd4bdfdedb486540e8681b3cf4a73bd95b560e4f27bc637fce31d30fb4321686e3def8b3e94a6a3d0384f50396dd74b52b346457b7779aa769c21fd9a59
+  checksum: da4cae7da28b218dfa67398e5a63acb894b1636337e2842f6e0800bad6eb5fc692d0b703dc84f67fdc9f1d59ee9f82f4ccc9d71fe8fb6a49a8292697ab77b92c
   languageName: node
   linkType: hard
 
@@ -21315,6 +21327,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-test@workspace:packages/e2e-test"
   dependencies:
+    "@backstage/cli": ^0.19.0-next.1
     "@backstage/cli-common": ^0.1.9-next.0
     "@backstage/errors": ^1.1.0-next.0
     "@types/fs-extra": ^9.0.1

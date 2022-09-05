@@ -218,6 +218,10 @@ export function registerCommands(program: Command) {
       '--npm-registry <URL>',
       'The package registry to use for new packages',
     )
+    .option(
+      '--baseVersion <version>',
+      'The version to use for any new packages (default: 0.1.0)',
+    )
     .option('--no-private', 'Do not mark new packages as private')
     .action(lazy(() => import('./new/new').then(m => m.default)));
 
@@ -260,10 +264,12 @@ export function registerCommands(program: Command) {
     );
 
   program
-    .command('plugin:diff')
+    .command('plugin:diff', { hidden: true })
     .option('--check', 'Fail if changes are required')
     .option('--yes', 'Apply all changes')
-    .description('Diff an existing plugin with the creation template')
+    .description(
+      'Diff an existing plugin with the creation template [DEPRECATED]',
+    )
     .action(lazy(() => import('./plugin/diff').then(m => m.default)));
 
   // TODO(Rugvip): Deprecate in favor of package variant

@@ -13,7 +13,6 @@ Options:
 
 Commands:
   new [options]
-  plugin:diff [options]
   test
   config:docs [options]
   config:print [options]
@@ -179,6 +178,7 @@ Options:
   --option <name>=<value>
   --scope <scope>
   --npm-registry <URL>
+  --baseVersion <version>
   --no-private
   -h, --help
 ```
@@ -377,17 +377,6 @@ Options:
   --watchAll
   --watchPathIgnorePatterns
   --watchman
-```
-
-### `backstage-cli plugin:diff`
-
-```
-Usage: backstage-cli plugin:diff [options]
-
-Options:
-  --check
-  --yes
-  -h, --help
 ```
 
 ### `backstage-cli repo`
