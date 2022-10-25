@@ -13,19 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import React from 'react';
 import { DateTime } from 'luxon';
 
-import {
-  Box,
-  Paper,
-  Typography,
-  CardActionArea,
-  Link,
-} from '@material-ui/core';
+import { Box, Paper, Typography, CardActionArea } from '@material-ui/core';
+import { Link } from '@backstage/core-components';
 import { Assignees } from './Assignees';
 import { CommentsCount } from './CommentsCount';
-
 import Divider from '@material-ui/core/Divider';
 
 type IssueCardProps = {
@@ -64,10 +59,7 @@ export const IssueCard = (props: IssueCardProps) => {
         <CardActionArea href={url} target="_blank">
           <Box padding={1}>
             <Box display="flex" justifyContent="space-between">
-              <Link
-                href={`https://github.com/${repositoryName}/issues`}
-                target="_blank"
-              >
+              <Link to={`https://github.com/${repositoryName}/issues`}>
                 {repositoryName}
               </Link>
               <Assignees name={assigneeName} avatar={assigneeAvatar} />
