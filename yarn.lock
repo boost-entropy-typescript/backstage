@@ -1290,7 +1290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azure/identity@npm:^2.0.1, @azure/identity@npm:^2.0.4, @azure/identity@npm:^2.1.0":
+"@azure/identity@npm:^2.0.4, @azure/identity@npm:^2.1.0":
   version: 2.1.0
   resolution: "@azure/identity@npm:2.1.0"
   dependencies:
@@ -7598,7 +7598,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-techdocs-node@workspace:plugins/techdocs-node"
   dependencies:
-    "@azure/identity": ^2.0.1
+    "@azure/identity": ^2.1.0
     "@azure/storage-blob": ^12.5.0
     "@backstage/backend-common": "workspace:^"
     "@backstage/catalog-model": "workspace:^"
@@ -31163,11 +31163,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^2.2.1, prettier@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "prettier@npm:2.7.1"
+  version: 2.8.0
+  resolution: "prettier@npm:2.8.0"
   bin:
     prettier: bin-prettier.js
-  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  checksum: 72004ce0cc9bb097daf3e3833f62495768724392c1d5b178dd47372337616e9e50ecbb0804f236596223f7b5eb1bbe69cefc8957dca21112c5777e77ef73a564
   languageName: node
   linkType: hard
 
@@ -37971,8 +37971,8 @@ __metadata:
   linkType: hard
 
 "yeoman-environment@npm:^3.9.1":
-  version: 3.10.0
-  resolution: "yeoman-environment@npm:3.10.0"
+  version: 3.12.1
+  resolution: "yeoman-environment@npm:3.12.1"
   dependencies:
     "@npmcli/arborist": ^4.0.4
     are-we-there-yet: ^2.0.0
@@ -38015,7 +38015,7 @@ __metadata:
     mem-fs-editor: ^8.1.2 || ^9.0.0
   bin:
     yoe: cli/index.js
-  checksum: 2ab844358d148889285fc9cd68b9eb6660af4721033c86f833ad60a0028bbe8b5c637fa290a1c29f54c4957df53e6c5cd05692c6e25e7d88c9442c9a5f9775dc
+  checksum: 71e777fcfa4baf26f9848265292447d7283f4bcb0e6b781018c8f8610c47c430e5a331eb0da03491621a7bcdd6ed40a2854c664a4f9f1ceb9ee111def37f52d1
   languageName: node
   linkType: hard
 
@@ -38129,11 +38129,11 @@ __metadata:
   linkType: hard
 
 "zod-to-json-schema@npm:^3.18.1":
-  version: 3.18.1
-  resolution: "zod-to-json-schema@npm:3.18.1"
+  version: 3.19.1
+  resolution: "zod-to-json-schema@npm:3.19.1"
   peerDependencies:
-    zod: ^3.18.0
-  checksum: e55d0de83b50fbd1caa7541d037858815964477b52a9e6495496e447107386cf16e2c08b007fcfbffd7fbe069ca2c19018425a53eaee36aff5dda942d3db71f4
+    zod: ^3.19.0
+  checksum: 22c07668e3c28c9d7c9bd3ad04a354ea017b6fc8b4df77ed29d11e42c4c03181612319db374932a1f8b5c37ef861157938dced9d848cad5281ee1540a156995c
   languageName: node
   linkType: hard
 
