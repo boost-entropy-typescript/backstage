@@ -25614,9 +25614,9 @@ __metadata:
   linkType: hard
 
 "jose@npm:^4.10.0, jose@npm:^4.6.0":
-  version: 4.11.0
-  resolution: "jose@npm:4.11.0"
-  checksum: 8d81e978e0da306911b61b1de1e2d78bd4903b4aa68a4b338b7c89c41edc3d56aea4d5ef4784a078a630dd6aa81f6328901ae3ce215f33b90d51ee8ebf4c9dbd
+  version: 4.11.1
+  resolution: "jose@npm:4.11.1"
+  checksum: cd15cba258d0fd20f6168631ce2e94fda8442df80e43c1033c523915cecdf390a1cc8efe0eab0c2d65935ca973d791c668aea80724d2aa9c2879d4e70f3081d7
   languageName: node
   linkType: hard
 
@@ -28235,13 +28235,13 @@ __metadata:
   linkType: hard
 
 "mini-css-extract-plugin@npm:^2.4.2":
-  version: 2.6.1
-  resolution: "mini-css-extract-plugin@npm:2.6.1"
+  version: 2.7.0
+  resolution: "mini-css-extract-plugin@npm:2.7.0"
   dependencies:
     schema-utils: ^4.0.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: df60840404878c4832b4104799fd29c5a89b06b1e377956c8d4a5729efe0ef301a52e5087d6f383871df5e69a8445922a0ae635c11abf412d7645a7096d0e973
+  checksum: e6b111d4289132bd496286eec42801c74c83af7eac71af630a5babae48ca65377f47d8b39e1f0653b449e68e67b57dbd0d36917242f08fc3e7770e70c0cb56cd
   languageName: node
   linkType: hard
 
@@ -35108,8 +35108,8 @@ __metadata:
   linkType: hard
 
 "sucrase@npm:^3.18.0, sucrase@npm:^3.20.2":
-  version: 3.28.0
-  resolution: "sucrase@npm:3.28.0"
+  version: 3.29.0
+  resolution: "sucrase@npm:3.29.0"
   dependencies:
     commander: ^4.0.0
     glob: 7.1.6
@@ -35120,7 +35120,7 @@ __metadata:
   bin:
     sucrase: bin/sucrase
     sucrase-node: bin/sucrase-node
-  checksum: 6a2369c140cee674988ebcf83538f38b11270e47ebaffc811baabe1db3fc586f1a357d4bbc66388a6b99054ba06a08f31b44b764e777abbd457b9e29332b12d0
+  checksum: fc8f04c34f29c0e9ca63109815df138182d62663dbe9565fcd94161b77a88a639f40c46559d0bb84d7acf9346ce23ea102476fd9168ec279330c7faecefb81eb
   languageName: node
   linkType: hard
 
