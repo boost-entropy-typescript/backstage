@@ -13,12 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { jsonSchemaRefPlaceholderResolver } from './jsonSchemaRefPlaceholderResolver';
 
-export { OpenApiRefProcessor } from './OpenApiRefProcessor';
-export { jsonSchemaRefPlaceholderResolver } from './jsonSchemaRefPlaceholderResolver';
+import React, { PropsWithChildren } from 'react';
+import { createPlugin, PluginProvider } from '@backstage/core-plugin-api';
+
 /**
- * @public
- * @deprecated replaced by jsonSchemaRefPlaceholderResolver
+ * Mock for PluginProvider to use in unit tests
+ * @alpha
  */
-export const openApiPlaceholderResolver = jsonSchemaRefPlaceholderResolver;
+export const MockPluginProvider = ({ children }: PropsWithChildren<{}>) => {
+  type TestInputPluginOptions = {};
+  type TestPluginOptions = {};
+  const plugin = createPlugin({
+    id: 'my-plugin',
+    __experimentalConfigure(_: TestInputPluginOptions): TestPluginOptions {
+      return {};
+    },
+  });
+
+  return <PluginProvider plugin={plugin}>{children}</PluginProvider>;
+};

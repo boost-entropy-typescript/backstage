@@ -13,12 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { jsonSchemaRefPlaceholderResolver } from './jsonSchemaRefPlaceholderResolver';
 
-export { OpenApiRefProcessor } from './OpenApiRefProcessor';
-export { jsonSchemaRefPlaceholderResolver } from './jsonSchemaRefPlaceholderResolver';
-/**
- * @public
- * @deprecated replaced by jsonSchemaRefPlaceholderResolver
- */
-export const openApiPlaceholderResolver = jsonSchemaRefPlaceholderResolver;
+import { usePluginOptions } from '@backstage/core-plugin-api';
+
+export type CostInsightsPluginOptions = {
+  hideTrendLine?: boolean;
+};
+
+/** @ignore */
+export type CostInsightsInputPluginOptions = {
+  hideTrendLine?: boolean;
+};
+
+export const useCostInsightsOptions = () =>
+  usePluginOptions<CostInsightsPluginOptions>();
