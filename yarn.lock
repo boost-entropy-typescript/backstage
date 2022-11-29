@@ -3436,7 +3436,6 @@ __metadata:
     morgan: ^1.10.0
     msw: ^0.49.0
     mysql2: ^2.2.5
-    node-abort-controller: ^3.0.1
     node-fetch: ^2.6.7
     node-forge: ^1.3.1
     raw-body: ^2.4.1
@@ -3500,7 +3499,6 @@ __metadata:
     knex: ^2.0.0
     lodash: ^4.17.21
     luxon: ^3.0.0
-    node-abort-controller: ^3.0.1
     uuid: ^8.0.0
     wait-for-expect: ^3.0.2
     winston: ^3.2.1
@@ -3826,7 +3824,7 @@ __metadata:
     react-router-dom-stable: "npm:react-router-dom@^6.3.0"
     react-router-stable: "npm:react-router@^6.3.0"
     react-use: ^17.2.4
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
     zod: ^3.11.6
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
@@ -3998,7 +3996,7 @@ __metadata:
     react-virtualized-auto-sizer: ^1.0.6
     react-window: ^1.8.6
     remark-gfm: ^3.0.1
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
     zod: ^3.11.6
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
@@ -4048,7 +4046,7 @@ __metadata:
     history: ^5.0.0
     msw: ^0.49.0
     prop-types: ^15.7.2
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -4103,7 +4101,7 @@ __metadata:
     "@testing-library/user-event": ^14.0.0
     "@types/node": ^16.0.0
     react-use: ^17.2.4
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -5460,7 +5458,7 @@ __metadata:
     react-test-renderer: ^16.13.1
     react-use: ^17.2.4
     yaml: ^2.0.0
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -5501,7 +5499,7 @@ __metadata:
     pluralize: ^8.0.0
     react-helmet: 6.1.0
     react-use: ^17.2.4
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -5769,7 +5767,7 @@ __metadata:
     jsonschema: ^1.2.6
     msw: ^0.49.0
     react-use: ^17.2.4
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
   languageName: unknown
@@ -5988,6 +5986,36 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/plugin-explore-backend@workspace:^, @backstage/plugin-explore-backend@workspace:plugins/explore-backend":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-explore-backend@workspace:plugins/explore-backend"
+  dependencies:
+    "@backstage/backend-common": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/plugin-explore-common": "workspace:^"
+    "@backstage/plugin-search-common": "workspace:^"
+    "@types/express": "*"
+    "@types/supertest": ^2.0.8
+    express: ^4.18.1
+    express-promise-router: ^4.1.0
+    lodash: ^4.17.21
+    msw: ^0.47.0
+    node-fetch: ^2.6.7
+    supertest: ^6.2.4
+    winston: ^3.2.1
+    yn: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
+"@backstage/plugin-explore-common@workspace:^, @backstage/plugin-explore-common@workspace:plugins/explore-common":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-explore-common@workspace:plugins/explore-common"
+  dependencies:
+    "@backstage/cli": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "@backstage/plugin-explore-react@workspace:^, @backstage/plugin-explore-react@workspace:plugins/explore-react":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-explore-react@workspace:plugins/explore-react"
@@ -5995,6 +6023,7 @@ __metadata:
     "@backstage/cli": "workspace:^"
     "@backstage/core-plugin-api": "workspace:^"
     "@backstage/dev-utils": "workspace:^"
+    "@backstage/plugin-explore-common": "workspace:^"
     "@backstage/test-utils": "workspace:^"
     "@testing-library/jest-dom": ^5.10.1
     "@testing-library/react": ^12.1.3
@@ -6015,9 +6044,13 @@ __metadata:
     "@backstage/core-components": "workspace:^"
     "@backstage/core-plugin-api": "workspace:^"
     "@backstage/dev-utils": "workspace:^"
+    "@backstage/errors": "workspace:^"
     "@backstage/plugin-catalog": "workspace:^"
     "@backstage/plugin-catalog-react": "workspace:^"
+    "@backstage/plugin-explore-common": "workspace:^"
     "@backstage/plugin-explore-react": "workspace:^"
+    "@backstage/plugin-search-common": "workspace:^"
+    "@backstage/plugin-search-react": "workspace:^"
     "@backstage/test-utils": "workspace:^"
     "@backstage/theme": "workspace:^"
     "@material-ui/core": ^4.12.2
@@ -7383,7 +7416,7 @@ __metadata:
     vm2: ^3.9.11
     winston: ^3.2.1
     yaml: ^2.0.0
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
     zod: ^3.11.6
   languageName: unknown
   linkType: soft
@@ -7457,7 +7490,7 @@ __metadata:
     react-use: ^17.2.4
     use-immer: ^0.7.0
     yaml: ^2.0.0
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
     zod: ^3.11.6
     zod-to-json-schema: ^3.18.1
   peerDependencies:
@@ -7522,7 +7555,6 @@ __metadata:
     lodash: ^4.17.21
     lunr: ^2.3.9
     ndjson: ^2.0.0
-    node-abort-controller: ^3.0.1
     uuid: ^8.3.2
     winston: ^3.2.1
   languageName: unknown
@@ -7704,7 +7736,7 @@ __metadata:
     react-hook-form: ^7.12.2
     react-use: ^17.2.4
     uuid: ^8.3.2
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
     react-router: 6.0.0-beta.0 || ^6.3.0
@@ -8326,7 +8358,7 @@ __metadata:
     cross-fetch: ^3.1.5
     msw: ^0.49.0
     react-use: ^17.2.4
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
     react-router: 6.0.0-beta.0 || ^6.3.0
@@ -8471,7 +8503,7 @@ __metadata:
     "@types/node": ^16.11.26
     cross-fetch: ^3.1.5
     msw: ^0.49.0
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -8504,11 +8536,21 @@ __metadata:
     "@backstage/cli": "workspace:^"
     "@types/zen-observable": ^0.8.0
     luxon: ^3.0.0
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   languageName: unknown
   linkType: soft
 
-"@backstage/version-bridge@^1.0.1, @backstage/version-bridge@^1.0.2, @backstage/version-bridge@workspace:^, @backstage/version-bridge@workspace:packages/version-bridge":
+"@backstage/version-bridge@npm:^1.0.1, @backstage/version-bridge@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@backstage/version-bridge@npm:1.0.2"
+  peerDependencies:
+    "@types/react": ^16.13.1 || ^17.0.0
+    react: ^16.13.1 || ^17.0.0
+  checksum: b45cbf5340afb7896d6baa2a650ee21e9a63743ee589d07a30139a6e035e7e5f996a5b9fa08f5db2ccdd95db288c4b4e73b17e419f7569e061065fd362f38e75
+  languageName: node
+  linkType: hard
+
+"@backstage/version-bridge@workspace:^, @backstage/version-bridge@workspace:packages/version-bridge":
   version: 0.0.0-use.local
   resolution: "@backstage/version-bridge@workspace:packages/version-bridge"
   dependencies:
@@ -15274,12 +15316,12 @@ __metadata:
   linkType: hard
 
 "@typescript-eslint/eslint-plugin@npm:^5.9.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:5.44.0"
+  version: 5.45.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.44.0
-    "@typescript-eslint/type-utils": 5.44.0
-    "@typescript-eslint/utils": 5.44.0
+    "@typescript-eslint/scope-manager": 5.45.0
+    "@typescript-eslint/type-utils": 5.45.0
+    "@typescript-eslint/utils": 5.45.0
     debug: ^4.3.4
     ignore: ^5.2.0
     natural-compare-lite: ^1.4.0
@@ -15292,7 +15334,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 88784e77e8e35ea50ca9c49d46df94cabc3447f4b332f3ca53974d3b5370cb5dcd85cc9ee0e317b91083812012369209574725dcfc3b2b4056b60371b68ca854
+  checksum: 7cff671a9ba33afa86f0ece6d0ebaeb5fc16596fc659ef230f6f65bfddfef2ffb6434310e3a4444fb852e79e40c85c5e62c559df6ddc9312aac235a18afdd269
   languageName: node
   linkType: hard
 
@@ -15313,29 +15355,29 @@ __metadata:
   linkType: hard
 
 "@typescript-eslint/parser@npm:^5.9.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/parser@npm:5.44.0"
+  version: 5.45.0
+  resolution: "@typescript-eslint/parser@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.44.0
-    "@typescript-eslint/types": 5.44.0
-    "@typescript-eslint/typescript-estree": 5.44.0
+    "@typescript-eslint/scope-manager": 5.45.0
+    "@typescript-eslint/types": 5.45.0
+    "@typescript-eslint/typescript-estree": 5.45.0
     debug: ^4.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2d09a1a1547a7ae3f76c9a33a54e11d79a194fbb9dbae69988e7aed3370bdf12bafde669211152769d89db822e0cdee4173affc126664fa6f17abba56daa7261
+  checksum: b8ce3af72de3ff22bb206c3299e728d37a836dbe1f75bcb66ad3bb7962204174b7fff834992b84f0e661de507729c01c7ad71ad2707c217cccc3c0f798a9dc23
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:5.44.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/scope-manager@npm:5.44.0"
+"@typescript-eslint/scope-manager@npm:5.45.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/types": 5.44.0
-    "@typescript-eslint/visitor-keys": 5.44.0
-  checksum: 4cfe4b55eb428eda740e6b967e3a87f3e1f9c4bbd8e1d6b8d64a11666abe33ffe7a21e4e614444ccde2da6930fa85f3e0ffca43d6e339943ff7a4fbccb09c8fc
+    "@typescript-eslint/types": 5.45.0
+    "@typescript-eslint/visitor-keys": 5.45.0
+  checksum: 8f686be8ee0c7ac49ee2a313570cddf86a1364b1ec129f50f8a531038a3bb241429734dc5e2c4e5dd76cc3ed149628aa3e8425cc092f37ca6885b1995c99c2d1
   languageName: node
   linkType: hard
 
@@ -15349,12 +15391,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:5.44.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/type-utils@npm:5.44.0"
+"@typescript-eslint/type-utils@npm:5.45.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/type-utils@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/typescript-estree": 5.44.0
-    "@typescript-eslint/utils": 5.44.0
+    "@typescript-eslint/typescript-estree": 5.45.0
+    "@typescript-eslint/utils": 5.45.0
     debug: ^4.3.4
     tsutils: ^3.21.0
   peerDependencies:
@@ -15362,14 +15404,14 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 4c7b594f8afa52d57d0512951a874fa390eb791dcefcd0e1efff8817872293b2e4e04eff3c54d1595c1720a34d5fd315729af4e459882033d13cb6069ae9d28f
+  checksum: be96c89b91116b8fbed160631f3cdd345d47e34248a38e8a730fa9e09a4aa21184259414547d3c7a741b83fa68d4a14f77e9fc93b84aba4752f67bd5a772bf27
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:5.44.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/types@npm:5.44.0"
-  checksum: ced7d32abecfc62ccb67cf27e30c0785b9c153ec7b1a05153ced58fa5a2031ab3845bc2e477b83e4cebdcc5881c5845d23053c6739c62549d41ae6208e547e85
+"@typescript-eslint/types@npm:5.45.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/types@npm:5.45.0"
+  checksum: 43d533622995f002221e439ea517aa07dbce2067cc880a6eb9d26307c505b746975f334d76b35501a2f4dd06d7aaf79964d86ce5a95e76a4f309d6e54faf5213
   languageName: node
   linkType: hard
 
@@ -15380,12 +15422,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.44.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/typescript-estree@npm:5.44.0"
+"@typescript-eslint/typescript-estree@npm:5.45.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/types": 5.44.0
-    "@typescript-eslint/visitor-keys": 5.44.0
+    "@typescript-eslint/types": 5.45.0
+    "@typescript-eslint/visitor-keys": 5.45.0
     debug: ^4.3.4
     globby: ^11.1.0
     is-glob: ^4.0.3
@@ -15394,7 +15436,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 758731108497cca7ff81cf0a78d086b5a85757a983979d6bb25ad8252b7acbc738c642ecb5f5df82f925a45926b9846e431d5cf9fee5ed2613300b4d0c5d6c3f
+  checksum: 8f48b3c75c155491ee49436c470e491f9fe48e6e7c95190c4d0c0ab64ce24e8bc6715de86996baf57fc9f0c6dae986ce9ae075e656664489bfa1dc706eaafcd7
   languageName: node
   linkType: hard
 
@@ -15416,31 +15458,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.44.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.13.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/utils@npm:5.44.0"
+"@typescript-eslint/utils@npm:5.45.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.13.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/utils@npm:5.45.0"
   dependencies:
     "@types/json-schema": ^7.0.9
     "@types/semver": ^7.3.12
-    "@typescript-eslint/scope-manager": 5.44.0
-    "@typescript-eslint/types": 5.44.0
-    "@typescript-eslint/typescript-estree": 5.44.0
+    "@typescript-eslint/scope-manager": 5.45.0
+    "@typescript-eslint/types": 5.45.0
+    "@typescript-eslint/typescript-estree": 5.45.0
     eslint-scope: ^5.1.1
     eslint-utils: ^3.0.0
     semver: ^7.3.7
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: bc5bb28e41898464d35b8eb47cc452103852541e3b6be56252c15a5a81c45e10aad3db4c749eb92d752b0c358df8074e23ec6f9e65f8089baadeda7f395c7e31
+  checksum: 33a383881efb6c6e0ecd32f74810ca18bb5e85d4839f607409047d6e3d64a98b3cd1e811d027638d051b3741981de50a652c3abe0fcbb70fac80d7d93cd3e36f
   languageName: node
   linkType: hard
 
-"@typescript-eslint/visitor-keys@npm:5.44.0":
-  version: 5.44.0
-  resolution: "@typescript-eslint/visitor-keys@npm:5.44.0"
+"@typescript-eslint/visitor-keys@npm:5.45.0":
+  version: 5.45.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.45.0"
   dependencies:
-    "@typescript-eslint/types": 5.44.0
+    "@typescript-eslint/types": 5.45.0
     eslint-visitor-keys: ^3.3.0
-  checksum: a012c888209e1d6ae684b2a44fd460ae5a80f5faf07bca4bda6c9c0d8c063ad3297d4c53f7151ae86cf1a43dee09625dc3ee72183323c91089c7288fd573c6f4
+  checksum: 050cc4275d8a3638a106c2915410710e775382996130a6b2af732269e55cbbc4ed438c8662ddf409635d2d8bd0d8a4389b3980bc2cb38c6105c77c6835222af0
   languageName: node
   linkType: hard
 
@@ -21829,7 +21871,7 @@ __metadata:
     react-router-dom: ^6.3.0
     react-use: ^17.2.4
     start-server-and-test: ^1.10.11
-    zen-observable: ^0.9.0
+    zen-observable: ^0.10.0
   languageName: unknown
   linkType: soft
 
@@ -21867,6 +21909,7 @@ __metadata:
     "@backstage/plugin-code-coverage-backend": "workspace:^"
     "@backstage/plugin-events-backend": "workspace:^"
     "@backstage/plugin-events-node": "workspace:^"
+    "@backstage/plugin-explore-backend": "workspace:^"
     "@backstage/plugin-graphql-backend": "workspace:^"
     "@backstage/plugin-jenkins-backend": "workspace:^"
     "@backstage/plugin-kafka-backend": "workspace:^"
@@ -27751,9 +27794,9 @@ __metadata:
   linkType: hard
 
 "luxon@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "luxon@npm:3.1.0"
-  checksum: f8a850b759ba7a2e009d904c522ed7bc264bf4add57578f8948e52a0ed96b627b025b5aad8032295b570ae19fac41f0ffab91bdb128715fb0cc020798a7ba886
+  version: 3.1.1
+  resolution: "luxon@npm:3.1.1"
+  checksum: 388fb35d3c51a19d8b305a3338e7e74634b08562e7d2f9ed5c05a7f4bc9ee1c1ab6a2546b6d9c4c104516b24043757d65f5f3fe3d78b206fbf55a9586ab62230
   languageName: node
   linkType: hard
 
@@ -29052,6 +29095,41 @@ __metadata:
   bin:
     msw: cli/index.js
   checksum: 4802f5568cbaadedd488f03b953523fb5dd7e1b8e48a85f142d7cfd1b8c25241729a0af4a06b9f2be543c18b67475c8777fa4924bdc6f1de19dbe142ea4a8405
+  languageName: node
+  linkType: hard
+
+"msw@npm:^0.47.0":
+  version: 0.47.4
+  resolution: "msw@npm:0.47.4"
+  dependencies:
+    "@mswjs/cookies": ^0.2.2
+    "@mswjs/interceptors": ^0.17.5
+    "@open-draft/until": ^1.0.3
+    "@types/cookie": ^0.4.1
+    "@types/js-levenshtein": ^1.1.1
+    chalk: 4.1.1
+    chokidar: ^3.4.2
+    cookie: ^0.4.2
+    graphql: ^15.0.0 || ^16.0.0
+    headers-polyfill: ^3.1.0
+    inquirer: ^8.2.0
+    is-node-process: ^1.0.1
+    js-levenshtein: ^1.1.6
+    node-fetch: ^2.6.7
+    outvariant: ^1.3.0
+    path-to-regexp: ^6.2.0
+    statuses: ^2.0.0
+    strict-event-emitter: ^0.2.6
+    type-fest: ^2.19.0
+    yargs: ^17.3.1
+  peerDependencies:
+    typescript: ">= 4.2.x <= 4.8.x"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  bin:
+    msw: cli/index.js
+  checksum: 10ff632641d40384d6622abf4df6399e4ae649db0f676b5d1ee2d0a515ec96f33abe9d4fecba08cdba4b2e43255af419da9eefc020d40a7e10669d0906457197
   languageName: node
   linkType: hard
 
@@ -38658,17 +38736,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"zen-observable@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "zen-observable@npm:0.10.0"
+  checksum: cee4e8902fcf4ed49f96937e9bc30b980ad3311b85e94b836c77f787163c98f19c65d2d8ac80990e8ecf4c1497d84821d58580d5ee20015f55516de146e8b7af
+  languageName: node
+  linkType: hard
+
 "zen-observable@npm:^0.8.15":
   version: 0.8.15
   resolution: "zen-observable@npm:0.8.15"
   checksum: b7289084bc1fc74a559b7259faa23d3214b14b538a8843d2b001a35e27147833f4107590b1b44bf5bc7f6dfe6f488660d3a3725f268e09b3925b3476153b7821
-  languageName: node
-  linkType: hard
-
-"zen-observable@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "zen-observable@npm:0.9.0"
-  checksum: d770639f7cb47c89e442b0b87e6955079b9d0f3f7da220f081c3a478ee7b837ee792be4ae8764f2d49fe0afaaa3fbcdc7a88042c3ed471df9ae551de90e82ea2
   languageName: node
   linkType: hard
 
