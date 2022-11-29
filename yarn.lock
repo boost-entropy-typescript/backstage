@@ -8437,6 +8437,7 @@ __metadata:
   resolution: "@backstage/repo-tools@workspace:packages/repo-tools"
   dependencies:
     "@backstage/errors": "workspace:^"
+    "@manypkg/get-packages": ^1.1.3
     "@microsoft/api-documenter": ^7.17.11
     "@microsoft/api-extractor": ^7.23.0
     "@microsoft/api-extractor-model": ^7.17.2
@@ -12095,9 +12096,9 @@ __metadata:
   linkType: hard
 
 "@octokit/webhooks-methods@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@octokit/webhooks-methods@npm:3.0.0"
-  checksum: 3d1fdd051acb1e185160e138794b52b168a94dbd0fb05b1267914bfada199ccd615bc62828453b08edc5037557810319198c2684cfe5eba6267686952a9b644d
+  version: 3.0.1
+  resolution: "@octokit/webhooks-methods@npm:3.0.1"
+  checksum: a65344315175459fcc43d1e8ea20f73aa73f0c47a692e0b02d45dfb8fda7075cf5503ff33654a9b6683d32d7e5737965f1ff40618d21a7c637180ae73bf888a4
   languageName: node
   linkType: hard
 
@@ -13183,18 +13184,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.15.1":
-  version: 4.15.1
-  resolution: "@tanstack/query-core@npm:4.15.1"
-  checksum: ee98e75a3770fd35a6a10b9e7b3c417ea9da2b072481b5191d759182b29fd7bc4e8e340f83e2961b46fe4e1adac356087df04d4661c9459d09ff4d0574f683eb
+"@tanstack/query-core@npm:4.18.0":
+  version: 4.18.0
+  resolution: "@tanstack/query-core@npm:4.18.0"
+  checksum: 2d3f253809e2fc0927bbab25e7a61cf1fa957c993006f219a8dcc615acfe68003629e612c7d914198457d0b1bfd2b6d5738093fc45a82369b1d3beee14395a28
   languageName: node
   linkType: hard
 
 "@tanstack/react-query@npm:^4.1.3":
-  version: 4.16.1
-  resolution: "@tanstack/react-query@npm:4.16.1"
+  version: 4.18.0
+  resolution: "@tanstack/react-query@npm:4.18.0"
   dependencies:
-    "@tanstack/query-core": 4.15.1
+    "@tanstack/query-core": 4.18.0
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -13205,7 +13206,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 2c2d4c5c8bab2cd978ddd42153d33f844bd24a17ebe42f269cc64ee2a031f60f980b441640172885d9fd156fe9abc74ffc800fb68c6b6f6ef4fe48ffadafff79
+  checksum: 2fbb3e664fdc70650dfaaa63e56a1b97dddb50a46f6d3e0a0361c1fe9a0d711c1bb3b0f2e7ba5362269124405eb7a4f232a755b3e901b815d62008ddeedbd889
   languageName: node
   linkType: hard
 
@@ -14685,11 +14686,11 @@ __metadata:
   linkType: hard
 
 "@types/react-helmet@npm:^6.1.0":
-  version: 6.1.5
-  resolution: "@types/react-helmet@npm:6.1.5"
+  version: 6.1.6
+  resolution: "@types/react-helmet@npm:6.1.6"
   dependencies:
     "@types/react": "*"
-  checksum: d059cc084d3b3071cce3421bb1170dd42819cf39b81afe60d4fbd66c5ef9ffeaadf1802df80efd9553258f621678f69ceb5a21d73df0d8539d40ae9a0f995485
+  checksum: 81560c56bfe854b6a43aee31360862588ac875d1177b975da5ce049ac9aa2f7c98dcde65d4397bfaa04e468f40cf3ab2975a2ef966a69d64a60493422898698d
   languageName: node
   linkType: hard
 
@@ -19117,11 +19118,11 @@ __metadata:
   linkType: hard
 
 "cronstrue@npm:^2.2.0":
-  version: 2.19.0
-  resolution: "cronstrue@npm:2.19.0"
+  version: 2.20.0
+  resolution: "cronstrue@npm:2.20.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 8f51c4c5016ed696569aed4fdb91013a499c3ace93cc5385dfe41d15b9fcc5f284d7eb457fdfe2fa4b05a3849f025ba8a3ad22197c40453efb0ef94271b3e843
+  checksum: 31b145cdeca5260fb120b072a9c69a12f722b895fbfea4792829efffd78a85c6e8eef1029a5a2563a12487ff6b06e717d1f117c5f156bf6a1ad7bb1b66d5a9fe
   languageName: node
   linkType: hard
 
