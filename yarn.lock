@@ -3613,7 +3613,7 @@ __metadata:
     "@rollup/plugin-commonjs": ^23.0.0
     "@rollup/plugin-json": ^5.0.0
     "@rollup/plugin-node-resolve": ^13.0.6
-    "@rollup/plugin-yaml": ^3.1.0
+    "@rollup/plugin-yaml": ^4.0.0
     "@spotify/eslint-config-base": ^14.0.0
     "@spotify/eslint-config-react": ^14.0.0
     "@spotify/eslint-config-typescript": ^14.0.0
@@ -12432,10 +12432,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@remix-run/router@npm:1.0.3"
-  checksum: 7e535f3c24bf6b0a48aff3de70ee74e5402fe93105aa9bd01f275d5d8f5a9a8a7cadec08d18cf5544d4f24bc9d7a091abc1c9d4ea8efb2893e9077f104a51459
+"@remix-run/router@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@remix-run/router@npm:1.0.4"
+  checksum: db6b1e111fb6e7e22c3d274bd6cef3054a0a989245894fde5735efd9cb46d18511e528e813ff50bcbdd7eda1c559f4e76e9d0c54396624e33396168d80b09c42
   languageName: node
   linkType: hard
 
@@ -12683,16 +12683,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-yaml@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@rollup/plugin-yaml@npm:3.1.0"
+"@rollup/plugin-yaml@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@rollup/plugin-yaml@npm:4.0.1"
   dependencies:
-    "@rollup/pluginutils": ^3.1.0
-    js-yaml: ^3.14.0
-    tosource: ^1.0.0
+    "@rollup/pluginutils": ^5.0.1
+    js-yaml: ^4.1.0
+    tosource: ^2.0.0-alpha.3
   peerDependencies:
-    rollup: ^1.20.0 || ^2.0.0
-  checksum: be99aa097c480a24e6bedf85de2f8e21e287baf443155e7f2e765c939dda53f63cda674476f170b0397e3c69ce3bc825f0ad4041ac6fe25912480c27423e1b37
+    rollup: ^1.20.0||^2.0.0||^3.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: d48e248a9acd3110c889d745562e03e5a16e5861838c6b6d92701e59c0d4a24af374ee7bd81db0ab8e6d021cdb925c05bd7d30149e4e9a0fce4d899170a78857
   languageName: node
   linkType: hard
 
@@ -13121,90 +13124,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-darwin-arm64@npm:1.3.20"
+"@swc/core-darwin-arm64@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-darwin-arm64@npm:1.3.21"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-darwin-x64@npm:1.3.20"
+"@swc/core-darwin-x64@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-darwin-x64@npm:1.3.21"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.20"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.21"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.20"
+"@swc/core-linux-arm64-gnu@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.21"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.20"
+"@swc/core-linux-arm64-musl@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.21"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.20"
+"@swc/core-linux-x64-gnu@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.21"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.20"
+"@swc/core-linux-x64-musl@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.21"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.20"
+"@swc/core-win32-arm64-msvc@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.21"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.20"
+"@swc/core-win32-ia32-msvc@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.21"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.20":
-  version: 1.3.20
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.20"
+"@swc/core-win32-x64-msvc@npm:1.3.21":
+  version: 1.3.21
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.21"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:^1.3.9":
-  version: 1.3.20
-  resolution: "@swc/core@npm:1.3.20"
+  version: 1.3.21
+  resolution: "@swc/core@npm:1.3.21"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.20
-    "@swc/core-darwin-x64": 1.3.20
-    "@swc/core-linux-arm-gnueabihf": 1.3.20
-    "@swc/core-linux-arm64-gnu": 1.3.20
-    "@swc/core-linux-arm64-musl": 1.3.20
-    "@swc/core-linux-x64-gnu": 1.3.20
-    "@swc/core-linux-x64-musl": 1.3.20
-    "@swc/core-win32-arm64-msvc": 1.3.20
-    "@swc/core-win32-ia32-msvc": 1.3.20
-    "@swc/core-win32-x64-msvc": 1.3.20
+    "@swc/core-darwin-arm64": 1.3.21
+    "@swc/core-darwin-x64": 1.3.21
+    "@swc/core-linux-arm-gnueabihf": 1.3.21
+    "@swc/core-linux-arm64-gnu": 1.3.21
+    "@swc/core-linux-arm64-musl": 1.3.21
+    "@swc/core-linux-x64-gnu": 1.3.21
+    "@swc/core-linux-x64-musl": 1.3.21
+    "@swc/core-win32-arm64-msvc": 1.3.21
+    "@swc/core-win32-ia32-msvc": 1.3.21
+    "@swc/core-win32-x64-msvc": 1.3.21
   dependenciesMeta:
     "@swc/core-darwin-arm64":
       optional: true
@@ -13228,7 +13231,7 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 646c37e3521f04cd08061ab67a4388959e4b234c38eba2eb9fe0fd615dedb6ff9412264789e58af7c2d24b3e5a7ea456efd060e3760d7a91509234b5b5983ad7
+  checksum: c66cd9320c595c68b87c8d90dc9a978099dd25a84c5e9795a8c7fec95fecdd8481da82076a828880a226ad2c0e57155c0a2b97768e99dee042a74182056bda46
   languageName: node
   linkType: hard
 
@@ -26263,7 +26266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.0, js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.0, js-yaml@npm:^3.14.1, js-yaml@npm:^3.6.1, js-yaml@npm:^3.8.3":
+"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.0, js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.1, js-yaml@npm:^3.6.1, js-yaml@npm:^3.8.3":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
   dependencies:
@@ -32702,8 +32705,8 @@ __metadata:
   linkType: hard
 
 "react-markdown@npm:^8.0.0":
-  version: 8.0.3
-  resolution: "react-markdown@npm:8.0.3"
+  version: 8.0.4
+  resolution: "react-markdown@npm:8.0.4"
   dependencies:
     "@types/hast": ^2.0.0
     "@types/prop-types": ^15.0.0
@@ -32723,7 +32726,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">=16"
     react: ">=16"
-  checksum: 66c0b45889d0262168547d9356145ced276993dac1d441c5c1cf2371fe71f347419696f9040c084c7d77c1caced21d358677c38f66edae736f942ac5964c032f
+  checksum: 9feec3734694ef05f450779a1adac10dbb768b8f3adbf4c81f59ca3cea8fd2f6a578fa4c488183597a7418f972715e5d84705cc76f278b55c86d622e82561bf8
   languageName: node
   linkType: hard
 
@@ -32809,15 +32812,15 @@ __metadata:
   linkType: hard
 
 "react-router-dom@npm:^6.3.0":
-  version: 6.4.3
-  resolution: "react-router-dom@npm:6.4.3"
+  version: 6.4.4
+  resolution: "react-router-dom@npm:6.4.4"
   dependencies:
-    "@remix-run/router": 1.0.3
-    react-router: 6.4.3
+    "@remix-run/router": 1.0.4
+    react-router: 6.4.4
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 67a44d8dc45761a1c88793cac73839bb657168ef61b9473eb39b186b4a3ea1472454fd96f8997dc541cb1e79a723d62f9503cbc9179b63b8f1d634ed6d2b079a
+  checksum: 95f31ae84979b404db7483309e1063fbf724046103dc8b7be7e6df79f7b81e4e63dcdb587f11d8be38e3aaf62b71f9e0d83344ef8d8c5e962de7819c793de781
   languageName: node
   linkType: hard
 
@@ -32832,14 +32835,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.4.3, react-router@npm:^6.3.0":
-  version: 6.4.3
-  resolution: "react-router@npm:6.4.3"
+"react-router@npm:6.4.4, react-router@npm:^6.3.0":
+  version: 6.4.4
+  resolution: "react-router@npm:6.4.4"
   dependencies:
-    "@remix-run/router": 1.0.3
+    "@remix-run/router": 1.0.4
   peerDependencies:
     react: ">=16.8"
-  checksum: b89c0495c6837b1457915c08c5acc4eb7a2e9e3fae0420faf9bfc6311ecdfe78627cc1034c0e975bccd9aeeb70d1dcc5021322779dd3053d94c47e37339d77eb
+  checksum: d82cc8b8bdf10e02e07d089f9d82987fa161c2f07583c973126f5f8a052c02b3d2339891ddbda1738f877755a407e2c35f0dc1ac52aaa1d2c853774d19753ea7
   languageName: node
   linkType: hard
 
@@ -36450,10 +36453,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tosource@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "tosource@npm:1.0.0"
-  checksum: 683fc64700484cd749b6eed461c2d105e251df7caf886484ff824bcf1249e365210d65c4f2ca3ced30baa34ea7912c656984e084aaada669920b44e2437c1c05
+"tosource@npm:^2.0.0-alpha.3":
+  version: 2.0.0-alpha.3
+  resolution: "tosource@npm:2.0.0-alpha.3"
+  checksum: bc03a7571de8ed4306e6721283fa891f2adcab9dd80c46f6f177d4259b34bb192fe3a2cb3e1e2ce16f9db0bc7e534acfcb5478ab094b0ba255f98abfce6dab46
   languageName: node
   linkType: hard
 
