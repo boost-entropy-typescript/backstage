@@ -14,28 +14,26 @@
  * limitations under the License.
  */
 
-import { createServiceRef } from '../system/types';
+// @ts-check
 
 /**
- * @public
+ * @param { import("knex").Knex } knex
  */
-export type LogMeta = { [name: string]: unknown };
+exports.up = async function up(knex) {
+  await knex.schema.table('final_entities', table => {
+    table
+      .dateTime('last_updated_at')
+      .nullable()
+      .comment('The time when final_entity changed');
+  });
+};
 
 /**
- * @public
+ * @param { import("knex").Knex } knex
+ * @returns { Promise<void> }
  */
-export interface LoggerService {
-  error(message: string, meta?: Error | LogMeta): void;
-  warn(message: string, meta?: Error | LogMeta): void;
-  info(message: string, meta?: Error | LogMeta): void;
-  debug(message: string, meta?: Error | LogMeta): void;
-
-  child(meta: LogMeta): LoggerService;
-}
-
-/**
- * @public
- */
-export const loggerServiceRef = createServiceRef<LoggerService>({
-  id: 'core.logger',
-});
+exports.down = async function down(knex) {
+  await knex.schema.table('final_entities', table => {
+    table.dropColumn('last_updated_at');
+  });
+};
