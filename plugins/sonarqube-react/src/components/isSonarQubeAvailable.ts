@@ -14,7 +14,11 @@
  * limitations under the License.
  */
 
-export * from './KubernetesBuilder';
-export { DEFAULT_OBJECTS } from './KubernetesFanOutHandler';
-export { HEADER_KUBERNETES_CLUSTER, KubernetesProxy } from './KubernetesProxy';
-export * from './router';
+import { Entity } from '@backstage/catalog-model';
+
+/** @public */
+export const SONARQUBE_PROJECT_KEY_ANNOTATION = 'sonarqube.org/project-key';
+
+/** @public */
+export const isSonarQubeAvailable = (entity: Entity) =>
+  Boolean(entity.metadata.annotations?.[SONARQUBE_PROJECT_KEY_ANNOTATION]);
