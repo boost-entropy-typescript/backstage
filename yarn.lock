@@ -3730,7 +3730,6 @@ __metadata:
     tar: ^6.1.12
     terser-webpack-plugin: ^5.1.3
     ts-node: ^10.0.0
-    type-fest: ^2.0.0
     util: ^0.12.3
     webpack: ^5.70.0
     webpack-dev-server: ^4.7.3
@@ -5478,6 +5477,7 @@ __metadata:
     cross-fetch: ^3.1.5
     jwt-decode: ^3.1.0
     lodash: ^4.17.21
+    material-ui-popup-state: ^1.9.3
     qs: ^6.9.4
     react-test-renderer: ^16.13.1
     react-use: ^17.2.4
@@ -7140,7 +7140,7 @@ __metadata:
     "@testing-library/react": ^12.1.3
     cross-fetch: ^3.1.5
     react-use: ^17.2.4
-    swr: ^1.1.2
+    swr: ^2.0.0
   peerDependencies:
     "@types/react": ^16.13.1 || ^17.0.0
     react: ^16.13.1 || ^17.0.0
@@ -7220,7 +7220,7 @@ __metadata:
     qs: ^6.9.4
     react-hook-form: ^7.13.0
     react-use: ^17.2.4
-    swr: ^1.1.2
+    swr: ^2.0.0
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
@@ -12784,8 +12784,8 @@ __metadata:
   linkType: hard
 
 "@react-hookz/web@npm:^20.0.0":
-  version: 20.0.3
-  resolution: "@react-hookz/web@npm:20.0.3"
+  version: 20.1.0
+  resolution: "@react-hookz/web@npm:20.1.0"
   dependencies:
     "@react-hookz/deep-equal": ^1.0.4
   peerDependencies:
@@ -12795,7 +12795,7 @@ __metadata:
   peerDependenciesMeta:
     js-cookie:
       optional: true
-  checksum: b4942f422fc36c93138b9735ee9ef768214f9f32fca73e4b3d545e490bd043e92f2ee0ce65c0ffc57f7c47a8cec9742e6f80e9e06bf875a805ba606dffa06f3d
+  checksum: bb393f892c2c81deff37d5f18faf8ec17431a24994d72d88ec390dcc1579b27318a7c8c6260070c87b66e8c635e4daec4436c33abf2622f842d1567235ed457d
   languageName: node
   linkType: hard
 
@@ -36493,6 +36493,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"swr@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "swr@npm:2.0.0"
+  dependencies:
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    react: ^16.11.0 || ^17.0.0 || ^18.0.0
+  checksum: 4852d8318ed022a681b40a384e675f65e211104d62075c1250b02f47cc8b739cb9138a954e2191c700e2de22b010b9bd05a113c71b193abe0c351d3c4f4646d8
+  languageName: node
+  linkType: hard
+
 "symbol-observable@npm:1.2.0, symbol-observable@npm:^1.0.4":
   version: 1.2.0
   resolution: "symbol-observable@npm:1.2.0"
@@ -37347,7 +37358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^2.0.0, type-fest@npm:^2.19.0":
+"type-fest@npm:^2.19.0":
   version: 2.19.0
   resolution: "type-fest@npm:2.19.0"
   checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
