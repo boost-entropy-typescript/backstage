@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,20 +14,16 @@
  * limitations under the License.
  */
 
-import {
-  coreServices,
-  createServiceFactory,
-} from '@backstage/backend-plugin-api';
-import { ConfigReader } from '@backstage/config';
-import { JsonObject } from '@backstage/types';
+import { Entity } from '@backstage/catalog-model';
 
-/** @public */
-export const mockConfigFactory = createServiceFactory(
-  (options?: { data?: JsonObject }) => ({
-    service: coreServices.config,
-    deps: {},
-    async factory() {
-      return new ConfigReader(options?.data, 'mock-config');
-    },
-  }),
-);
+/**
+ * Returns true if the given entity has labels annotation given by the
+ * catalog. For use by EntitySwitch
+ *
+ * @public
+ */
+export function hasLabels(entity: Entity) {
+  return entity?.metadata?.labels
+    ? Object.keys(entity?.metadata?.labels).some(Boolean)
+    : false;
+}
