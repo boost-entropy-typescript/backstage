@@ -211,6 +211,14 @@ export function createGithubRepoCreateAction(options: {
         apps?: string[] | undefined;
       }
     | undefined;
+  requiredApprovingReviewCount?: number | undefined;
+  restrictions?:
+    | {
+        users: string[];
+        teams: string[];
+        apps?: string[] | undefined;
+      }
+    | undefined;
   requiredStatusCheckContexts?: string[] | undefined;
   requireBranchesToBeUpToDate?: boolean | undefined;
   requiredConversationResolution?: boolean | undefined;
@@ -236,6 +244,7 @@ export function createGithubRepoCreateAction(options: {
   hasIssues?: boolean | undefined;
   token?: string | undefined;
   topics?: string[] | undefined;
+  requireCommitSigning?: boolean | undefined;
 }>;
 
 // @public
@@ -261,11 +270,20 @@ export function createGithubRepoPushAction(options: {
         apps?: string[];
       }
     | undefined;
+  requiredApprovingReviewCount?: number | undefined;
+  restrictions?:
+    | {
+        users: string[];
+        teams: string[];
+        apps?: string[];
+      }
+    | undefined;
   requiredStatusCheckContexts?: string[] | undefined;
   requireBranchesToBeUpToDate?: boolean | undefined;
   requiredConversationResolution?: boolean | undefined;
   sourcePath?: string | undefined;
   token?: string | undefined;
+  requiredCommitSigning?: boolean | undefined;
 }>;
 
 // @public
@@ -341,6 +359,9 @@ export function createPublishBitbucketServerAction(options: {
   sourcePath?: string | undefined;
   enableLFS?: boolean | undefined;
   token?: string | undefined;
+  gitCommitMessage?: string | undefined;
+  gitAuthorName?: string | undefined;
+  gitAuthorEmail?: string | undefined;
 }>;
 
 // @public
@@ -405,6 +426,14 @@ export function createPublishGithubAction(options: {
         apps?: string[];
       }
     | undefined;
+  requiredApprovingReviewCount?: number | undefined;
+  restrictions?:
+    | {
+        users: string[];
+        teams: string[];
+        apps?: string[];
+      }
+    | undefined;
   requireCodeOwnerReviews?: boolean | undefined;
   dismissStaleReviews?: boolean | undefined;
   requiredStatusCheckContexts?: string[] | undefined;
@@ -432,6 +461,7 @@ export function createPublishGithubAction(options: {
   hasIssues?: boolean | undefined;
   token?: string | undefined;
   topics?: string[] | undefined;
+  requiredCommitSigning?: boolean | undefined;
 }>;
 
 // @public

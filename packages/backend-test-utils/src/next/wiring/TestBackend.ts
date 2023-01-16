@@ -20,7 +20,6 @@ import {
   lifecycleFactory,
   rootLifecycleFactory,
   loggerFactory,
-  rootLoggerFactory,
   cacheFactory,
   permissionsFactory,
   schedulerFactory,
@@ -43,9 +42,11 @@ import {
 } from '@backstage/backend-plugin-api';
 
 import { mockConfigFactory } from '../implementations/mockConfigService';
+import { mockRootLoggerService } from '../implementations/mockRootLoggerService';
 import { mockTokenManagerFactory } from '../implementations/mockTokenManagerService';
 import { ConfigReader } from '@backstage/config';
 import express from 'express';
+import { mockIdentityFactory } from '../implementations/mockIdentityService';
 
 /** @alpha */
 export interface TestBackendOptions<
@@ -89,10 +90,11 @@ const defaultServiceFactories = [
   lifecycleFactory(),
   loggerFactory(),
   mockConfigFactory(),
+  mockRootLoggerService(),
+  mockIdentityFactory(),
   mockTokenManagerFactory(),
   permissionsFactory(),
   rootLifecycleFactory(),
-  rootLoggerFactory(),
   schedulerFactory(),
   urlReaderFactory(),
 ];
@@ -168,7 +170,7 @@ export async function startTestBackend<
           backend: { baseUrl: `http://localhost:${port}`, listen: { port } },
         }),
       );
-      return async () => discovery;
+      return discovery;
     },
   });
 
@@ -179,13 +181,13 @@ export async function startTestBackend<
       const [ref, impl] = serviceDef;
       if (ref.scope === 'plugin') {
         return createServiceFactory({
-          service: ref,
+          service: ref as ServiceRef<unknown, 'plugin'>,
           deps: {},
-          factory: async () => async () => impl,
+          factory: async () => impl,
         })();
       }
       return createServiceFactory({
-        service: ref,
+        service: ref as ServiceRef<unknown, 'root'>,
         deps: {},
         factory: async () => impl,
       })();

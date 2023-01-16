@@ -3381,15 +3381,20 @@ __metadata:
     "@backstage/backend-plugin-api": "workspace:^"
     "@backstage/backend-tasks": "workspace:^"
     "@backstage/cli": "workspace:^"
+    "@backstage/cli-common": "workspace:^"
     "@backstage/config": "workspace:^"
+    "@backstage/config-loader": "workspace:^"
     "@backstage/errors": "workspace:^"
     "@backstage/plugin-auth-node": "workspace:^"
     "@backstage/plugin-permission-node": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@manypkg/get-packages": ^1.1.3
     "@types/compression": ^1.7.0
     "@types/cors": ^2.8.6
     "@types/express": ^4.17.6
     "@types/fs-extra": ^9.0.3
     "@types/http-errors": ^2.0.0
+    "@types/minimist": ^1.2.0
     "@types/morgan": ^1.9.0
     "@types/node-forge": ^1.3.0
     "@types/stoppable": ^1.1.0
@@ -3401,13 +3406,16 @@ __metadata:
     helmet: ^6.0.0
     http-errors: ^2.0.0
     lodash: ^4.17.21
+    logform: ^2.3.2
     minimatch: ^5.0.0
+    minimist: ^1.2.5
     morgan: ^1.10.0
     node-forge: ^1.3.1
     selfsigned: ^2.0.0
     stoppable: ^1.1.0
     supertest: ^6.1.3
     winston: ^3.2.1
+    winston-transport: ^4.5.0
   languageName: unknown
   linkType: soft
 
@@ -3507,6 +3515,7 @@ __metadata:
   dependencies:
     "@backstage/backend-app-api": "workspace:^"
     "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
     "@backstage/cli": "workspace:^"
   languageName: unknown
   linkType: soft
@@ -3559,11 +3568,11 @@ __metadata:
     "@backstage/backend-plugin-api": "workspace:^"
     "@backstage/cli": "workspace:^"
     "@backstage/config": "workspace:^"
+    "@backstage/plugin-auth-node": "workspace:^"
     "@backstage/types": "workspace:^"
     "@types/supertest": ^2.0.8
     better-sqlite3: ^8.0.0
     express: ^4.17.1
-    express-promise-router: ^4.1.0
     knex: ^2.0.0
     msw: ^0.49.0
     mysql2: ^2.2.5
@@ -9997,7 +10006,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/merge@npm:8.3.14, @graphql-tools/merge@npm:^8.2.6":
+"@graphql-tools/merge@npm:8.3.14":
   version: 8.3.14
   resolution: "@graphql-tools/merge@npm:8.3.14"
   dependencies:
@@ -10006,6 +10015,18 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: d77098959a7ecf1346958eb6731f7354fc1155d253aa25169ca48b73053784f3db203ff88ada6a1cdfa9a0b026e55ce02afb83ac61b501223c018e97accf7cdc
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/merge@npm:8.3.15, @graphql-tools/merge@npm:^8.2.6":
+  version: 8.3.15
+  resolution: "@graphql-tools/merge@npm:8.3.15"
+  dependencies:
+    "@graphql-tools/utils": 9.1.4
+    tslib: ^2.4.0
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 7823d3b3a2bb7a661826eb8fce8a4fcb17439224818aa08ca814d7b25324b66b790cf8e7fa083dfa9f41b2213355fb1f0db88d1e7334788347a6d69c8f5555e9
   languageName: node
   linkType: hard
 
@@ -10116,7 +10137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/schema@npm:9.0.12, @graphql-tools/schema@npm:^9.0.0":
+"@graphql-tools/schema@npm:9.0.12":
   version: 9.0.12
   resolution: "@graphql-tools/schema@npm:9.0.12"
   dependencies:
@@ -10141,6 +10162,20 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 0644ba225ff7fb03c6fb7f026b6a77a4ac5dd14fd10bb562ea0072bfe0258620fd4789b851b0b97007db8754d0b7d88a1061bb98bacc679b22e2eb7706e79e0e
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/schema@npm:^9.0.0":
+  version: 9.0.13
+  resolution: "@graphql-tools/schema@npm:9.0.13"
+  dependencies:
+    "@graphql-tools/merge": 8.3.15
+    "@graphql-tools/utils": 9.1.4
+    tslib: ^2.4.0
+    value-or-promise: 1.0.12
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: fa5c5033c79e3ab210207c68bf80729448f0ae0bf071e029a218043d952dec8352b0d4ad467ca789a08e292d60c1ee111d266a2193bd50759c9eb82e8f9ad586
   languageName: node
   linkType: hard
 
@@ -10222,7 +10257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/utils@npm:9.1.3, @graphql-tools/utils@npm:^9.0.0, @graphql-tools/utils@npm:^9.1.1":
+"@graphql-tools/utils@npm:9.1.3":
   version: 9.1.3
   resolution: "@graphql-tools/utils@npm:9.1.3"
   dependencies:
@@ -10230,6 +10265,17 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 3b5acd41ae939e2811f496b1676e6219be61a95f3e502bb3783542a67e7703d7709d4ae87fc9deb7284280aea687fb4b0e596f538d7f1cdf5a8827a2952ee994
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/utils@npm:9.1.4, @graphql-tools/utils@npm:^9.0.0, @graphql-tools/utils@npm:^9.1.1":
+  version: 9.1.4
+  resolution: "@graphql-tools/utils@npm:9.1.4"
+  dependencies:
+    tslib: ^2.4.0
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 467135297a07b21bdd706ca03385354931db85fcf2accc514d69b7415c8cb0fb9e551e4bba0870278eab58bf4de757d354d53c88fd0f55b52d8562dbcba71869
   languageName: node
   linkType: hard
 
@@ -12633,8 +12679,8 @@ __metadata:
   linkType: hard
 
 "@oriflame/backstage-plugin-score-card@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@oriflame/backstage-plugin-score-card@npm:0.6.0"
+  version: 0.6.1
+  resolution: "@oriflame/backstage-plugin-score-card@npm:0.6.1"
   dependencies:
     "@backstage/catalog-model": ^1.1.3
     "@backstage/config": ^1.0.4
@@ -12652,7 +12698,7 @@ __metadata:
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
     react-dom: ^16.13.1 || ^17.0.0
-  checksum: 6a06402c392903a65c2bc489bf974447ad8d7cef44e3be133691418574c6fa67c52578b4527c3a51fe892256fe078181d9dae396d6156692807e9e6dbc8d07e7
+  checksum: 745e90ece212759f8d3c018b2ebe282e38529c11b13f1b8446ebc548b3a1c2a4a5d1219b8476f79e93ad0e9a919f6efcd372a27f1c3bab61e8e3165921abe8f0
   languageName: node
   linkType: hard
 
@@ -17220,9 +17266,9 @@ __metadata:
   linkType: hard
 
 "aws4@npm:^1.11.0, aws4@npm:^1.8.0":
-  version: 1.11.0
-  resolution: "aws4@npm:1.11.0"
-  checksum: 5a00d045fd0385926d20ebebcfba5ec79d4482fe706f63c27b324d489a04c68edb0db99ed991e19eda09cb8c97dc2452059a34d97545cebf591d7a2b5a10999f
+  version: 1.12.0
+  resolution: "aws4@npm:1.12.0"
+  checksum: 68f79708ac7c335992730bf638286a3ee0a645cf12575d557860100767c500c08b30e24726b9f03265d74116417f628af78509e1333575e9f8d52a80edfe8cbc
   languageName: node
   linkType: hard
 
@@ -38244,10 +38290,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"value-or-promise@npm:1.0.11, value-or-promise@npm:^1.0.11":
+"value-or-promise@npm:1.0.11":
   version: 1.0.11
   resolution: "value-or-promise@npm:1.0.11"
   checksum: 13f8f2ef620118c73b4d1beee8ce6045d7182bbf15090ecfbcafb677ec43698506a5e9ace6bea5ea35c32bc612c9b1f824bb59b6581cdfb5c919052745c277d5
+  languageName: node
+  linkType: hard
+
+"value-or-promise@npm:1.0.12, value-or-promise@npm:^1.0.11":
+  version: 1.0.12
+  resolution: "value-or-promise@npm:1.0.12"
+  checksum: f53a66c75b7447c90bbaf946a757ca09c094629cb80ba742f59c980ec3a69be0a385a0e75505dedb4e757862f1a994ca4beaf083a831f24d3ffb3d4bb18cd1e1
   languageName: node
   linkType: hard
 
