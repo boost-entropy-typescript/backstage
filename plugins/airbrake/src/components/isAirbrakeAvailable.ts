@@ -14,18 +14,12 @@
  * limitations under the License.
  */
 
-export type { TableFiltersClassKey } from './Filters';
-export { SubvalueCell } from './SubvalueCell';
-export type { SubvalueCellClassKey } from './SubvalueCell';
-export { Table } from './Table';
-export type {
-  TableColumn,
-  TableFilter,
-  TableProps,
-  TableOptions,
-  TableState,
-  TableClassKey,
-  FiltersContainerClassKey,
-  TableHeaderClassKey,
-  TableToolbarClassKey,
-} from './Table';
+import { Entity } from '@backstage/catalog-model';
+import { AIRBRAKE_PROJECT_ID_ANNOTATION } from './useProjectId';
+
+/**
+ * Utility function to determine if the given entity has an Airbrake ID set in the repos catalog-info.yml .
+ * @public
+ */
+export const isAirbrakeAvailable = (entity: Entity) =>
+  Boolean(entity.metadata.annotations?.[AIRBRAKE_PROJECT_ID_ANNOTATION]);

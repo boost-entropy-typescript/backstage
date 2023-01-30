@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,18 +14,16 @@
  * limitations under the License.
  */
 
-export type { TableFiltersClassKey } from './Filters';
-export { SubvalueCell } from './SubvalueCell';
-export type { SubvalueCellClassKey } from './SubvalueCell';
-export { Table } from './Table';
-export type {
-  TableColumn,
-  TableFilter,
-  TableProps,
-  TableOptions,
-  TableState,
-  TableClassKey,
-  FiltersContainerClassKey,
-  TableHeaderClassKey,
-  TableToolbarClassKey,
-} from './Table';
+import { Header } from '@backstage/core-components';
+import { wrapInTestApp } from '@backstage/test-utils';
+import React, { ComponentType } from 'react';
+import { WelcomeTitle } from './WelcomeTitle';
+
+export default {
+  title: 'Plugins/Home/Components/WelcomeTitle',
+  decorators: [(Story: ComponentType<{}>) => wrapInTestApp(<Story />)],
+};
+
+export const Default = () => {
+  return <Header title={<WelcomeTitle />} pageTitleOverride="Home" />;
+};
