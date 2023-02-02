@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,21 +13,5 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-/**
- * @public
- */
-export interface EventParams<TPayload = unknown> {
-  /**
-   * Topic for which this event should be published.
-   */
-  topic: string;
-  /**
-   * Event payload.
-   */
-  eventPayload: TPayload;
-  /**
-   * Metadata (e.g., HTTP headers and similar for events received from external).
-   */
-  metadata?: Record<string, string | string[] | undefined>;
-}
+export * from './GraphQLVoyagerPage';
+export * from './GraphQLVoyagerBrowser';
