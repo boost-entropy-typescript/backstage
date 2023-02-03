@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Backstage Authors
+ * Copyright 2022 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,13 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import { defineConfig } from 'cypress';
+import { initPlugin } from '@frsource/cypress-plugin-visual-regression-diff/plugins';
 
-export * from './ApiExplorerPage';
-export * from './ApiDefinitionCard';
-export * from './ApisCards';
-export * from './AsyncApiDefinitionWidget';
-export * from './ComponentsCards';
-export * from './GraphQlDefinitionWidget';
-export * from './OpenApiDefinitionWidget';
-export * from './PlainApiDefinitionWidget';
-export * from './TrpcDefinitionWidget';
+module.exports = defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      initPlugin(on, config);
+    },
+
+    excludeSpecPattern: ['**/__snapshots__/*', '**/__image_snapshots__/*'],
+  },
+  viewportWidth: 1920,
+  viewportHeight: 1080,
+  includeShadowDom: true,
+});
