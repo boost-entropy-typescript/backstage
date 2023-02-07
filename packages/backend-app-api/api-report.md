@@ -18,10 +18,10 @@ import { HelmetOptions } from 'helmet';
 import * as http from 'http';
 import { HttpRouterService } from '@backstage/backend-plugin-api';
 import { IdentityService } from '@backstage/backend-plugin-api';
+import { JsonObject } from '@backstage/types';
 import { LifecycleService } from '@backstage/backend-plugin-api';
 import { LoadConfigOptionsRemote } from '@backstage/config-loader';
 import { LoggerService } from '@backstage/backend-plugin-api';
-import { LogMeta } from '@backstage/backend-plugin-api';
 import { PermissionsService } from '@backstage/backend-plugin-api';
 import { PluginCacheManager } from '@backstage/backend-common';
 import { PluginDatabaseManager } from '@backstage/backend-common';
@@ -50,16 +50,18 @@ export interface Backend {
 }
 
 // @public (undocumented)
-export const cacheFactory: () => ServiceFactory<PluginCacheManager>;
-
-// @public (undocumented)
-export const configFactory: () => ServiceFactory<ConfigService>;
+export const cacheServiceFactory: () => ServiceFactory<PluginCacheManager>;
 
 // @public (undocumented)
 export interface ConfigFactoryOptions {
   argv?: string[];
   remote?: LoadConfigOptionsRemote;
 }
+
+// @public (undocumented)
+export const configServiceFactory: (
+  options?: ConfigFactoryOptions | undefined,
+) => ServiceFactory<ConfigService>;
 
 // @public (undocumented)
 export function createConfigSecretEnumerator(options: {
@@ -88,7 +90,7 @@ export interface CreateSpecializedBackendOptions {
 }
 
 // @public (undocumented)
-export const databaseFactory: () => ServiceFactory<PluginDatabaseManager>;
+export const databaseServiceFactory: () => ServiceFactory<PluginDatabaseManager>;
 
 // @public
 export class DefaultRootHttpRouter implements RootHttpRouterService {
@@ -106,7 +108,7 @@ export interface DefaultRootHttpRouterOptions {
 }
 
 // @public (undocumented)
-export const discoveryFactory: () => ServiceFactory<PluginEndpointDiscovery>;
+export const discoveryServiceFactory: () => ServiceFactory<PluginEndpointDiscovery>;
 
 // @public
 export interface ExtendedHttpServer extends http.Server {
@@ -119,19 +121,19 @@ export interface ExtendedHttpServer extends http.Server {
 }
 
 // @public (undocumented)
-export const httpRouterFactory: (
-  options?: HttpRouterFactoryOptions | undefined,
-) => ServiceFactory<HttpRouterService>;
-
-// @public (undocumented)
 export interface HttpRouterFactoryOptions {
   getPath?(pluginId: string): string;
 }
 
+// @public (undocumented)
+export const httpRouterServiceFactory: (
+  options?: HttpRouterFactoryOptions | undefined,
+) => ServiceFactory<HttpRouterService>;
+
 // @public
 export type HttpServerCertificateOptions =
   | {
-      type: 'plain';
+      type: 'pem';
       key: string;
       cert: string;
     }
@@ -151,19 +153,19 @@ export type HttpServerOptions = {
   };
 };
 
-// @public (undocumented)
-export const identityFactory: (
-  options?: IdentityFactoryOptions | undefined,
-) => ServiceFactory<IdentityService>;
-
 // @public
 export type IdentityFactoryOptions = {
   issuer?: string;
   algorithms?: string[];
 };
 
+// @public (undocumented)
+export const identityServiceFactory: (
+  options?: IdentityFactoryOptions | undefined,
+) => ServiceFactory<IdentityService>;
+
 // @public
-export const lifecycleFactory: () => ServiceFactory<LifecycleService>;
+export const lifecycleServiceFactory: () => ServiceFactory<LifecycleService>;
 
 // @public
 export function loadBackendConfig(options: {
@@ -174,7 +176,7 @@ export function loadBackendConfig(options: {
 }>;
 
 // @public (undocumented)
-export const loggerFactory: () => ServiceFactory<LoggerService>;
+export const loggerServiceFactory: () => ServiceFactory<LoggerService>;
 
 // @public
 export class MiddlewareFactory {
@@ -202,7 +204,7 @@ export interface MiddlewareFactoryOptions {
 }
 
 // @public (undocumented)
-export const permissionsFactory: () => ServiceFactory<PermissionsService>;
+export const permissionsServiceFactory: () => ServiceFactory<PermissionsService>;
 
 // @public
 export function readCorsOptions(config?: Config): CorsOptions;
@@ -230,22 +232,24 @@ export interface RootHttpRouterConfigureOptions {
 }
 
 // @public (undocumented)
-export const rootHttpRouterFactory: () => ServiceFactory<RootHttpRouterService>;
-
-// @public (undocumented)
 export type RootHttpRouterFactoryOptions = {
   indexPath?: string | false;
   configure?(options: RootHttpRouterConfigureOptions): void;
 };
 
+// @public (undocumented)
+export const rootHttpRouterServiceFactory: (
+  options?: RootHttpRouterFactoryOptions | undefined,
+) => ServiceFactory<RootHttpRouterService>;
+
 // @public
-export const rootLifecycleFactory: () => ServiceFactory<RootLifecycleService>;
+export const rootLifecycleServiceFactory: () => ServiceFactory<RootLifecycleService>;
 
 // @public (undocumented)
-export const rootLoggerFactory: () => ServiceFactory<RootLoggerService>;
+export const rootLoggerServiceFactory: () => ServiceFactory<RootLoggerService>;
 
 // @public (undocumented)
-export const schedulerFactory: () => ServiceFactory<SchedulerService>;
+export const schedulerServiceFactory: () => ServiceFactory<SchedulerService>;
 
 // @public (undocumented)
 export type ServiceOrExtensionPoint<T = unknown> =
@@ -253,31 +257,31 @@ export type ServiceOrExtensionPoint<T = unknown> =
   | ServiceRef<T>;
 
 // @public (undocumented)
-export const tokenManagerFactory: () => ServiceFactory<TokenManagerService>;
+export const tokenManagerServiceFactory: () => ServiceFactory<TokenManagerService>;
 
 // @public (undocumented)
-export const urlReaderFactory: () => ServiceFactory<UrlReader>;
+export const urlReaderServiceFactory: () => ServiceFactory<UrlReader>;
 
 // @public
 export class WinstonLogger implements RootLoggerService {
   // (undocumented)
   addRedactions(redactions: Iterable<string>): void;
   // (undocumented)
-  child(meta: LogMeta): LoggerService;
+  child(meta: JsonObject): LoggerService;
   static colorFormat(): Format;
   static create(options: WinstonLoggerOptions): WinstonLogger;
   // (undocumented)
-  debug(message: string, meta?: LogMeta): void;
+  debug(message: string, meta?: JsonObject): void;
   // (undocumented)
-  error(message: string, meta?: LogMeta): void;
+  error(message: string, meta?: JsonObject): void;
   // (undocumented)
-  info(message: string, meta?: LogMeta): void;
+  info(message: string, meta?: JsonObject): void;
   static redacter(): {
     format: Format;
     add: (redactions: Iterable<string>) => void;
   };
   // (undocumented)
-  warn(message: string, meta?: LogMeta): void;
+  warn(message: string, meta?: JsonObject): void;
 }
 
 // @public (undocumented)
@@ -287,7 +291,7 @@ export interface WinstonLoggerOptions {
   // (undocumented)
   level: string;
   // (undocumented)
-  meta?: LogMeta;
+  meta?: JsonObject;
   // (undocumented)
   transports: transport[];
 }

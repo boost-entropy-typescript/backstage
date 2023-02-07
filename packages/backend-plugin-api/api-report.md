@@ -8,6 +8,7 @@
 import { Config } from '@backstage/config';
 import { Handler } from 'express';
 import { IdentityApi } from '@backstage/plugin-auth-node';
+import { JsonObject } from '@backstage/types';
 import { JsonValue } from '@backstage/types';
 import { Knex } from 'knex';
 import { PermissionEvaluator } from '@backstage/plugin-permission-common';
@@ -17,9 +18,7 @@ import { Readable } from 'stream';
 // @public (undocumented)
 export interface BackendFeature {
   // (undocumented)
-  id: string;
-  // (undocumented)
-  register(reg: BackendRegistrationPoints): void;
+  $$type: '@backstage/BackendFeature';
 }
 
 // @public
@@ -67,26 +66,6 @@ export interface BackendPluginRegistrationPoints {
   >(options: {
     deps: {
       [name in keyof Deps]: ServiceRef<Deps[name]>;
-    };
-    init(deps: Deps): Promise<void>;
-  }): void;
-}
-
-// @public
-export interface BackendRegistrationPoints {
-  // (undocumented)
-  registerExtensionPoint<TExtensionPoint>(
-    ref: ExtensionPoint<TExtensionPoint>,
-    impl: TExtensionPoint,
-  ): void;
-  // (undocumented)
-  registerInit<
-    Deps extends {
-      [name in string]: unknown;
-    },
-  >(options: {
-    deps: {
-      [name in keyof Deps]: ServiceRef<Deps[name]> | ExtensionPoint<Deps[name]>;
     };
     init(deps: Deps): Promise<void>;
   }): void;
@@ -311,21 +290,16 @@ export interface LifecycleServiceShutdownOptions {
 // @public
 export interface LoggerService {
   // (undocumented)
-  child(meta: LogMeta): LoggerService;
+  child(meta: JsonObject): LoggerService;
   // (undocumented)
-  debug(message: string, meta?: Error | LogMeta): void;
+  debug(message: string, meta?: Error | JsonObject): void;
   // (undocumented)
-  error(message: string, meta?: Error | LogMeta): void;
+  error(message: string, meta?: Error | JsonObject): void;
   // (undocumented)
-  info(message: string, meta?: Error | LogMeta): void;
+  info(message: string, meta?: Error | JsonObject): void;
   // (undocumented)
-  warn(message: string, meta?: Error | LogMeta): void;
+  warn(message: string, meta?: Error | JsonObject): void;
 }
-
-// @public (undocumented)
-export type LogMeta = {
-  [name: string]: unknown;
-};
 
 // @public (undocumented)
 export interface PermissionsService extends PermissionEvaluator {}
@@ -529,11 +503,6 @@ export interface TokenManagerService {
     token: string;
   }>;
 }
-
-// @public (undocumented)
-export type TypesToServiceRef<T> = {
-  [key in keyof T]: ServiceRef<T[key]>;
-};
 
 // @public
 export interface UrlReaderService {
