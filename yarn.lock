@@ -6895,6 +6895,39 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/plugin-microsoft-calendar@workspace:^, @backstage/plugin-microsoft-calendar@workspace:plugins/microsoft-calendar":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-microsoft-calendar@workspace:plugins/microsoft-calendar"
+  dependencies:
+    "@backstage/cli": "workspace:^"
+    "@backstage/core-app-api": "workspace:^"
+    "@backstage/core-components": "workspace:^"
+    "@backstage/core-plugin-api": "workspace:^"
+    "@backstage/dev-utils": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/test-utils": "workspace:^"
+    "@backstage/theme": "workspace:^"
+    "@material-ui/core": ^4.12.2
+    "@material-ui/icons": ^4.9.1
+    "@microsoft/microsoft-graph-types": ^2.25.0
+    "@tanstack/react-query": ^4.1.3
+    "@testing-library/jest-dom": ^5.10.1
+    "@testing-library/react": ^12.1.3
+    "@testing-library/user-event": ^14.0.0
+    "@types/node": ^16.11.26
+    classnames: ^2.3.1
+    cross-fetch: ^3.1.5
+    dompurify: ^2.3.6
+    lodash: ^4.17.21
+    luxon: ^3.0.0
+    material-ui-popup-state: ^1.9.3
+    msw: ^0.49.0
+    react-use: ^17.2.4
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "@backstage/plugin-newrelic-dashboard@workspace:^, @backstage/plugin-newrelic-dashboard@workspace:plugins/newrelic-dashboard":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-newrelic-dashboard@workspace:plugins/newrelic-dashboard"
@@ -11036,11 +11069,11 @@ __metadata:
   linkType: hard
 
 "@keyv/redis@npm:^2.5.3":
-  version: 2.5.4
-  resolution: "@keyv/redis@npm:2.5.4"
+  version: 2.5.5
+  resolution: "@keyv/redis@npm:2.5.5"
   dependencies:
-    ioredis: ^5.2.4
-  checksum: 02f557e0bc0343aea44b8dd4b6ff273da5833b935236c4036fa89e90b1d92d9688dafa064d5318d26744a6c72497cd4c41dcac825cb8d5919271e3a25a3cadbb
+    ioredis: ^5.3.0
+  checksum: dc4c4e9c0a44dec1166a6a4481a42342289b4618136c2f640306bee381cf30d737346b064ecc369fc8ebdd2baaaba47e099aabe9f37839911171a9c006d75e62
   languageName: node
   linkType: hard
 
@@ -11514,7 +11547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/microsoft-graph-types@npm:^2.6.0":
+"@microsoft/microsoft-graph-types@npm:^2.25.0, @microsoft/microsoft-graph-types@npm:^2.6.0":
   version: 2.25.0
   resolution: "@microsoft/microsoft-graph-types@npm:2.25.0"
   checksum: b311385e0a51f827082af5a016f35b1d6cd4d861121e8767b3279ab1a17475977cddbbdcc208abdddf0f953fd6ce4634d3c302e317cf50af4cb6111385347b4f
@@ -13350,90 +13383,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-darwin-arm64@npm:1.3.30"
+"@swc/core-darwin-arm64@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-darwin-arm64@npm:1.3.34"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-darwin-x64@npm:1.3.30"
+"@swc/core-darwin-x64@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-darwin-x64@npm:1.3.34"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.30"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.34"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.30"
+"@swc/core-linux-arm64-gnu@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.34"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.30"
+"@swc/core-linux-arm64-musl@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.34"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.30"
+"@swc/core-linux-x64-gnu@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.34"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.30"
+"@swc/core-linux-x64-musl@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.34"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.30"
+"@swc/core-win32-arm64-msvc@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.34"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.30"
+"@swc/core-win32-ia32-msvc@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.34"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.30":
-  version: 1.3.30
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.30"
+"@swc/core-win32-x64-msvc@npm:1.3.34":
+  version: 1.3.34
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.34"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:^1.3.9":
-  version: 1.3.30
-  resolution: "@swc/core@npm:1.3.30"
+  version: 1.3.34
+  resolution: "@swc/core@npm:1.3.34"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.30
-    "@swc/core-darwin-x64": 1.3.30
-    "@swc/core-linux-arm-gnueabihf": 1.3.30
-    "@swc/core-linux-arm64-gnu": 1.3.30
-    "@swc/core-linux-arm64-musl": 1.3.30
-    "@swc/core-linux-x64-gnu": 1.3.30
-    "@swc/core-linux-x64-musl": 1.3.30
-    "@swc/core-win32-arm64-msvc": 1.3.30
-    "@swc/core-win32-ia32-msvc": 1.3.30
-    "@swc/core-win32-x64-msvc": 1.3.30
+    "@swc/core-darwin-arm64": 1.3.34
+    "@swc/core-darwin-x64": 1.3.34
+    "@swc/core-linux-arm-gnueabihf": 1.3.34
+    "@swc/core-linux-arm64-gnu": 1.3.34
+    "@swc/core-linux-arm64-musl": 1.3.34
+    "@swc/core-linux-x64-gnu": 1.3.34
+    "@swc/core-linux-x64-musl": 1.3.34
+    "@swc/core-win32-arm64-msvc": 1.3.34
+    "@swc/core-win32-ia32-msvc": 1.3.34
+    "@swc/core-win32-x64-msvc": 1.3.34
   dependenciesMeta:
     "@swc/core-darwin-arm64":
       optional: true
@@ -13455,7 +13488,7 @@ __metadata:
       optional: true
     "@swc/core-win32-x64-msvc":
       optional: true
-  checksum: 157a8ae43ebc73fa28d53e913fd7fc879289d5479ba5ea0c5e9abad0b379ca7e292d45f4f07bfd3ec0ff1998b55f300737724dfe463f1f7b361661e083db950c
+  checksum: a77c286b6b34d40f634ae882aac66f882cf806c165453878c31311070c46f020c607925bd454f64959504f08852b204cc37feba93fc6a3c1a64b295a9b5007d6
   languageName: node
   linkType: hard
 
@@ -17490,13 +17523,13 @@ __metadata:
   linkType: hard
 
 "better-sqlite3@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "better-sqlite3@npm:8.0.1"
+  version: 8.1.0
+  resolution: "better-sqlite3@npm:8.1.0"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
     prebuild-install: ^7.1.0
-  checksum: 533b2cc32bd54e2a943a4f63e079f8cc8945879b7a0ebd2085b948824ea067792f6f903ab75ba75d7cafc5f8f973354cdf9a042fa6216e077925d07a8df1bead
+  checksum: 7e6b4c33142f4b2ee2e60d3926b4db682feb0d09554efdaf7bea53cd5bef406ca0a5115ab9b411458daa45ba14973252ebd6853a3cdf94e4fd49cc8291730ade
   languageName: node
   linkType: hard
 
@@ -20465,10 +20498,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denque@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "denque@npm:2.0.1"
-  checksum: ec398d1e3c6c8d4f5213dcf9ad74d7faa3b461e29a0019c9742b49a97ac5e16aa7134db45fa9d841e318e7722dd1ba670a474fde9a5b0d870b3a5fc6fe914c30
+"denque@npm:^2.0.1, denque@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "denque@npm:2.1.0"
+  checksum: 1d4ae1d05e59ac3a3481e7b478293f4b4c813819342273f3d5b826c7ffa9753c520919ba264f377e09108d24ec6cf0ec0ac729a5686cbb8f32d797126c5dae74
   languageName: node
   linkType: hard
 
@@ -21853,13 +21886,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-testing-library@npm:^5.9.1":
-  version: 5.10.0
-  resolution: "eslint-plugin-testing-library@npm:5.10.0"
+  version: 5.10.1
+  resolution: "eslint-plugin-testing-library@npm:5.10.1"
   dependencies:
     "@typescript-eslint/utils": ^5.43.0
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 3278fc4683a99d24ac2b6d2ed0359db1b0509674350e4b9a958a226f57b4b90e070c02e1f4c2806da885d8025c1e8c952cb9a5e9751e69baac3d12cfe6804000
+  checksum: fbc24ce8cbd03bee283ae520f023bd52f10d21fb25bd66c5a09a0e0ad17997bae559450438ce0b4fcc38b4e14b6802f18482c41d2bc72bf1a8e1a12a91766572
   languageName: node
   linkType: hard
 
@@ -22194,6 +22227,7 @@ __metadata:
     "@backstage/plugin-kafka": "workspace:^"
     "@backstage/plugin-kubernetes": "workspace:^"
     "@backstage/plugin-lighthouse": "workspace:^"
+    "@backstage/plugin-microsoft-calendar": "workspace:^"
     "@backstage/plugin-newrelic": "workspace:^"
     "@backstage/plugin-newrelic-dashboard": "workspace:^"
     "@backstage/plugin-org": "workspace:^"
@@ -25064,20 +25098,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:^5.2.4":
-  version: 5.2.4
-  resolution: "ioredis@npm:5.2.4"
+"ioredis@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "ioredis@npm:5.3.0"
   dependencies:
     "@ioredis/commands": ^1.1.1
     cluster-key-slot: ^1.1.0
     debug: ^4.3.4
-    denque: ^2.0.1
+    denque: ^2.1.0
     lodash.defaults: ^4.2.0
     lodash.isarguments: ^3.1.0
     redis-errors: ^1.2.0
     redis-parser: ^3.0.0
     standard-as-callback: ^2.1.0
-  checksum: c3a7df407a41ae516bede8b6db853c568198b13fe4a4785f66be5cd541087121b9d45fb9a6b1b6a5fb668c29ce52ab4685642b994803bdfa0a35f794ea8ef7ae
+  checksum: d3a1fd8f1b5d9ce6d4b7dd083773dbe0936ea3d1f55f07d36daa3d0b59c4636e95640f90bc003a08bc900a9803307e7d7e191817a2c2970696e204dae6f3dc35
   languageName: node
   linkType: hard
 
