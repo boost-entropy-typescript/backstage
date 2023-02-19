@@ -12914,8 +12914,8 @@ __metadata:
   linkType: hard
 
 "@roadiehq/backstage-plugin-github-insights@npm:^2.0.5":
-  version: 2.3.3
-  resolution: "@roadiehq/backstage-plugin-github-insights@npm:2.3.3"
+  version: 2.3.4
+  resolution: "@roadiehq/backstage-plugin-github-insights@npm:2.3.4"
   dependencies:
     "@backstage/catalog-model": ^1.1.5
     "@backstage/core-components": ^0.12.3
@@ -12937,7 +12937,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0
     react-dom: ^16.13.1 || ^17.0.0
     react-router: 6.0.0-beta.0 || ^6.3.0
-  checksum: e92b46ee34f8ae65a2cb796ae0d011a66e6dd5f731270b5925a314c706af471474316f2d489ef444c33747c3b5656e7ac74b8a39d6e4d777f5ccd3a992144f6a
+  checksum: 20a633dc9731ccab4f49a376d272c4b710107eacadd253bfaa3e00f9b0196632fd6fb03f651cc5e44cc99d6838ffc5b9d83c03764c0bd3926a0c8f7b3614aff7
   languageName: node
   linkType: hard
 
@@ -12971,8 +12971,8 @@ __metadata:
   linkType: hard
 
 "@roadiehq/backstage-plugin-travis-ci@npm:^2.0.5":
-  version: 2.1.3
-  resolution: "@roadiehq/backstage-plugin-travis-ci@npm:2.1.3"
+  version: 2.1.4
+  resolution: "@roadiehq/backstage-plugin-travis-ci@npm:2.1.4"
   dependencies:
     "@backstage/catalog-model": ^1.1.5
     "@backstage/core-components": ^0.12.3
@@ -12992,7 +12992,7 @@ __metadata:
     react-dom: ^16.13.1 || ^17.0.0
     react-router: 6.0.0-beta.0 || ^6.3.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 8051bd38465f73c1d09c7a88fe86f3c32fcd8d32924d7a5c0100cad0b6fba5e48684dc4b15ebdbbdc8f351c9e05286e1546b0a4499ad1385848e205737354d89
+  checksum: 11e2823352c8e0d23ef9d577e8802d33e2c6e92bca0b269228224132f01ddced463436b43891dfd6b9ad4b4f7247291cb293426a899db87292c5500885029c9d
   languageName: node
   linkType: hard
 
@@ -13631,18 +13631,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.24.6":
-  version: 4.24.6
-  resolution: "@tanstack/query-core@npm:4.24.6"
-  checksum: 495dff04f27d72174051f97676fce0fbe322bca966edb7f174f0005a3363ac0300c31eb06255dafa7ee519a430840542379f5ec9f6846903b6bb878e46c33656
+"@tanstack/query-core@npm:4.24.9":
+  version: 4.24.9
+  resolution: "@tanstack/query-core@npm:4.24.9"
+  checksum: 7b84e960d82c046c9eef6083cbc13b21c2ed8552fe8a5f092a66ca2586af66b770ca71ad838135ef49ac8b990e5f85d34a1d8b8de13fffb3abb0fb780a64a532
   languageName: node
   linkType: hard
 
 "@tanstack/react-query@npm:^4.1.3":
-  version: 4.24.6
-  resolution: "@tanstack/react-query@npm:4.24.6"
+  version: 4.24.9
+  resolution: "@tanstack/react-query@npm:4.24.9"
   dependencies:
-    "@tanstack/query-core": 4.24.6
+    "@tanstack/query-core": 4.24.9
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -13653,7 +13653,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 250bc2cba8dd7da61680a8e360fac87ee057d079ee3be950c76dbc063f941119817634857c1cb0d9b12042dd5d4fbe847c02af5dfb89ae8daa0f9339f87ad605
+  checksum: 409c945c5043d11fa2f3c219254df5b0505bdf7d9dc94821f5db495d87a38fe27e0a373144446cef42fc829d1449a64e3fa873adf37e8abe15562e5832d59516
   languageName: node
   linkType: hard
 
@@ -15140,11 +15140,11 @@ __metadata:
   linkType: hard
 
 "@types/passport@npm:*, @types/passport@npm:^1.0.3":
-  version: 1.0.11
-  resolution: "@types/passport@npm:1.0.11"
+  version: 1.0.12
+  resolution: "@types/passport@npm:1.0.12"
   dependencies:
     "@types/express": "*"
-  checksum: 7fea92aeb0d05bd872c17deadc1f1219dbdb23bae1b8f50e1c432ef755bce2b5f3fd60af76c38815f1fbaa047960d3638a4144221c4330457091be1f6e492168
+  checksum: 2bce41b248566d8c2aeafcb38f105e3521d42a572e92da9edc5eb669f1b3cb02e5911c9d124191f67d432b677562a885b6ad7f56320c712df1e87ba7619eb8a4
   languageName: node
   linkType: hard
 
