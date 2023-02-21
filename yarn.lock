@@ -4121,11 +4121,11 @@ __metadata:
     "@backstage/integration": "workspace:^"
     "@backstage/plugin-adr-common": "workspace:^"
     "@backstage/plugin-search-common": "workspace:^"
-    "@types/express": ^4.17.15
+    "@types/express": ^4.17.6
     "@types/marked": ^4.0.0
     "@types/supertest": ^2.0.8
-    express: ^4.18.2
-    express-promise-router: ^4.1.1
+    express: ^4.17.1
+    express-promise-router: ^4.1.0
     luxon: ^3.0.0
     marked: ^4.0.14
     msw: ^0.49.0
@@ -6953,6 +6953,34 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/plugin-octopus-deploy@workspace:plugins/octopus-deploy":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-octopus-deploy@workspace:plugins/octopus-deploy"
+  dependencies:
+    "@backstage/catalog-model": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/core-app-api": "workspace:^"
+    "@backstage/core-components": "workspace:^"
+    "@backstage/core-plugin-api": "workspace:^"
+    "@backstage/dev-utils": "workspace:^"
+    "@backstage/plugin-catalog-react": "workspace:^"
+    "@backstage/test-utils": "workspace:^"
+    "@backstage/theme": "workspace:^"
+    "@material-ui/core": ^4.9.13
+    "@material-ui/icons": ^4.9.1
+    "@material-ui/lab": 4.0.0-alpha.57
+    "@testing-library/jest-dom": ^5.10.1
+    "@testing-library/react": ^12.1.3
+    "@testing-library/user-event": ^14.0.0
+    "@types/node": "*"
+    cross-fetch: ^3.1.5
+    msw: ^0.49.0
+    react-use: ^17.2.4
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "@backstage/plugin-org-react@workspace:plugins/org-react":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-org-react@workspace:plugins/org-react"
@@ -8407,12 +8435,14 @@ __metadata:
   resolution: "@backstage/plugin-todo-backend@workspace:plugins/todo-backend"
   dependencies:
     "@backstage/backend-common": "workspace:^"
+    "@backstage/backend-plugin-api": "workspace:^"
     "@backstage/catalog-client": "workspace:^"
     "@backstage/catalog-model": "workspace:^"
     "@backstage/cli": "workspace:^"
     "@backstage/config": "workspace:^"
     "@backstage/errors": "workspace:^"
     "@backstage/integration": "workspace:^"
+    "@backstage/plugin-catalog-node": "workspace:^"
     "@types/express": ^4.17.6
     "@types/supertest": ^2.0.8
     express: ^4.17.1
@@ -8616,6 +8646,7 @@ __metadata:
     "@backstage/cli": "workspace:^"
     "@backstage/cli-common": "workspace:^"
     "@backstage/errors": "workspace:^"
+    "@backstage/types": "workspace:^"
     "@manypkg/get-packages": ^1.1.3
     "@microsoft/api-documenter": ^7.19.27
     "@microsoft/api-extractor": ^7.33.7
@@ -12782,10 +12813,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.2.1":
-  version: 1.2.1
-  resolution: "@remix-run/router@npm:1.2.1"
-  checksum: 71c947f83e130bf006226332aca395f626ad599b6d35dfe936f6a8f139cf37278bc1b36bce38c30f6062724402358296329f31c385b11ae59b13b76a2716d701
+"@remix-run/router@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@remix-run/router@npm:1.3.2"
+  checksum: ee2108b87d4a1241cdea137dd7e1741ee679228bd33fd81e22a6bb2940f81186cefe9a85e26d60cc49bbcc1bdbc57d1954b7d4d62f8a51ef69feddfc899f55fa
   languageName: node
   linkType: hard
 
@@ -14438,7 +14469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express@npm:*, @types/express@npm:^4.17.13, @types/express@npm:^4.17.15, @types/express@npm:^4.17.6":
+"@types/express@npm:*, @types/express@npm:^4.17.13, @types/express@npm:^4.17.6":
   version: 4.17.16
   resolution: "@types/express@npm:4.17.16"
   dependencies:
@@ -15627,6 +15658,13 @@ __metadata:
   version: 4.0.0
   resolution: "@types/tough-cookie@npm:4.0.0"
   checksum: 454fa8d4d64532992274ebf2ff5ea0061b0dd32a2282255a3e793f04a8b64a9c4c1f9e0f4ed83c514c852b7b604d69336c66c80de4a857cb41a81e9572981e7f
+  languageName: node
+  linkType: hard
+
+"@types/triple-beam@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "@types/triple-beam@npm:1.3.2"
+  checksum: dd7b4a563fb710abc992e5d59eac481bed9e303fada2e276e37b00be31c392e03300ee468e57761e616512872e77935f92472877d0704a19688d15a726cee17b
   languageName: node
   linkType: hard
 
@@ -22498,6 +22536,7 @@ __metadata:
     "@backstage/plugin-app-backend": "workspace:^"
     "@backstage/plugin-catalog-backend": "workspace:^"
     "@backstage/plugin-scaffolder-backend": "workspace:^"
+    "@backstage/plugin-todo-backend": "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -22690,7 +22729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-promise-router@npm:^4.1.0, express-promise-router@npm:^4.1.1":
+"express-promise-router@npm:^4.1.0":
   version: 4.1.1
   resolution: "express-promise-router@npm:4.1.1"
   dependencies:
@@ -22732,7 +22771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:^4.17.1, express@npm:^4.17.3, express@npm:^4.18.1, express@npm:^4.18.2":
+"express@npm:^4.17.1, express@npm:^4.17.3, express@npm:^4.18.1":
   version: 4.18.2
   resolution: "express@npm:4.18.2"
   dependencies:
@@ -26827,9 +26866,9 @@ __metadata:
   linkType: hard
 
 "jose@npm:^4.10.0, jose@npm:^4.6.0":
-  version: 4.11.4
-  resolution: "jose@npm:4.11.4"
-  checksum: ab870d61e3721cfa1059b1a79cfc2fce06586c8afd4164362e1725934a635191bd938893ebdfac55a0811efbe9b6fd650bbf82d36d87e8a0b7cb4b0379328dab
+  version: 4.12.0
+  resolution: "jose@npm:4.12.0"
+  checksum: 09e67611768127ab54b6b507401de4b1f87e1e285cf2c2fc917e931e001b7e584c90081b421f483f13a6eec4fc44936e4a5f4b8ae2d59928061e886e35d33fa2
   languageName: node
   linkType: hard
 
@@ -28342,15 +28381,16 @@ __metadata:
   linkType: hard
 
 "logform@npm:^2.3.2, logform@npm:^2.4.0":
-  version: 2.4.2
-  resolution: "logform@npm:2.4.2"
+  version: 2.5.1
+  resolution: "logform@npm:2.5.1"
   dependencies:
     "@colors/colors": 1.5.0
+    "@types/triple-beam": ^1.3.2
     fecha: ^4.2.0
     ms: ^2.1.1
     safe-stable-stringify: ^2.3.1
     triple-beam: ^1.3.0
-  checksum: 3d00f4e1ccaf0a86886aabbf66d1f1d207441d5b408f103457da6d64d055aee76c02af4b40a31ca77a1db4cbcdecb007149f731536c39cbd89b7b6ba3dda6d7b
+  checksum: 08fdf03be5bb69af33bac214eb4f6a0c83ad3821a30de498925fccb61e993e5a4a87470aab356ca2110c11e4643685bed5597ca5f46dd1cd11437c44a0e0e3c2
   languageName: node
   linkType: hard
 
@@ -30769,14 +30809,14 @@ __metadata:
   linkType: hard
 
 "openid-client@npm:^5.2.1, openid-client@npm:^5.3.0":
-  version: 5.3.2
-  resolution: "openid-client@npm:5.3.2"
+  version: 5.4.0
+  resolution: "openid-client@npm:5.4.0"
   dependencies:
     jose: ^4.10.0
     lru-cache: ^6.0.0
     object-hash: ^2.0.1
     oidc-token-hash: ^5.0.1
-  checksum: 59dc58d5b5cb795f3500f2d9d7ce604f6fb4c00623b16660fdf635d2789c3b2bb32e328ff10c918f9fa4e7fb269c768658d00769761d301be2d96d6150e07051
+  checksum: d198dbcaf0aa1d8b9f0f1d99ae30e90ec594eaf9ae668b5d61f2ee9af94a4460968d8dea7e53bd18903a1fb9c445e05aefca965bb88be3688a4bac273d1634d9
   languageName: node
   linkType: hard
 
@@ -33339,26 +33379,26 @@ __metadata:
   linkType: hard
 
 "react-router-dom-stable@npm:react-router-dom@^6.3.0, react-router-dom@npm:^6.3.0":
-  version: 6.6.2
-  resolution: "react-router-dom@npm:6.6.2"
+  version: 6.8.1
+  resolution: "react-router-dom@npm:6.8.1"
   dependencies:
-    "@remix-run/router": 1.2.1
-    react-router: 6.6.2
+    "@remix-run/router": 1.3.2
+    react-router: 6.8.1
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: e0ee89a2b3768d2eb406ecefedfa24b55428145359b4138f6d38b8a99b60a4f275418910f4cdb12c069ed0237711acced3787b0c7febfa6568d7ea9cd624ff3b
+  checksum: fb1a9f5c7e4c83536ee7e6493f3c13f6abda66da69f9191fb8b087ab188ecc18a3a32575813a280cbeca67bcb8b0dcb6dbcef7ed599e03f38a44d694f4abcf14
   languageName: node
   linkType: hard
 
-"react-router-stable@npm:react-router@^6.3.0, react-router@npm:6.6.2":
-  version: 6.6.2
-  resolution: "react-router@npm:6.6.2"
+"react-router-stable@npm:react-router@^6.3.0, react-router@npm:6.8.1":
+  version: 6.8.1
+  resolution: "react-router@npm:6.8.1"
   dependencies:
-    "@remix-run/router": 1.2.1
+    "@remix-run/router": 1.3.2
   peerDependencies:
     react: ">=16.8"
-  checksum: 5960d774bb3a8f697a57ee2e82a3eb0a300b7186a62b27e02773c94f1682e59435bd876d6162a08cc8daf27cac72aaab66d348fcc4d8f59240a63a911cf0050b
+  checksum: 8e7cc7a516adeb6060911861af99d9b512893c15ec732cbf8574872919be4f3fe439ffa8c0876d1bcbced880d081bfeda3c01cb505b5a243565d10500ee0ac36
   languageName: node
   linkType: hard
 
