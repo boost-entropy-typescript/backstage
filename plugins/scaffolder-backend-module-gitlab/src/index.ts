@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 The Backstage Authors
+ * Copyright 2021 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { Entity } from '@backstage/catalog-model';
-import { TemplateEntityV1beta3 } from '@backstage/plugin-scaffolder-common';
+/**
+ * A module for the scaffolder backend that lets you create gitlab project access tokens or deploy tokens
+ *
+ * @packageDocumentation
+ */
 
-export const isTemplateEntity = (
-  entity: Entity,
-): entity is TemplateEntityV1beta3 =>
-  entity.apiVersion === 'scaffolder.backstage.io/v1beta3' &&
-  entity.kind === 'Template';
+export * from './actions/createGitlabProjectDeployTokenAction';
+export * from './actions/createGitlabProjectAccessTokenAction';
+export * from './actions/createGitlabProjectVariableAction';

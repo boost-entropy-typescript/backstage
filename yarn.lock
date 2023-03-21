@@ -6420,6 +6420,7 @@ __metadata:
   resolution: "@backstage/plugin-gitops-profiles@workspace:plugins/gitops-profiles"
   dependencies:
     "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
     "@backstage/core-app-api": "workspace:^"
     "@backstage/core-components": "workspace:^"
     "@backstage/core-plugin-api": "workspace:^"
@@ -6762,6 +6763,8 @@ __metadata:
     "@backstage/errors": "workspace:^"
     "@backstage/plugin-auth-node": "workspace:^"
     "@backstage/plugin-kubernetes-common": "workspace:^"
+    "@backstage/plugin-permission-common": "workspace:^"
+    "@backstage/plugin-permission-node": "workspace:^"
     "@google-cloud/container": ^4.0.0
     "@jest-mock/express": ^2.0.1
     "@kubernetes/client-node": 0.18.1
@@ -6798,6 +6801,7 @@ __metadata:
   dependencies:
     "@backstage/catalog-model": "workspace:^"
     "@backstage/cli": "workspace:^"
+    "@backstage/plugin-permission-common": "workspace:^"
     "@kubernetes/client-node": 0.18.1
   languageName: unknown
   linkType: soft
@@ -7497,6 +7501,21 @@ __metadata:
     msw: ^1.0.0
     winston: ^3.2.1
     yn: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
+"@backstage/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab"
+  dependencies:
+    "@backstage/backend-common": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/core-app-api": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/plugin-scaffolder-node": "workspace:^"
+    "@gitbeaker/node": ^35.8.0
   languageName: unknown
   linkType: soft
 
@@ -9856,7 +9875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gitbeaker/node@npm:^35.1.0":
+"@gitbeaker/node@npm:^35.1.0, @gitbeaker/node@npm:^35.8.0":
   version: 35.8.1
   resolution: "@gitbeaker/node@npm:35.8.1"
   dependencies:
