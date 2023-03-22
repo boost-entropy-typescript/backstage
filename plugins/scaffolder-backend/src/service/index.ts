@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,4 @@
  * limitations under the License.
  */
 
-export { createFetchPlainAction } from './plain';
-export { createFetchPlainFileAction } from './plainFile';
-export { createFetchTemplateAction } from './template';
-export { fetchContents } from './helpers';
+export * from './conditionExports';
