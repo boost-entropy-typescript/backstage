@@ -43,8 +43,8 @@ __metadata:
   linkType: hard
 
 "@apollo/client@npm:^3.0.0":
-  version: 3.7.10
-  resolution: "@apollo/client@npm:3.7.10"
+  version: 3.7.11
+  resolution: "@apollo/client@npm:3.7.11"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/context": ^0.7.0
@@ -52,7 +52,7 @@ __metadata:
     "@wry/trie": ^0.3.0
     graphql-tag: ^2.12.6
     hoist-non-react-statics: ^3.3.2
-    optimism: ^0.16.1
+    optimism: ^0.16.2
     prop-types: ^15.7.2
     response-iterator: ^0.2.6
     symbol-observable: ^4.0.0
@@ -74,7 +74,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: d74a68f8042e76e3a81990c79a89aefc07c8899d354f3b469591356508001005106bba0fa953652c3ec19756d44bdec6730ac98f62fa836bd76acbcb7eff42ce
+  checksum: 56fa501dc27b68b01c054ffd5642fcfedb16ee4653e819fb92d1b6cae834160f1274a961f335812f4781bbbbdf3bb6f851f07a7351f95d8945740cc79fa2d58f
   languageName: node
   linkType: hard
 
@@ -140,8 +140,8 @@ __metadata:
   linkType: hard
 
 "@apollo/server@npm:^4.0.0":
-  version: 4.5.0
-  resolution: "@apollo/server@npm:4.5.0"
+  version: 4.6.0
+  resolution: "@apollo/server@npm:4.6.0"
   dependencies:
     "@apollo/cache-control-types": ^1.0.2
     "@apollo/server-gateway-interface": ^1.1.0
@@ -171,7 +171,7 @@ __metadata:
     whatwg-mimetype: ^3.0.0
   peerDependencies:
     graphql: ^16.6.0
-  checksum: 193b5f6913c945aafb8fc6b5b75fcfff250e5b84dc2727f6a0472b304da08a6cd90a21ae45591e6408e9413e8bee323bbf4c9586b511a4f426b562da5328e4d0
+  checksum: 309d22df0caa73671d856c31f53d0eb8a5505a6dd0c1691223891e0fa2931667c7ccd680e418a678e1d2570f54596bcc514775854cbc16bfff9009c7cfe9febe
   languageName: node
   linkType: hard
 
@@ -10526,8 +10526,8 @@ __metadata:
   linkType: hard
 
 "@google-cloud/storage@npm:^6.0.0":
-  version: 6.9.4
-  resolution: "@google-cloud/storage@npm:6.9.4"
+  version: 6.9.5
+  resolution: "@google-cloud/storage@npm:6.9.5"
   dependencies:
     "@google-cloud/paginator": ^3.0.7
     "@google-cloud/projectify": ^3.0.0
@@ -10546,7 +10546,7 @@ __metadata:
     retry-request: ^5.0.0
     teeny-request: ^8.0.0
     uuid: ^8.0.0
-  checksum: d8ee110843e22d7141a9a93fae01590f5b15946e389544eda858d78abf3aaae2ab353548c15f219f53cac9af63ef52bd565540b638f8c7866ade5da414efc5ce
+  checksum: eff663cc44ee553fbd2f62b67ef422783f29210c67f55c86c13e63a40c36f3c9b78e076b2a08bb6a74a9fdc452de9240aac91e0fa11c3a4f782416a230d88b74
   languageName: node
   linkType: hard
 
@@ -11890,21 +11890,21 @@ __metadata:
   linkType: hard
 
 "@keyv/memcache@npm:^1.3.5":
-  version: 1.3.6
-  resolution: "@keyv/memcache@npm:1.3.6"
+  version: 1.3.7
+  resolution: "@keyv/memcache@npm:1.3.7"
   dependencies:
     json-buffer: ^3.0.1
-    memjs: ^1.3.0
-  checksum: 3360055b6e22d1be7a77341dc99bafb5434d3288dace94067f3307f6d9498f984dcb0d8452a5b2d97ddca8f8c973caf7cc1332e0ffada1c6dbfb0b2a2d42451a
+    memjs: ^1.3.1
+  checksum: 61c836c1b0c264c35281a38dbc380a102b2899eab46226a0e31614d3d7c4708ecdb06d8858f711893212ae5b357a79213c7a7b7a81b6196e56dd889dd1ca498b
   languageName: node
   linkType: hard
 
 "@keyv/redis@npm:^2.5.3":
-  version: 2.5.6
-  resolution: "@keyv/redis@npm:2.5.6"
+  version: 2.5.7
+  resolution: "@keyv/redis@npm:2.5.7"
   dependencies:
     ioredis: ^5.3.1
-  checksum: ccd19ed1f3e9b0a820b5b537d978dadd2bae19988cbb136312a38cb8cc3d3b2d88a53d20aefdd96e85ce9f341ee3ab29f371379627bd27bd587cd3926d3115a3
+  checksum: e0ed1b6602afcc339bb2bf014d8801e6b7a3b6392d0f8e4ccfc59d919f59229b8787c50c48fc51636625ffdf55cf1ef6c450425a73bd88f9b866e74f1b3e25f8
   languageName: node
   linkType: hard
 
@@ -29973,10 +29973,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"memjs@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "memjs@npm:1.3.0"
-  checksum: 5c7679c649ab18a7b29c8bf8795bd591df480e7ca96eec5958f56c5c3c87d919530a7b61c80ddf73f05975c929d88153d41df28e11ff680d2c6c4bb6dd668d2d
+"memjs@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "memjs@npm:1.3.1"
+  checksum: cb70879055151f15292e95ab57765e745c84d2fedd363b453afc3e2f48bf185e3771eecf9544f95009a3a374e810e34c1e18948134e814d791c2f0f35359ddeb
   languageName: node
   linkType: hard
 
@@ -31885,7 +31885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"optimism@npm:^0.16.1":
+"optimism@npm:^0.16.2":
   version: 0.16.2
   resolution: "optimism@npm:0.16.2"
   dependencies:
