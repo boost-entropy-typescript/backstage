@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,25 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import Box from '@material-ui/core/Box';
-import React, { PropsWithChildren } from 'react';
 
-export interface TabPanelProps {
-  value?: any;
-  index?: number;
-}
+/**
+ * Node.js library for Backstage CLIs
+ *
+ * @packageDocumentation
+ */
 
-export const TabPanel = (props: PropsWithChildren<TabPanelProps>) => {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <Box
-      role="tabpanel"
-      hidden={value !== index}
-      aria-labelledby={`scrollable-auto-tab-${index}`}
-      {...other}
-    >
-      {value === index && <Box p={3}>{children}</Box>}
-    </Box>
-  );
-};
+export * from './git';
+export * from './monorepo';
+export * from './roles';

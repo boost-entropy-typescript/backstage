@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Backstage Authors
+ * Copyright 2022 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +14,20 @@
  * limitations under the License.
  */
 
-import React from 'react';
-import { renderInTestApp } from '@backstage/test-utils';
-import { StyledTab } from './Tab';
+import { paths } from '../paths';
+import fs from 'fs-extra';
 
-describe('<Tab />', () => {
-  it('renders without exploding', async () => {
-    const rendered = await renderInTestApp(<StyledTab label="test" />);
-    expect(rendered.getByText('test')).toBeInTheDocument();
-  });
-});
+/**
+ * Returns try if the current project is a monorepo.
+ *
+ * @public
+ */
+export async function isMonoRepo(): Promise<boolean> {
+  const rootPackageJsonPath = paths.resolveTargetRoot('package.json');
+  try {
+    const pkg = await fs.readJson(rootPackageJsonPath);
+    return Boolean(pkg?.workspaces?.packages);
+  } catch (error) {
+    return false;
+  }
+}

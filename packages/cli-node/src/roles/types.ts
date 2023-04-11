@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 
+/**
+ * Backstage package role, see {@link https://backstage.io/docs/local-dev/cli-build-system#package-roles | docs}.
+ *
+ * @public
+ */
 export type PackageRole =
   | 'frontend'
   | 'backend'
@@ -26,9 +31,25 @@ export type PackageRole =
   | 'backend-plugin'
   | 'backend-plugin-module';
 
+/**
+ * A type of platform that a package can be built for.
+ *
+ * @public
+ */
 export type PackagePlatform = 'node' | 'web' | 'common';
+
+/**
+ * The type of output that a package can produce.
+ *
+ * @public
+ */
 export type PackageOutputType = 'bundle' | 'types' | 'esm' | 'cjs';
 
+/**
+ * Information about a package role.
+ *
+ * @public
+ */
 export interface PackageRoleInfo {
   role: PackageRole;
   platform: PackagePlatform;
