@@ -7924,6 +7924,37 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/plugin-puppetdb@workspace:^, @backstage/plugin-puppetdb@workspace:plugins/puppetdb":
+  version: 0.0.0-use.local
+  resolution: "@backstage/plugin-puppetdb@workspace:plugins/puppetdb"
+  dependencies:
+    "@backstage/catalog-model": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/core-app-api": "workspace:^"
+    "@backstage/core-components": "workspace:^"
+    "@backstage/core-plugin-api": "workspace:^"
+    "@backstage/dev-utils": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/plugin-catalog-react": "workspace:^"
+    "@backstage/test-utils": "workspace:^"
+    "@backstage/theme": "workspace:^"
+    "@material-ui/core": ^4.12.2
+    "@material-ui/icons": ^4.9.1
+    "@material-ui/lab": ^4.0.0-alpha.57
+    "@testing-library/jest-dom": ^5.10.1
+    "@testing-library/react": ^12.1.3
+    "@testing-library/user-event": ^14.0.0
+    "@types/node": "*"
+    "@types/react": ^16.13.1 || ^17.0.0
+    cross-fetch: ^3.1.5
+    msw: ^1.0.1
+    react-use: ^17.2.4
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  languageName: unknown
+  linkType: soft
+
 "@backstage/plugin-rollbar-backend@workspace:^, @backstage/plugin-rollbar-backend@workspace:plugins/rollbar-backend":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-rollbar-backend@workspace:plugins/rollbar-backend"
@@ -11196,7 +11227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/merge@npm:8.4.0, @graphql-tools/merge@npm:^8.2.6":
+"@graphql-tools/merge@npm:8.4.0":
   version: 8.4.0
   resolution: "@graphql-tools/merge@npm:8.4.0"
   dependencies:
@@ -11205,6 +11236,18 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 32265749833615ac2cb3d958318f5c46b7bd5ec858acfbad7136d379594ec3c98ba67ba5f04f4061187e5dfd52bb277155cd98fdeb2b4c5535c16bdb4f117ae0
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/merge@npm:^8.2.6, @graphql-tools/merge@npm:^8.4.1":
+  version: 8.4.1
+  resolution: "@graphql-tools/merge@npm:8.4.1"
+  dependencies:
+    "@graphql-tools/utils": ^9.2.1
+    tslib: ^2.4.0
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: badb094e2eb29688d39d451a83909dc6f92a28c98dbb485a2f745a963813ad1310b1624c7618e97477c90f7935c99b06792bf63c4957a58c642af1609bcec143
   languageName: node
   linkType: hard
 
@@ -11289,7 +11332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/schema@npm:9.0.17, @graphql-tools/schema@npm:^9.0.0, @graphql-tools/schema@npm:^9.0.16":
+"@graphql-tools/schema@npm:9.0.17":
   version: 9.0.17
   resolution: "@graphql-tools/schema@npm:9.0.17"
   dependencies:
@@ -11300,6 +11343,20 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 1c6513dd88b47d07702d01a48941ee164c4090c69b2475b1dde48a3d8866ed48fd39a33d15510682f6d8c18d19ceb72b77104eb4edbb194f96a129cc03909e89
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/schema@npm:^9.0.0, @graphql-tools/schema@npm:^9.0.16":
+  version: 9.0.18
+  resolution: "@graphql-tools/schema@npm:9.0.18"
+  dependencies:
+    "@graphql-tools/merge": ^8.4.1
+    "@graphql-tools/utils": ^9.2.1
+    tslib: ^2.4.0
+    value-or-promise: 1.0.12
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 316bc3ce2673a357e3e8ed8f2dbd8e194c27323af7a78a1112253a597bacea70c6d1ea811e385e60c4226cd6ded54ef41b5bc44969433e14bcb192b666379b83
   languageName: node
   linkType: hard
 
@@ -14986,18 +15043,18 @@ __metadata:
   linkType: hard
 
 "@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
-  version: 8.11.3
-  resolution: "@testing-library/dom@npm:8.11.3"
+  version: 8.20.0
+  resolution: "@testing-library/dom@npm:8.20.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
-    "@types/aria-query": ^4.2.0
+    "@types/aria-query": ^5.0.1
     aria-query: ^5.0.0
     chalk: ^4.1.0
     dom-accessibility-api: ^0.5.9
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: 2245d254b6058590e25de86fb7b3c75e4a31096901a191f80d3efb9fa7e1e273043416f370c8770feb9f3ccc73a1550a877a3b003b593f1728ae828fcb52cd62
+  checksum: 1e599129a2fe91959ce80900a0a4897232b89e2a8e22c1f5950c36d39c97629ea86b4986b60b173b5525a05de33fde1e35836ea597b03de78cc51b122835c6f0
   languageName: node
   linkType: hard
 
@@ -15168,10 +15225,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aria-query@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@types/aria-query@npm:4.2.0"
-  checksum: e4a3748c5511deb88e93c6faf2acb0730233ff75018e9aaed95e3d2833880e9d0eda7e08e4315a827872471779471585671d08bae00ac8b9813fc140194b52e5
+"@types/aria-query@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@types/aria-query@npm:5.0.1"
+  checksum: 69fd7cceb6113ed370591aef04b3fd0742e9a1b06dd045c43531448847b85de181495e4566f98e776b37c422a12fd71866e0a1dfd904c5ec3f84d271682901de
   languageName: node
   linkType: hard
 
@@ -23630,6 +23687,7 @@ __metadata:
     "@backstage/plugin-pagerduty": "workspace:^"
     "@backstage/plugin-permission-react": "workspace:^"
     "@backstage/plugin-playlist": "workspace:^"
+    "@backstage/plugin-puppetdb": "workspace:^"
     "@backstage/plugin-rollbar": "workspace:^"
     "@backstage/plugin-scaffolder": "workspace:^"
     "@backstage/plugin-scaffolder-react": "workspace:^"
@@ -25508,11 +25566,11 @@ __metadata:
   linkType: hard
 
 "graphql-ws@npm:^5.4.1, graphql-ws@npm:^5.9.0":
-  version: 5.12.0
-  resolution: "graphql-ws@npm:5.12.0"
+  version: 5.12.1
+  resolution: "graphql-ws@npm:5.12.1"
   peerDependencies:
     graphql: ">=0.11 <=16"
-  checksum: 5c683e2d5bdadfcfec0639eda69b8a66ef275e68e64f662bd75da6779a87b34395cbce8e37cb66830a9febca1871f7dc2575e6814f6f6e899904fe72e245f216
+  checksum: 88d587c431feba681957faecd96101bb3860e1a4765f34b8cae1c514e7f98754b5f31c6b3127775e4732f26883b0802fe426bf9f7031c16cd0b25a27ad90ec9c
   languageName: node
   linkType: hard
 
@@ -39765,14 +39823,14 @@ __metadata:
   linkType: hard
 
 "vm2@npm:^3.9.11":
-  version: 3.9.15
-  resolution: "vm2@npm:3.9.15"
+  version: 3.9.16
+  resolution: "vm2@npm:3.9.16"
   dependencies:
     acorn: ^8.7.0
     acorn-walk: ^8.2.0
   bin:
     vm2: bin/vm2
-  checksum: 1df70d5a88173651c0062901aba67e5edfeeb3f699fe6c305f5efb6a5a7391e5724cbf98a6516600b65016c6824dc07cc79947ea4222f8537ae1d9ce0b730ad7
+  checksum: 646b45dca721acb3c8e4ae0742129f13612972387911c2475f3c06ac2b4232000cab0bdaaa65d97d6ea8dc70880e039542618b1b3d04adea79cd94803cbc4ab3
   languageName: node
   linkType: hard
 
@@ -39992,8 +40050,8 @@ __metadata:
   linkType: hard
 
 "webpack-dev-server@npm:^4.7.3":
-  version: 4.13.1
-  resolution: "webpack-dev-server@npm:4.13.1"
+  version: 4.13.2
+  resolution: "webpack-dev-server@npm:4.13.2"
   dependencies:
     "@types/bonjour": ^3.5.9
     "@types/connect-history-api-fallback": ^1.3.5
@@ -40034,7 +40092,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: f70611544b7d964a31eb3d934d7c2b376b97e6927a89e03b2e21cfa5812bb639625cd18fd350de1604ba6c455b324135523a894032f28c69d90d90682e4f3b7d
+  checksum: 9bf573abf05b0e0f1e8219820f6264e25a0f8ee6aebed3c0d0449c24a37f88b575972e0a2bec426112ee37d48c8f5090e7754aa1873206d3c9b6344a54718232
   languageName: node
   linkType: hard
 
