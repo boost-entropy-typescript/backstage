@@ -14,31 +14,24 @@
  * limitations under the License.
  */
 
-export interface Config {
-  /**
-   * Configuration options for the stack overflow plugin
-   */
-  stackoverflow?: {
-    /**
-     * The base url of the Stack Overflow API used for the plugin
-     */
-    baseUrl?: string;
+// @ts-check
 
-    /**
-     * The API key to authenticate to Stack Overflow API
-     * @visibility secret
-     */
-    apiKey?: string;
+/**
+ * @param { import("knex").Knex } knex
+ * @returns { Promise<void> }
+ */
+exports.up = async function up(knex) {
+  await knex.schema.alterTable('metadata', table => {
+    table.text('docs').comment('The link to the project docs (optional)');
+  });
+};
 
-    /**
-     * The name of the team for a Stack Overflow for Teams account
-     */
-    teamName?: string;
-
-    /**
-     * The API Access Token to authenticate to Stack Overflow API
-     * @visibility secret
-     */
-    apiAccessToken?: string;
-  };
-}
+/**
+ * @param { import("knex").Knex } knex
+ * @returns { Promise<void> }
+ */
+exports.down = async function down(knex) {
+  await knex.schema.alterTable('metadata', table => {
+    table.dropColumn('docs');
+  });
+};
