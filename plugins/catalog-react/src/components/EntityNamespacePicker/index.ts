@@ -14,12 +14,5 @@
  * limitations under the License.
  */
 
-export function isValidUrl(url: string): boolean {
-  try {
-    // eslint-disable-next-line no-new
-    new URL(url);
-    return true;
-  } catch {
-    return false;
-  }
-}
+export { EntityNamespacePicker } from './EntityNamespacePicker';
+export type { CatalogReactEntityNamespacePickerClassKey } from './EntityNamespacePicker';
