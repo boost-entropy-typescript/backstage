@@ -16528,9 +16528,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0":
-  version: 20.1.0
-  resolution: "@types/node@npm:20.1.0"
-  checksum: c6d9afa9aa78b4b4348c69ece94975be70346b144c278f1395694a10ef919d7db300018101b6f9245e6bdd76674a5327d2d14829092f3d5295e858cff5f22a66
+  version: 20.1.2
+  resolution: "@types/node@npm:20.1.2"
+  checksum: 9bb2cf0a846e60cc06c44a5622c1998d8373c8675b24d11c86845a29f32c60f5bca9627f2a2535640f902be3dbcc60f126a895abe8e10f12e1467ae3deaba56d
   languageName: node
   linkType: hard
 
@@ -16549,9 +16549,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.14.31":
-  version: 14.18.45
-  resolution: "@types/node@npm:14.18.45"
-  checksum: 2857cd1912d70f6a97b9d8085088b12ab80bcaa06e4ea20535020167bfcbc6bea9469fafc437acddd34b07e3d94b1d35bcbd51d960c8841ab1a675166e97d8b9
+  version: 14.18.46
+  resolution: "@types/node@npm:14.18.46"
+  checksum: 69f2288111b96a8af25ef72a95abbd729262a4a5ac4249e22d2a515ca1e172797a57890ad6103eb310645600cbcf61d81639ff672a51c6bb11e56f91e3820149
   languageName: node
   linkType: hard
 
@@ -16563,16 +16563,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^16.0.0, @types/node@npm:^16.11.26, @types/node@npm:^16.9.2":
-  version: 16.18.26
-  resolution: "@types/node@npm:16.18.26"
-  checksum: 2a746b3f9e97e00aa5d1d8cce36c5b75d5504df15e82647ad1fadbc3435ea4491203d044bbaa595edc2ab25a9ab820793f9d38dba753ad150929335fa21e24d4
+  version: 16.18.28
+  resolution: "@types/node@npm:16.18.28"
+  checksum: b70ce5195cbda1df195e09a5e1633232b96a3be19765e52448cdf2295053c34eece54d46e6529caf826d249cf2ea917d20fc2bd947b57631bbbe1d8efbb64db9
   languageName: node
   linkType: hard
 
 "@types/node@npm:^18.11.17":
-  version: 18.16.5
-  resolution: "@types/node@npm:18.16.5"
-  checksum: b6df96a76a7655cd944794197cf63f5269e5034041bc355f4f243cb3f185ad3e1948011b6f0ac66c22434e50bc53a20ec3a9d95ad284f0e3819813d309d1650b
+  version: 18.16.7
+  resolution: "@types/node@npm:18.16.7"
+  checksum: dbff7d41a050557cc81aa37cb186aaf3a799b3001bc4bb1015b240398abde1f9d0ac1e943959bba7f2ab2701292ae407a9ee2fc0f735a05b28bfc97d0b2b5e91
   languageName: node
   linkType: hard
 
@@ -17177,12 +17177,12 @@ __metadata:
   linkType: hard
 
 "@types/tar@npm:^6.1.1":
-  version: 6.1.4
-  resolution: "@types/tar@npm:6.1.4"
+  version: 6.1.5
+  resolution: "@types/tar@npm:6.1.5"
   dependencies:
     "@types/node": "*"
     minipass: ^4.0.0
-  checksum: 48a1f6b8665ed03f37f74966cfe991a33d6e85cee28aaa6ef42c7ca8448cdbc1e2ca96b473b6b53f1d7bd91423ae0dcfe54a295607d7ac4b4cbb9dbf167df7fa
+  checksum: 1efa71c8d72f2b02d16ffecb65c4a96be9dacce000c4207532a686477386524dd99b6e26904319354be3ac9ac4d41296a0cb9cf87d05f8f21ae31c68fe446348
   languageName: node
   linkType: hard
 
