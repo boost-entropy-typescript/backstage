@@ -5868,6 +5868,7 @@ __metadata:
     "@backstage/plugin-catalog-common": "workspace:^"
     "@backstage/plugin-catalog-react": "workspace:^"
     "@backstage/plugin-permission-react": "workspace:^"
+    "@backstage/plugin-scaffolder-common": "workspace:^"
     "@backstage/plugin-search-common": "workspace:^"
     "@backstage/plugin-search-react": "workspace:^"
     "@backstage/test-utils": "workspace:^"
@@ -21473,11 +21474,11 @@ __metadata:
   linkType: hard
 
 "cron@npm:^2.0.0":
-  version: 2.3.0
-  resolution: "cron@npm:2.3.0"
+  version: 2.3.1
+  resolution: "cron@npm:2.3.1"
   dependencies:
     luxon: ^3.2.1
-  checksum: 70b220f3fc4b6bcd594f7f2c690bbf7a3a03b0e081eb0119f8e3ca21635f2da07d89e038d561d4c0742c8b0dd04977f25e307d0608455ef9f527a556b2da92fc
+  checksum: ac27c257cb8dba4b51978b4767119fc79bfc0dfa35ef0be2533bc4142ae006130515236e2102d04ee3ce44bffc2a4e37a3bee18a2152bbb303bf5ff944e25204
   languageName: node
   linkType: hard
 
@@ -32820,9 +32821,9 @@ __metadata:
   linkType: hard
 
 "openapi-types@npm:^12.0.0":
-  version: 12.1.1
-  resolution: "openapi-types@npm:12.1.1"
-  checksum: 881dbc514e22046eb790c81370e912ca2daf5beec13cde77e8a15b5ec2635140487abdebf681ec969777067bcbb56b3c0880a0a22aa236d075d8fca5da9535ad
+  version: 12.1.3
+  resolution: "openapi-types@npm:12.1.3"
+  checksum: 7fa5547f87a58d2aa0eba6e91d396f42d7d31bc3ae140e61b5d60b47d2fd068b48776f42407d5a8da7280cf31195aa128c2fc285e8bb871d1105edee5647a0bb
   languageName: node
   linkType: hard
 
