@@ -16163,11 +16163,11 @@ __metadata:
   linkType: hard
 
 "@types/codemirror@npm:^5.0.0":
-  version: 5.60.7
-  resolution: "@types/codemirror@npm:5.60.7"
+  version: 5.60.8
+  resolution: "@types/codemirror@npm:5.60.8"
   dependencies:
     "@types/tern": "*"
-  checksum: 0312ce032eb139b408588a7e7cf3b392a510a2cfa6f477f2dd20d8bca1990e5e6e5540e708f9a69d1a58e68ea7fd234b789c801aa7ef4f3b3dc32a1478b04a91
+  checksum: bc3a63eab0308b3ef5ed2ca22afb7f1c0b8acde6477e1d569df7e93f3fe4f78754d28a3e081c72931259fe1bf906a319b54bcdeba74600b989e5558d32478496
   languageName: node
   linkType: hard
 
@@ -17074,9 +17074,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0":
-  version: 20.2.5
-  resolution: "@types/node@npm:20.2.5"
-  checksum: 38ce7c7e9d76880dc632f71d71e0d5914fcda9d5e9a7095d6c339abda55ca4affb0f2a882aeb29398f8e09d2c5151f0b6586c81c8ccdfe529c34b1ea3337425e
+  version: 20.3.0
+  resolution: "@types/node@npm:20.3.0"
+  checksum: 613e878174febc0104dae210088645cbb5096a19ae5fdf57fbc06fa6ef71755b839858c2b313fb8c1df8b7c6660e1b5f7a64db2126af9d47d1d9238e2bc0a86d
   languageName: node
   linkType: hard
 
@@ -17095,9 +17095,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.14.31":
-  version: 14.18.48
-  resolution: "@types/node@npm:14.18.48"
-  checksum: bc410153cd12b5f5218c2c2a5ab4a65e8dc99ebffe98261a30e9d4beb8f9a0e4ee48c41b850f8cb80da6ed1024e42bba8dee1592869aa5b1826ddb7c29ad6899
+  version: 14.18.50
+  resolution: "@types/node@npm:14.18.50"
+  checksum: afaa48355811f377f1f7e70b397ef26297024ebc213cf9338d230d2f5ef228a9bf6a36800aa0952c519ac64f02cee8506c7bdf6e96b0abe0d90636bfce7804ae
   languageName: node
   linkType: hard
 
@@ -17109,16 +17109,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^16.0.0, @types/node@npm:^16.11.26, @types/node@npm:^16.9.2":
-  version: 16.18.34
-  resolution: "@types/node@npm:16.18.34"
-  checksum: 35c0ffe09687578d002ceb7e706d0ba450546aeb3d2716f28691f2af0063bd274dbde0f741d087ea217f2a8db413eb700d22dfb4f08a67986ff801423bd7be8d
+  version: 16.18.35
+  resolution: "@types/node@npm:16.18.35"
+  checksum: 68e3015eb24f009d2b5a7ad959d1e1090016847248f22242c520b75a2780eb19e2d212e775e68022ed474fac00bcc8edaebcd02712f1dfee542efa23e2a4027e
   languageName: node
   linkType: hard
 
 "@types/node@npm:^18.11.17":
-  version: 18.16.16
-  resolution: "@types/node@npm:18.16.16"
-  checksum: 0efad726dd1e0bef71c392c708fc5d78c5b39c46b0ac5186fee74de4ccb1b2e847b3fa468da67d62812f56569da721b15bf31bdc795e6c69b56c73a45079ed2d
+  version: 18.16.17
+  resolution: "@types/node@npm:18.16.17"
+  checksum: 2f7e3a552d525ef4b7a2620ef5ef59b3fdfb1d8ab20627b537e090732b35c2bd103944933d347a319cc7d478b3866b0d1bc3d629ee5899ca663a4547ca078cee
   languageName: node
   linkType: hard
 
@@ -32054,8 +32054,8 @@ __metadata:
   linkType: hard
 
 "msw@npm:^1.0.0, msw@npm:^1.0.1, msw@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "msw@npm:1.2.1"
+  version: 1.2.2
+  resolution: "msw@npm:1.2.2"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.5
@@ -32077,13 +32077,13 @@ __metadata:
     type-fest: ^2.19.0
     yargs: ^17.3.1
   peerDependencies:
-    typescript: ">= 4.4.x <= 5.0.x"
+    typescript: ">= 4.4.x <= 5.1.x"
   peerDependenciesMeta:
     typescript:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 97b9c5ffc81b4380dd24ff40ac52ca02f406c88f86d8209ba991da19aad0bcfc37e807794aa1b9bf29f89cd86fd31e492bf4418c5ff02559b4f80d6ce4fb417b
+  checksum: e42cec8f5523663020bdecf6a7977a10aa86a4718d1920def3fbde0ff3734391873668cc6e3996d6790add3c74dac95a952f8560ce2543697280125eb55138e8
   languageName: node
   linkType: hard
 
