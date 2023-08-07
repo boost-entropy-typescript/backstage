@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 The Backstage Authors
+ * Copyright 2021 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,4 +14,23 @@
  * limitations under the License.
  */
 
-export { appPlugin } from './service/appPlugin';
+import { TemplateExample } from '@backstage/plugin-scaffolder-node';
+import * as yaml from 'yaml';
+
+export const examples: TemplateExample[] = [
+  {
+    description: 'Delete specified files',
+    example: yaml.stringify({
+      steps: [
+        {
+          action: 'fs:delete',
+          id: 'deleteFiles',
+          name: 'Delete files',
+          input: {
+            files: ['file1.txt', 'file2.txt'],
+          },
+        },
+      ],
+    }),
+  },
+];
