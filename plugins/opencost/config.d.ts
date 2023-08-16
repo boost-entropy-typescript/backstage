@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,25 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {
-  BackstageIdentityResponse,
-  IdentityApiGetIdentityRequest,
-} from './types';
 
-/**
- * An identity client api to authenticate Backstage
- * tokens
- *
- * @experimental This is not a stable API yet
- * @public
- */
-export interface IdentityApi {
+export interface Config {
   /**
-   * Verifies the given backstage identity token
-   * Returns a BackstageIdentity (user) matching the token.
-   * The method throws an error if verification fails.
+   * Configurations for the OpenCost plugin
+   *
+   * @visibility frontend
    */
-  getIdentity(
-    options: IdentityApiGetIdentityRequest,
-  ): Promise<BackstageIdentityResponse | undefined>;
+  opencost?: {
+    /**
+     * The base URL for the OpenCost API
+     * @visibility frontend
+     */
+    baseUrl: string;
+  };
 }
