@@ -1597,8 +1597,8 @@ __metadata:
   linkType: hard
 
 "@azure/core-http@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@azure/core-http@npm:3.0.0"
+  version: 3.0.2
+  resolution: "@azure/core-http@npm:3.0.2"
   dependencies:
     "@azure/abort-controller": ^1.0.0
     "@azure/core-auth": ^1.3.0
@@ -1613,8 +1613,8 @@ __metadata:
     tslib: ^2.2.0
     tunnel: ^0.0.6
     uuid: ^8.3.0
-    xml2js: ^0.4.19
-  checksum: 9b6885a60a8fdac924cc9544e09d66757ff4ed51ed20ce3c279321e684e21c295c091ad9d45477e02baae5255e3a92c5fbb2ac46687d261d66488c294b32846f
+    xml2js: ^0.5.0
+  checksum: 01b5a75e09533476dbb69c672dcd00d48298cf81db5015cd261c510c5be377176db8e3dc4809e6952459bfbe214f52f8a1ed84a116ac31b8a7388b2025098f66
   languageName: node
   linkType: hard
 
@@ -4140,6 +4140,7 @@ __metadata:
     "@backstage/config": "workspace:^"
     "@backstage/frontend-plugin-api": "workspace:^"
     "@backstage/plugin-graphiql": "workspace:^"
+    "@backstage/types": "workspace:^"
     "@testing-library/jest-dom": ^5.10.1
     lodash: ^4.17.21
   peerDependencies:
@@ -4767,6 +4768,7 @@ __metadata:
     "@backstage/types": "workspace:^"
     "@davidzemon/passport-okta-oauth": ^0.0.5
     "@google-cloud/firestore": ^6.0.0
+    "@node-saml/passport-saml": ^4.0.4
     "@types/body-parser": ^1.19.0
     "@types/cookie-parser": ^1.4.2
     "@types/express": ^4.17.6
@@ -4809,7 +4811,6 @@ __metadata:
     passport-microsoft: ^1.0.0
     passport-oauth2: ^1.6.1
     passport-onelogin-oauth: ^0.0.1
-    passport-saml: ^3.1.2
     supertest: ^6.1.3
     uuid: ^8.0.0
     winston: ^3.2.1
@@ -7235,7 +7236,7 @@ __metadata:
     react-grid-layout: ^1.3.4
     react-resizable: ^3.0.4
     react-use: ^17.2.4
-    zod: ~3.21.4
+    zod: ^3.21.4
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
     react-dom: ^16.13.1 || ^17.0.0
@@ -7433,6 +7434,7 @@ __metadata:
     "@backstage/plugin-kubernetes-common": "workspace:^"
     "@backstage/plugin-permission-common": "workspace:^"
     "@backstage/plugin-permission-node": "workspace:^"
+    "@backstage/types": "workspace:^"
     "@google-cloud/container": ^4.0.0
     "@jest-mock/express": ^2.0.1
     "@kubernetes/client-node": 0.18.1
@@ -13450,6 +13452,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@node-saml/node-saml@npm:^4.0.4":
+  version: 4.0.5
+  resolution: "@node-saml/node-saml@npm:4.0.5"
+  dependencies:
+    "@types/debug": ^4.1.7
+    "@types/passport": ^1.0.11
+    "@types/xml-crypto": ^1.4.2
+    "@types/xml-encryption": ^1.2.1
+    "@types/xml2js": ^0.4.11
+    "@xmldom/xmldom": ^0.8.6
+    debug: ^4.3.4
+    xml-crypto: ^3.0.1
+    xml-encryption: ^3.0.2
+    xml2js: ^0.5.0
+    xmlbuilder: ^15.1.1
+  checksum: 7d97575111a381ef2d0f16e1fc85ae3f84322ccba06dcb0594b00cf598e429658f45e479b78836943f69f249c08a8593e5168404acf7f1ed659ead53ceef465e
+  languageName: node
+  linkType: hard
+
+"@node-saml/passport-saml@npm:^4.0.4":
+  version: 4.0.4
+  resolution: "@node-saml/passport-saml@npm:4.0.4"
+  dependencies:
+    "@node-saml/node-saml": ^4.0.4
+    "@types/express": ^4.17.14
+    "@types/passport": ^1.0.11
+    "@types/passport-strategy": ^0.2.35
+    passport: ^0.6.0
+    passport-strategy: ^1.0.0
+  checksum: 75178669d7d47038c33bb0602454cb5030fc9b3ecdcae9163a35cef436bc6c22e68e57d06213e0118ff1cb0dcd2f2fa25112672ebe4cbad90578df21bec67fce
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -17277,7 +17312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express@npm:*, @types/express@npm:^4.17.13, @types/express@npm:^4.17.17, @types/express@npm:^4.17.6":
+"@types/express@npm:*, @types/express@npm:^4.17.13, @types/express@npm:^4.17.14, @types/express@npm:^4.17.17, @types/express@npm:^4.17.6":
   version: 4.17.17
   resolution: "@types/express@npm:4.17.17"
   dependencies:
@@ -17970,7 +18005,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/passport@npm:*, @types/passport@npm:^1.0.3":
+"@types/passport@npm:*, @types/passport@npm:^1.0.11, @types/passport@npm:^1.0.3":
   version: 1.0.12
   resolution: "@types/passport@npm:1.0.12"
   dependencies:
@@ -18585,13 +18620,13 @@ __metadata:
   linkType: hard
 
 "@types/webpack@npm:^5.28.0":
-  version: 5.28.1
-  resolution: "@types/webpack@npm:5.28.1"
+  version: 5.28.2
+  resolution: "@types/webpack@npm:5.28.2"
   dependencies:
     "@types/node": "*"
     tapable: ^2.2.0
     webpack: ^5
-  checksum: 9f9bfe041382acfab36015f95011f6539705ba116fd9b3b8d7599a6396d996b7efcdb71947dba6d24a1a1bf397d15fdfb3c50d2f73e0aa5366a76198d5ec98b3
+  checksum: 0b147aaaaa8992417a5ed65af83eb0df9b5247c38ab482f3c844495935a29c474cb21bc865ca36052c353034f40d14c8d232f0c831fdc1a6956baa985d7b1135
   languageName: node
   linkType: hard
 
@@ -18611,7 +18646,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/xml2js@npm:*, @types/xml2js@npm:^0.4.7":
+"@types/xml-crypto@npm:^1.4.2":
+  version: 1.4.2
+  resolution: "@types/xml-crypto@npm:1.4.2"
+  dependencies:
+    "@types/node": "*"
+    xpath: 0.0.27
+  checksum: 8fe8fc709ba070c46249800105301a533eb95e1a7a696986e4ac753aed1d238a826bce2b1e0d2548559e03f4e57bee27e26df69417766814bc0dd6a9bf2a1763
+  languageName: node
+  linkType: hard
+
+"@types/xml-encryption@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@types/xml-encryption@npm:1.2.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: abfc6d779e1674c268258296e9c03b307cb80383c5d598c0cda1ad75dc901b8d4104b5818990086b08bac199dbe7374706913a29c58cf614a741847f912854f1
+  languageName: node
+  linkType: hard
+
+"@types/xml2js@npm:*, @types/xml2js@npm:^0.4.11, @types/xml2js@npm:^0.4.7":
   version: 0.4.11
   resolution: "@types/xml2js@npm:0.4.11"
   dependencies:
@@ -19150,10 +19204,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xmldom/xmldom@npm:^0.7.0, @xmldom/xmldom@npm:^0.7.5, @xmldom/xmldom@npm:^0.7.6":
+"@xmldom/xmldom@npm:^0.7.5":
   version: 0.7.9
   resolution: "@xmldom/xmldom@npm:0.7.9"
   checksum: 66e37b7800132f891b885b2eceeeebc53f60b69789da10276f1584256b963d79a28c7ae2071bc53a9cd842d9b03554c761b2701fe8036d6052f26bcd0ae8f2bb
+  languageName: node
+  linkType: hard
+
+"@xmldom/xmldom@npm:^0.8.5, @xmldom/xmldom@npm:^0.8.6, @xmldom/xmldom@npm:^0.8.8":
+  version: 0.8.10
+  resolution: "@xmldom/xmldom@npm:0.8.10"
+  checksum: 4c136aec31fb3b49aaa53b6fcbfe524d02a1dc0d8e17ee35bd3bf35e9ce1344560481cd1efd086ad1a4821541482528672306d5e37cdbd187f33d7fadd3e2cf0
   languageName: node
   linkType: hard
 
@@ -21250,16 +21311,6 @@ __metadata:
     escape-string-regexp: ^1.0.5
     supports-color: ^5.3.0
   checksum: ec3661d38fe77f681200f878edbd9448821924e0f93a9cefc0e26a33b145f1027a2084bf19967160d11e1f03bfe4eaffcabf5493b89098b2782c3fe0b03d80c2
-  languageName: node
-  linkType: hard
-
-"chalk@npm:4.1.1":
-  version: 4.1.1
-  resolution: "chalk@npm:4.1.1"
-  dependencies:
-    ansi-styles: ^4.1.0
-    supports-color: ^7.1.0
-  checksum: 036e973e665ba1a32c975e291d5f3d549bceeb7b1b983320d4598fb75d70fe20c5db5d62971ec0fe76cdbce83985a00ee42372416abfc3a5584465005a7855ed
   languageName: node
   linkType: hard
 
@@ -33323,15 +33374,15 @@ __metadata:
   linkType: hard
 
 "msw@npm:^1.0.0, msw@npm:^1.0.1, msw@npm:^1.2.1, msw@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "msw@npm:1.2.3"
+  version: 1.2.4
+  resolution: "msw@npm:1.2.4"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.5
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.1
     "@types/js-levenshtein": ^1.1.1
-    chalk: 4.1.1
+    chalk: ^4.1.1
     chokidar: ^3.4.2
     cookie: ^0.4.2
     graphql: ^15.0.0 || ^16.0.0
@@ -33352,7 +33403,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 832a6fc3973726a97e03ce2690c3b6e1774b5156d064a478657a1b33f9933e4834af833cc8a859e1b717fa9b71f1271b3e66a1ec6eed7f76bfe79406e9ec3986
+  checksum: ff32efd2e89b6e4e0b646362907658c2b37756a92d46a294171e0ef5c4488217f87381b7740a6c9e5d7ed9c490ce33474f56f5dba8524340233cd89f1de0b0e1
   languageName: node
   linkType: hard
 
@@ -34983,21 +35034,6 @@ __metadata:
     pkginfo: 0.2.x
     uid2: 0.0.3
   checksum: 5664bbcca717e7499be5ec1336cc34ada3266fccdc92a026883d6113c2ab30ec215b7df810fb0abd3adb79afb728c6d7fa0782f8661afba25c4df198ed84470e
-  languageName: node
-  linkType: hard
-
-"passport-saml@npm:^3.1.2":
-  version: 3.2.4
-  resolution: "passport-saml@npm:3.2.4"
-  dependencies:
-    "@xmldom/xmldom": ^0.7.6
-    debug: ^4.3.2
-    passport-strategy: ^1.0.0
-    xml-crypto: ^2.1.3
-    xml-encryption: ^2.0.0
-    xml2js: ^0.4.23
-    xmlbuilder: ^15.1.1
-  checksum: 8e885af4d44c2d862b2ea0d051ab2a36bc6f9a70e62f90daf7ce4eefd126ac2ab4d5fc070693eba05f5e1be248af23fa018611bbfa7fad31708371f387f5dd77
   languageName: node
   linkType: hard
 
@@ -43089,24 +43125,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xml-crypto@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "xml-crypto@npm:2.1.3"
+"xml-crypto@npm:^3.0.1":
+  version: 3.2.0
+  resolution: "xml-crypto@npm:3.2.0"
   dependencies:
-    "@xmldom/xmldom": ^0.7.0
+    "@xmldom/xmldom": ^0.8.8
     xpath: 0.0.32
-  checksum: 04273568b4ed3d1422b7e93ae7c5e8e14180e9d377038a5767ef6af4d1da2ec766f3a476f4cf0140ecedb93036dac63e563f60d9bb249c5a344d77c93c07ff87
+  checksum: 6c4974a7518307ea006dcfc1405f61c6738b45574b4d9d1e62f53b602bfcf894d34017f99d618f26f67c40a5e6d78e6228116ded2768b2ca5b2df5c8bf7774b7
   languageName: node
   linkType: hard
 
-"xml-encryption@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "xml-encryption@npm:2.0.0"
+"xml-encryption@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "xml-encryption@npm:3.0.2"
   dependencies:
-    "@xmldom/xmldom": ^0.7.0
+    "@xmldom/xmldom": ^0.8.5
     escape-html: ^1.0.3
     xpath: 0.0.32
-  checksum: a454445704c5e3aa3f992128c413c02f3c00c346cb0d63b01beae4b6a341cfc0a52a0219ccec47dcce250e336ba7b09d95909913b1f199ca43604961a00a1995
+  checksum: aac1b987d5de5becfc747c88c3a656c00799a153ab541078b875a69e1ac1f1c2f29bf85f22eab6a78382dc2919f79401a916cc392aba7994475919e0695893eb
   languageName: node
   linkType: hard
 
@@ -43124,13 +43160,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xml2js@npm:^0.4.11, xml2js@npm:^0.4.19, xml2js@npm:^0.4.23":
+"xml2js@npm:^0.4.11, xml2js@npm:^0.4.19":
   version: 0.4.23
   resolution: "xml2js@npm:0.4.23"
   dependencies:
     sax: ">=0.6.0"
     xmlbuilder: ~11.0.0
   checksum: ca0cf2dfbf6deeaae878a891c8fbc0db6fd04398087084edf143cdc83d0509ad0fe199b890f62f39c4415cf60268a27a6aed0d343f0658f8779bd7add690fa98
+  languageName: node
+  linkType: hard
+
+"xml2js@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "xml2js@npm:0.5.0"
+  dependencies:
+    sax: ">=0.6.0"
+    xmlbuilder: ~11.0.0
+  checksum: 1aa71d62e5bc2d89138e3929b9ea46459157727759cbc62ef99484b778641c0cd21fb637696c052d901a22f82d092a3e740a16b4ce218e81ac59b933535124ea
   languageName: node
   linkType: hard
 
@@ -43176,6 +43222,13 @@ __metadata:
   version: 2.0.4
   resolution: "xmlcreate@npm:2.0.4"
   checksum: b8dd52668b9aea77cd1408fa85538c14bb8dcc98b4e7bb51e76696c9c115d59eba7240298d0c4fd2caf8f1a8e283ab4e5c7b9a6bcfcf23a8b48f5068b677b748
+  languageName: node
+  linkType: hard
+
+"xpath@npm:0.0.27":
+  version: 0.0.27
+  resolution: "xpath@npm:0.0.27"
+  checksum: 51f45d211a9a552a8f6a12a474061e89bafb07e0aecd4bad18a557411feb975919c158e1a66e4ea0542198c6ed442481d9f709c625cca57b97aaedeaeded902e
   languageName: node
   linkType: hard
 
