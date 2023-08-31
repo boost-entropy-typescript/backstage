@@ -14,5 +14,25 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+export { isBackendDynamicPluginInstaller } from './types';
+
+export type {
+  BaseDynamicPlugin,
+  DynamicPlugin,
+  FrontendDynamicPlugin,
+  BackendDynamicPlugin,
+  BackendDynamicPluginInstaller,
+  NewBackendPluginInstaller,
+  LegacyBackendPluginInstaller,
+  LegacyPluginEnvironment,
+  BackendPluginProvider,
+} from './types';
+
+export {
+  PluginManager,
+  dynamicPluginsFeatureDiscoveryServiceFactory,
+  dynamicPluginsServiceFactory,
+  dynamicPluginsServiceRef,
+} from './plugin-manager';
+
+export type { DynamicPluginsFactoryOptions } from './plugin-manager';

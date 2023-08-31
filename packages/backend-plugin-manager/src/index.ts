@@ -14,5 +14,6 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+export * from './loader';
+export * from './scanner';
+export * from './manager';

@@ -14,5 +14,4 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+export type { ModuleLoader } from './types';

@@ -14,5 +14,11 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+/**
+ * @public
+ */
+export interface ModuleLoader {
+  bootstrap(backstageRoot: string, dynamicPluginPaths: string[]): Promise<void>;
+
+  load(id: string): Promise<any>;
+}

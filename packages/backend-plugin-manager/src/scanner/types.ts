@@ -14,5 +14,21 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+import { BackstagePackageJson } from '@backstage/cli-node';
+
+/**
+ * @public
+ */
+export interface ScannedPluginPackage {
+  location: URL;
+  manifest: ScannedPluginManifest;
+}
+
+/**
+ * @public
+ */
+export type ScannedPluginManifest = BackstagePackageJson &
+  Required<Pick<BackstagePackageJson, 'main'>> &
+  Required<Pick<BackstagePackageJson, 'backstage'>> & {
+    backstage: Required<BackstagePackageJson['backstage']>;
+  };

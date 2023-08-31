@@ -14,5 +14,11 @@
  * limitations under the License.
  */
 
-export { createApiExtension } from './createApiExtension';
-export { createPageExtension } from './createPageExtension';
+export interface Config {
+  dynamicPlugins?: {
+    /**
+     * The local path, relative to the backstage root, that contains dynamic plugins.
+     */
+    rootDirectory: string;
+  };
+}
