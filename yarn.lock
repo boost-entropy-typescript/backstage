@@ -16633,18 +16633,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.32.6":
-  version: 4.32.6
-  resolution: "@tanstack/query-core@npm:4.32.6"
-  checksum: c06f4b8d7edfc237d34da14c4ff2c71f4e6de662f123914419e9c2fbb9dccb7c1d3f46afd66ca5fea40687c5a99e514750a32a05e809d0db76343a90a45c76a8
+"@tanstack/query-core@npm:4.33.0":
+  version: 4.33.0
+  resolution: "@tanstack/query-core@npm:4.33.0"
+  checksum: fae325f1d79b936435787797c32367331d5b8e9c5ced84852bf2085115e3aafef57a7ae530a6b0af46da4abafb4b0afaef885926b71715a0e6f166d74da61c7f
   languageName: node
   linkType: hard
 
 "@tanstack/react-query@npm:^4.1.3":
-  version: 4.32.6
-  resolution: "@tanstack/react-query@npm:4.32.6"
+  version: 4.33.0
+  resolution: "@tanstack/react-query@npm:4.33.0"
   dependencies:
-    "@tanstack/query-core": 4.32.6
+    "@tanstack/query-core": 4.33.0
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -16655,7 +16655,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 5ce7939515329d64aee35703de8f030bba383717e68eefb17a32492cca44d8421175b7045e0fd6314faff11cee8a570f42208685947a97bc50d0023d5ae1029e
+  checksum: b3cf4afa427435e464e077b3f23c891e38e5f78873518f15c1d061ad55f1464d6241ecd92d796a5dbc9412b4fd7eb30b01f2a9cfc285ee9f30dfdd2ca0ecaf4b
   languageName: node
   linkType: hard
 
@@ -17957,9 +17957,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0":
-  version: 20.5.7
-  resolution: "@types/node@npm:20.5.7"
-  checksum: fc284c8e16ddc04569730d58e87eae349eb1c3dd9020cb79a1862d9d9add6f04e7367a236f3252db8db2572f90278e250f4cd43d27d264972b54394eaba1ed76
+  version: 20.5.9
+  resolution: "@types/node@npm:20.5.9"
+  checksum: 717490e94131722144878b4ca1a963ede1673bb8f2ef78c2f5b50b918df6dc9b35e7f8283e5c2a7a9f137730f7c08dc6228e53d4494a94c9ee16881e6ce6caed
   languageName: node
   linkType: hard
 
@@ -17971,9 +17971,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.14.31":
-  version: 14.18.56
-  resolution: "@types/node@npm:14.18.56"
-  checksum: 990cd0e853caa264586aa703ed923767fb445ad240e54cfe7c877c8db2e0b377f85c1bc4b80575c7f07dc9f4c56bdfbc6b5c2704a689cf7c8f9ac4ec2ed84975
+  version: 14.18.58
+  resolution: "@types/node@npm:14.18.58"
+  checksum: 45767bb137acdd1d1486bcce279d149ab1c44089401f124e8b7044f4cd7511aa841ae8fac030e81b988b45df21cfb4eca44281c6d7f75c87f803748a30cb9043
   languageName: node
   linkType: hard
 
@@ -17985,16 +17985,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^16.0.0, @types/node@npm:^16.11.26, @types/node@npm:^16.9.2":
-  version: 16.18.46
-  resolution: "@types/node@npm:16.18.46"
-  checksum: 1aed3fe9693f2098b8dac8c76c809c1925a456da00dd6f06c1ccb55c62ccfbbe7ec43ccfd12001f9cb4ff84e138292ae53456435dfecd5c4bb1324394c3e09c7
+  version: 16.18.48
+  resolution: "@types/node@npm:16.18.48"
+  checksum: 5b725fe918197e4395cc88de17d67efeb02436e29c0d3b212ed63dfc51509ed398e9155ae15d1a8cd6f1c891463f2cf074dcea320d8cd392e25a9a11ce53dd6c
   languageName: node
   linkType: hard
 
 "@types/node@npm:^18.11.17":
-  version: 18.17.12
-  resolution: "@types/node@npm:18.17.12"
-  checksum: 79f8bcca3067a3c529f30e172df8d14f25ab9e4cd6a05ed897a924ab1dec774e8ea172ef5c4a67ffec433d423a0c81778f17db22606d574bc83871b60aab298e
+  version: 18.17.14
+  resolution: "@types/node@npm:18.17.14"
+  checksum: f96ce1e588426a26cf82440193084f8bbab47bfb3c2e668cf174095f99ce808a20654b2137448c7e88cfd7b6c2b8521ffb6f714f521b3502ac595a0df0bff679
   languageName: node
   linkType: hard
 
@@ -20257,13 +20257,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "axios@npm:1.4.0"
+  version: 1.5.0
+  resolution: "axios@npm:1.5.0"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 7fb6a4313bae7f45e89d62c70a800913c303df653f19eafec88e56cea2e3821066b8409bc68be1930ecca80e861c52aa787659df0ffec6ad4d451c7816b9386b
+  checksum: e7405a5dbbea97760d0e6cd58fecba311b0401ddb4a8efbc4108f5537da9b3f278bde566deb777935a960beec4fa18e7b8353881f2f465e4f2c0e949fead35be
   languageName: node
   linkType: hard
 
@@ -22707,11 +22707,11 @@ __metadata:
   linkType: hard
 
 "cronstrue@npm:^2.2.0":
-  version: 2.29.0
-  resolution: "cronstrue@npm:2.29.0"
+  version: 2.31.0
+  resolution: "cronstrue@npm:2.31.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 92b06f98e4ef9b1b7c671f8752d9ddc1f1da8097ed0f976a6085e4e56acaed490a69f5095853eca0a59987a28edb85a9fc2f0831dfa96db1ab481e0277405dd5
+  checksum: 8001433f65751ccd471497be14924dfecd6b91992d615ec7de1fec978792e4a3ab977d05874bea7b6a478dc786ea775554735126c79c8bbe3c94535f20ebebab
   languageName: node
   linkType: hard
 
@@ -28294,9 +28294,9 @@ __metadata:
   linkType: hard
 
 "humanize-duration@npm:^3.25.1, humanize-duration@npm:^3.26.0, humanize-duration@npm:^3.27.0, humanize-duration@npm:^3.27.1":
-  version: 3.28.0
-  resolution: "humanize-duration@npm:3.28.0"
-  checksum: dde595ab4729d82147db41d8ca0afa86bf3f20d74cd1323ea52f299091a4f1dcb2a45b2d27ce78ab9bb0d9e66d8eb8f2628a67be36a535af645eb282a963ff7f
+  version: 3.29.0
+  resolution: "humanize-duration@npm:3.29.0"
+  checksum: 205e959586e774a36561072cd0f2994d727b9e2156a19ff68ee20c9c29544d9eeb3e853cdb7011a32498859043442069ef82c0bd18f1175ed27a733303ab480f
   languageName: node
   linkType: hard
 
@@ -29454,11 +29454,12 @@ __metadata:
   linkType: hard
 
 "isolated-vm@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "isolated-vm@npm:4.5.0"
+  version: 4.6.0
+  resolution: "isolated-vm@npm:4.6.0"
   dependencies:
     node-gyp: latest
-  checksum: 86626a72d35ed0ee731e00ad19bc6e8a0433c4f34a5dd5b1d415d425f1f0f6b0d04c6d10e7a588025b2956d562fcf7a69e9e20f96746978d3a4e7862374a3806
+    prebuild-install: ^7.1.1
+  checksum: 011853d46bc934751012f5c1ed3eaba43dc4bd274672e59ff8e4c7eb0df668c93f3e0b91e3b4e812d2b8476c9ace218f34e7a3188b08b343409370e70044a874
   languageName: node
   linkType: hard
 
