@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 The Backstage Authors
+ * Copyright 2023 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,32 +14,20 @@
  * limitations under the License.
  */
 
+import React from 'react';
 import {
-  BackendFeature,
-  ExtensionPoint,
-  ServiceRef,
-  ServiceFactoryOrFunction,
-} from '@backstage/backend-plugin-api';
+  createPageExtension,
+  createPlugin,
+} from '@backstage/frontend-plugin-api';
 
-/**
- * @public
- */
-export interface Backend {
-  add(feature: BackendFeature | (() => BackendFeature)): void;
-  start(): Promise<void>;
-  stop(): Promise<void>;
-}
+export const ExamplePage = createPageExtension({
+  id: 'example.page',
+  defaultPath: '/example',
+  component: () => import('./Component').then(m => <m.Component />),
+});
 
-/**
- * @public
- */
-export interface CreateSpecializedBackendOptions {
-  defaultServiceFactories: ServiceFactoryOrFunction[];
-}
-
-/**
- * @public
- */
-export type ServiceOrExtensionPoint<T = unknown> =
-  | ExtensionPoint<T>
-  | ServiceRef<T>;
+/** @public */
+export const examplePlugin = createPlugin({
+  id: 'example',
+  extensions: [ExamplePage],
+});
