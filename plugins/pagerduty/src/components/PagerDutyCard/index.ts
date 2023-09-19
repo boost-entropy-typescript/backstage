@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-export * from './AppTranslationImpl';
+export { PagerDutyCard, type PagerDutyCardProps } from './PagerDutyCard';
